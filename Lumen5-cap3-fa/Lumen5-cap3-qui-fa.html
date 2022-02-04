@@ -1,0 +1,2590 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumen</title>
+    <style>
+         :root {
+            /* Subjects */
+            --color-lpo-d1: #C51A1B;
+            --color-lpo-d2: #981711;
+            --color-lpo-d3: #E59798;
+            --color-lpo-d4: #F7DCDD;
+            --color-prod-txt-d1: #0F83A6;
+            --color-prod-txt-d2: #005E7C;
+            --color-prod-txt-d3: #92C7D7;
+            --color-prod-txt-d1: #DBECF2;
+            --color-ing-d1: #069891;
+            --color-ing-d2: #015F5B;
+            --color-ing-d3: #069891;
+            --color-ing-d4: #069891;
+            --color-ing-a1: #C8D300;
+            --color-ing-a2: #84A214;
+            --color-ing-a3: #ECF0A6;
+            --color-ing-a4: #F7F9D9;
+            --color-artes-d1: #64428C;
+            --color-artes-d2: #3F1F71;
+            --color-artes-d3: #B9A9CB;
+            --color-artes-d4: #E8E3EE;
+            --color-mat-d1: #1961AC;
+            --color-mat-d2: #033878;
+            --color-mat-d3: #97B7D9;
+            --color-mat-d4: #DCE7F3;
+            --color-bio-d1: #45973D;
+            --color-bio-d2: #306E2B;
+            --color-bio-d3: #ABD0A7;
+            --color-bio-d4: #E3F0E2;
+            --color-quimica-d1: #B80071;
+            --color-quimica-d2: #850343;
+            --color-quimica-d3: #DF8CBF;
+            --color-quimica-d4: #F5D9EA;
+            --color-soc-d1: #C71553;
+            --color-soc-d2: #8B1038;
+            --color-soc-d3: #E695B1;
+            --color-soc-d4: #F7DCE5;
+            --color-soc-a1: #8CCAAE;
+            --color-soc-a2: #208F6D;
+            --color-soc-a3: #D7EDE3;
+            --color-soc-a4: #EEF7F3;
+            --color-fil-d1: #536DA7;
+            --color-fil-d2: #3A4C74;
+            --color-fil-d3: #B1BDD7;
+            --color-fil-d4: #E5E9F2;
+            --color-his-d1: #951B81;
+            --color-his-d2: #6A0F5A;
+            --color-his-d3: #CF98C6;
+            --color-his-d4: #EFDDEC;
+            --color-his-a1: #8CCAAE;
+            --color-his-a2: #208F6D;
+            --color-his-a3: #D7EDE3;
+            --color-his-a4: #EEF7F3;
+            --color-geo-d1: #D85509;
+            --color-geo-d2: #9E2705;
+            --color-geo-d3: #EDB290;
+            --color-geo-d4: #F9E5DA;
+            --color-geo-a1: #8CCAAE;
+            --color-geo-a2: #208F6D;
+            --color-geo-a3: #D7EDE3;
+            --color-geo-a4: #EEF7F3;
+            --color-fis-d1: #00909B;
+            --color-fis-d2: #00666D;
+            --color-fis-d3: #8CCDD2;
+            --color-fis-d4: #D9EEF0;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html,
+        .body-book {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            font-family: 'proxima_nova_regular', sans-serif;
+            font-size: 16px;
+            background: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/LUMEN_QUI.svg") no-repeat center center fixed;
+            background-size: cover;
+        }
+        
+        @media (max-width: 1080px) {
+            html {
+                font-size: 93.75%;
+                /* 15px */
+            }
+        }
+        
+        @media (max-width: 900px) {
+            html {
+                font-size: 87.5%;
+                /* 14px */
+            }
+        }
+        
+        @media (max-width: 900px) {
+            .main {
+                max-width: 692px;
+                width: 692px;
+                height: 100%;
+                background-color: white;
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+            }
+            .img-md {
+                margin-top: 1rem;
+                width: 100%;
+            }
+            .img-md-exercicio {
+                width: 100%;
+                align-items: center;
+                margin-top: 1rem;
+            }
+            .titulo-cap-section {
+                display: flex;
+                position: absolute;
+                top: 52px;
+                left: 26px;
+                z-index: 10;
+                width: 636px;
+            }
+            .text-content-area {
+                max-width: 100%;
+                width: 100%;
+                position: relative;
+                padding: 0 52px;
+            }
+            .double-columned-content {
+                max-width: 100%;
+                width: 100%;
+                gap: 24px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0;
+            }
+        }
+        
+        @media (min-width: 901px) {
+            .main {
+                max-width: 876px;
+                width: 876px;
+                height: 100%;
+                background-color: white;
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+            }
+            .titulo-cap-section {
+                display: flex;
+                position: absolute;
+                top: 52px;
+                left: 68px;
+                z-index: 10;
+                width: 740px;
+            }
+            .ml-25 {
+                margin-left: 25%;
+            }
+            .img-md {
+                margin-top: 1rem;
+                width: 100%;
+            }
+            .img-md-exercicio {
+                min-width: 391px;
+                align-items: center;
+                margin-top: 1rem;
+            }
+            .text-content-area {
+                max-width: 100%;
+                width: 100%;
+                position: relative;
+                padding: 0 68px;
+            }
+            .double-columned-content {
+                max-width: 100%;
+                width: 100%;
+                gap: 24px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0;
+            }
+        }
+        
+        nav,
+        aside {
+            max-width: 36px;
+            width: 36px;
+            min-height: 100%;
+        }
+        
+        .section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .content-fullwidth-area {
+            max-width: 100%;
+            width: 100%;
+            position: relative;
+        }
+        
+        .general-text {
+            font-size: 18px;
+            margin: 1rem 0;
+            font-family: 'proxima_novalight';
+        }
+        
+        .exercicio-text b {
+            font-family: 'proxima_novabold';
+        }
+        
+        .double-columned-content-left {
+            width: 40%;
+            display: flex;
+            flex-flow: column;
+        }
+        
+        .double-columned-content-right {
+            width: 60%;
+            display: flex;
+            flex-flow: column;
+        }
+        
+        button {
+            cursor: pointer;
+            border: none;
+            background: none;
+        }
+        
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+        /* Fonts */
+        
+        @font-face {
+            font-family: 'theserif_extralight';
+            src: url('./assets/fonts/TheSerif/TheSerif-HP2ExLig.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'theserif_semibold';
+            src: url('./assets/fonts/TheSerif/theserif-semibold-plain.ttf') format('truetype');
+            font-weight: normal;
+            font-style: italic;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novablack_italic';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_black_it-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_black_it-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novablack';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_black-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_black-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novabold_italic';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_bold_it-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_bold_it-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novabold';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_bold-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_bold-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novalight_italic';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_light_it-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_light_it-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novalight';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_light-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_light-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novaregular_italic';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_reg_it-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_reg_it-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novaregular';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_reg-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_reg-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'Prelo_regular';
+            src: url('./assets/fonts/Prelo/Prelo-Medium.woff2') format('woff2'), url('./assets/fonts/Prelo/Prelo-Medium.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'Prelo_bold';
+            src: url('./assets/fonts/Prelo/Prelo-Bold.woff2') format('woff2'), url('./assets/fonts/Prelo/Prelo-Bold.woff') format('woff');
+            font-weight: bold;
+            font-style: bold;
+        }
+        
+        @font-face {
+            font-family: 'Prelo_light';
+            src: url('./assets/fonts/Prelo/Prelo-ExtraLight.woff2') format('woff2'), url('./assets/fonts/Prelo/Prelo-ExtraLight.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'Prelo_extra_bold';
+            src: url('./assets/fonts/Prelo/Prelo-ExtraBold.woff2') format('woff2'), url('./assets/fonts/Prelo/Prelo-ExtraBold.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'Prelo_black';
+            src: url('./assets/fonts/Prelo/Prelo-Black.woff2') format('woff2'), url('./assets/fonts/Prelo/Prelo-Black.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        /* Style*/
+        
+        .relative {}
+        
+        .img-banner {
+            width: 100%;
+            margin-top: 2rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .titulo21 {
+            font-size: 23px;
+        }
+        
+        .tabelasimple {
+            margin-left: 222px;
+        }
+        
+        .img-full-width {
+            width: 100%;
+            margin-bottom: 0.5rem;
+        }
+        
+        .img-md {
+            max-width: 400px;
+            margin: 0 auto;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        
+        .max-width-legend {
+            max-width: 300px;
+            margin-left: 68px;
+        }
+        
+        .img-md-200 {
+            max-width: 200px;
+            margin: 0 auto;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        
+        .img-md-banner {
+            max-width: 400px;
+            display: block;
+            margin-bottom: 0.5rem;
+            margin-top: -20rem;
+            margin-left: auto;
+            margin-right: -5rem;
+        }
+        
+        .img-md-1 {
+            max-width: 500px;
+            margin: 0 auto;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        
+        .mb-5px {
+            margin-bottom: 5px;
+        }
+        
+        .superacao,
+        .leitura-doc {
+            font-family: "Prelo_extra_bold";
+            font-size: 1.25rem;
+            position: relative;
+            z-index: 0;
+            margin-top: 2rem;
+        }
+        
+        .superacao p,
+        .leitura-doc p {
+            background-color: var(--color-ing-a3);
+            padding: 0.5rem 1.5rem;
+            color: var(--color-ing-a2);
+            width: fit-content;
+            border: 3px solid var(--color-quimica-d1);
+        }
+        
+        .superacao::before,
+        .leitura-doc::before {
+            content: "";
+            height: 3px;
+            width: 100%;
+            left: 0;
+            top: 50%;
+            background-color: var(--color-quimica-d1);
+            position: absolute;
+            z-index: -1;
+        }
+        
+        .leitura-doc p {
+            background-color: var(--color-quimica-d2);
+            border: 3px solid var(--color-quimica-d1);
+            color: #fff;
+        }
+        
+        .leitura-doc::before {
+            background-color: var(--color-quimica-d1);
+        }
+        
+        .texto-citacao {
+            width: min-content;
+            white-space: nowrap;
+            margin-top: 3rem;
+            background: #c8242b;
+            font-family: Prelo_extra_bold;
+            padding: 0.4rem 1rem;
+            font-size: 19px;
+            color: #ffffff;
+        }
+        
+        .img-subtitle {
+            text-align: left;
+            font-size: 1rem;
+            font-weight: 300;
+            font-family: "proxima_novalight", sans-serif;
+            letter-spacing: 0px;
+            color: #000000;
+            margin-bottom: 0.5rem;
+            max-width: 740px;
+        }
+        
+        .img-credit {
+            text-align: left;
+            font-size: 0.625rem;
+            color: #71706f;
+            letter-spacing: 0px;
+            font-weight: 300;
+            margin-bottom: 2rem;
+        }
+        
+        .font-size-18 {
+            font-size: 18px !important;
+        }
+        
+        .bullet-list-section {
+            border: 2px solid var(--color-quimica-d1);
+            padding-left: 1rem;
+            padding-right: 1rem;
+            margin: 2rem 0;
+        }
+        
+        .bullet-list {
+            margin-left: 1rem;
+        }
+        
+        .boxe-06-02-cie-hab {
+            width: 90%;
+            text-align: left;
+            line-height: 2;
+            display: flex;
+            align-items: flex-start;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+        
+        .img-group {
+            position: relative;
+            display: flex;
+        }
+        
+        .img-group1 {
+            width: 50%;
+        }
+        
+        .desin {
+            width: 50%;
+            height: 50%;
+            margin-left: 16%;
+        }
+        
+        .mantain {
+            width: 45%;
+            height: 50%;
+            margin-left: 37%;
+        }
+        
+        .wear {
+            width: 40%;
+            height: 40%;
+            margin-left: 20%;
+        }
+        
+        .hand {
+            width: 40%;
+            height: 40%;
+            margin-left: 20%;
+        }
+        
+        .wash {
+            width: 40%;
+            height: 40%;
+            margin-left: 40%;
+        }
+        
+        .avoid {
+            width: 40%;
+            height: 40%;
+            margin-left: 40%;
+        }
+        
+        .primeiraimg {
+            width: 100%;
+            top: 0;
+            left: 0;
+            position: relative;
+            font-size: 9px;
+        }
+        
+        .segundaimg {
+            width: 100%;
+            right: 0;
+            top: 0;
+            position: relative;
+            font-size: 9px;
+        }
+        
+        .terceiraImg {
+            width: 100%;
+            left: 0;
+            bottom: 0;
+            position: relative;
+            font-size: 9px;
+        }
+        
+        .quartaimg {
+            width: 100%;
+            right: 0;
+            bottom: 0;
+            position: relative;
+            font-size: 9px;
+        }
+        
+        .boxe-06-02-icon {
+            width: 24px;
+        }
+        
+        .boxe-06-texto {
+            background-color: var(--color-quimica-d1);
+            font-weight: bold;
+            color: #fff;
+            padding: 0.25rem 0.5rem;
+        }
+        /* boxe_04 */
+        
+        .boxe-06-04-cie {
+            text-align: left;
+            line-height: 2;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+            padding: left px;
+            border: 3px solid var(--color-quimica-d1);
+        }
+        
+        .boxe-06-04-cie>header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: transparent linear-gradient(90deg, var(--color-quimica-d1) 0%, #bd8432 100%) 0% 0% no-repeat padding-box;
+            border-bottom: 3px solid var(--color-quimica-d1);
+        }
+        
+        .boxe-06-04-cie>header img {
+            width: 32px;
+            box-sizing: content-box;
+        }
+        
+        .boxe-06-04-cie>header strong {
+            font-family: Prelo_extra_bold;
+            font-size: 19px;
+            color: #ffffff;
+        }
+        
+        .boxe-06-04-cie>section {
+            padding: 16px;
+            font-size: 18px;
+            background: #fef2e3;
+            font-weight: 300;
+            font-family: proxima_novalight, sans-serif;
+        }
+        
+        .boxe-06-04-cie>section {
+            line-height: 21px;
+        }
+        
+        .boxe-04-titulo1 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 20px;
+            color: #f9a64a;
+            margin-bottom: 1rem;
+        }
+        
+        .boxe-04-titulo2 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 20px;
+            color: #57585a;
+        }
+        
+        .boxe-04-list {
+            padding: 1rem 0;
+            margin-left: 16px;
+        }
+        
+        .boxe-04-list li {
+            line-height: 21px;
+        }
+        
+        .boxe-04-footer {
+            font-size: 15px;
+        }
+        /* boxe_03 */
+        
+        .boxe-06-03-cie {
+            text-align: left;
+            line-height: 2rem;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .boxe-06-03-cie>header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--color-quimica-d2);
+            border: 3px solid var(--color-quimica-d1);
+            transform: translateY(50%);
+            width: 140px;
+        }
+        
+        .praticar {
+            text-align: start;
+            font-weight: bold;
+            color: var(--color-quimica-d1);
+            font-size: 22px;
+            font-style: italic;
+        }
+        
+        .boxe-06-03-cie>header img {
+            width: 32px;
+            box-sizing: content-box;
+        }
+        
+        .boxe-06-03-cie>header strong {
+            font-family: Prelo_extra_bold;
+            font-size: 19px;
+            color: #ffffff;
+        }
+        
+        .boxe-06-03-cie>section {
+            padding: 38px 16px 16px 16px;
+            font-size: 18px;
+            font-weight: 300;
+            border: 3px solid var(--color-quimica-d1);
+            font-family: proxima_novalight, sans-serif;
+        }
+        
+        .boxe-06-03-cie>section {
+            line-height: 21px;
+        }
+        
+        .boxe-03-titulo1 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 20px;
+            color: var(--color-quimica-d1);
+            margin-bottom: 1rem;
+        }
+        
+        .boxe-03-titulo2 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 20px;
+            color: #57585a;
+        }
+        
+        .boxe-03-list {
+            padding: 1rem 0;
+            margin-left: 16px;
+        }
+        
+        .boxe-03-list li {
+            line-height: 21px;
+        }
+        
+        .boxe-03-footer {
+            font-size: 15px;
+        }
+        /* boxe_02 */
+        
+        .boxe-cap-4-39 {
+            font-family: "proxima_novalight", sans-serif;
+            font-size: 16px;
+            color: #71706f;
+        }
+        
+        .boxe-06-02-cie {
+            text-align: left;
+            line-height: 2;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .boxe-06-02-cie>header {
+            width: 96px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--color-quimica-d2);
+            border: 3px solid var(--color-quimica-d1);
+            transform: translateY(50%);
+        }
+        
+        .boxe-06-02-cie>header img {
+            width: 32px;
+            box-sizing: content-box;
+        }
+        
+        .boxe-06-02-cie>header strong {
+            font-family: Prelo_extra_bold;
+            font-size: 19px;
+            color: #ffffff;
+        }
+        
+        .boxe-06-02-cie>section {
+            padding: 38px 16px 16px 16px;
+            font-size: 18px;
+            font-weight: 300;
+            border: 3px solid var(--color-quimica-d1);
+            font-family: proxima_novalight, sans-serif;
+        }
+        
+        .boxe-06-02-cie>section {
+            line-height: 21px;
+        }
+        
+        .boxe-02-titulo1 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 24px;
+            color: #57585a;
+            margin-bottom: 1rem;
+        }
+        
+        .boxe-02-titulo2 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 18px;
+            color: #57585a;
+        }
+        
+        .boxe-02-list {
+            padding: 1rem 0;
+            margin-left: 16px;
+        }
+        
+        .boxe-02-list li {
+            line-height: 21px;
+        }
+        
+        .boxe-02-footer {
+            font-size: 15px;
+        }
+        
+        .secao-4-content {
+            display: flex;
+        }
+        
+        .secao-4 {
+            font-family: "Prelo_extra_bold", sans-serif;
+            padding: 0.5rem 1rem;
+            color: #bd8432;
+            font-size: 1.25rem;
+            text-transform: uppercase;
+            font-weight: 300;
+            border: 3px solid var(--color-quimica-d1);
+            background-color: #fce1bc;
+            margin-top: 3rem;
+            z-index: 1;
+        }
+        
+        .line-secao-4 {
+            content: "";
+            width: 100%;
+            height: 3px;
+            background: var(--color-quimica-d1);
+            margin-top: 4.5rem;
+            z-index: 0;
+        }
+        
+        .response-margin-bottom {
+            margin-bottom: 5rem;
+        }
+        
+        .response-margin-left {
+            margin-left: 2rem;
+        }
+        
+        .text-align-right {
+            display: block;
+            text-align: right;
+        }
+        
+        .text-available {
+            display: block;
+            text-align: right;
+            font-size: 13px;
+            margin: 5px;
+        }
+        
+        .titulo1 {
+            text-align: left;
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--color-quimica-d1);
+            font-family: "Prelo_extra_bold", sans-serif;
+        }
+        
+        .titulo2 {
+            margin-top: 3rem;
+            text-align: left;
+            font-size: 1.625rem;
+            font-weight: 800;
+            color: var(--color-quimica-d3);
+            font-family: "Prelo_extra_bold", sans-serif;
+        }
+        
+        .list-style-none {
+            list-style: none;
+            margin-left: 0;
+        }
+        
+        .chapter-description {
+            font-size: 18px;
+            font-family: "proxima_novaregular", sans-serif;
+            transform: translateY(-5%);
+        }
+        
+        .flex-column {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .align-horizontal {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .flex-justify-evenly {
+            justify-content: space-evenly;
+        }
+        
+        .cap-section {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            justify-content: center;
+            align-items: center;
+            background-color: var(--color-quimica-d1);
+            padding: 8px 8px;
+        }
+        
+        .width-unique-img {
+            width: 300px;
+        }
+        
+        .titulo-cap-background {
+            background: linear-gradient(90deg, var(--color-quimica-d1) 0%, hsla(177, 92%, 31%, 0.507) 100%);
+            display: flex;
+            align-items: center;
+            flex: 1;
+            padding-left: 16px;
+        }
+        
+        .título-cap {
+            font-family: "Prelo_extra_bold", sans-serif;
+            text-align: left;
+            font-size: 2.5rem;
+            font-weight: 800;
+            letter-spacing: 1.1px;
+            color: white;
+            width: 75%;
+            line-height: 1.2;
+        }
+        
+        .cap-texto {
+            font-family: "Prelo_light", sans-serif;
+            text-transform: uppercase;
+            color: #fff;
+            font-weight: 600;
+        }
+        
+        .cap-number {
+            font-size: 4rem;
+            font-weight: 800;
+            color: #fff;
+        }
+        
+        .titulo1-section {
+            display: flex;
+            gap: 8px;
+            margin-top: 3rem;
+            align-items: center;
+        }
+        
+        .titulo1-section img {
+            width: 36px;
+        }
+        
+        .titulo3 {
+            margin-top: 3rem;
+            text-align: left;
+            font-size: 1.425rem;
+            font-weight: 800;
+            color: #57585a;
+            font-family: "Prelo_bold", sans-serif;
+        }
+        
+        .gloss-link {
+            color: #B80071;
+            font-weight: bold;
+            position: relative;
+            cursor: pointer;
+            display: inline-block;
+        }
+        
+        .gloss-tooltip {
+            background-color: white;
+            border: 3px solid #B80071;
+            border-radius: 4px;
+            max-width: 550px;
+            padding: 0.5rem;
+            transform: translate(10%, -186px);
+            position: absolute;
+            z-index: 10;
+        }
+        
+        .gloss-tooltip::after {
+            content: "";
+            width: 0;
+            height: 0;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-top: 10px solid #B80071;
+            position: absolute;
+            transform: translate(180px, 11px);
+        }
+        
+        .gloss-tooltip:focus .gloss-tooltip {
+            opacity: 1;
+        }
+        
+        .img-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 280px;
+        }
+        
+        .img-credit-exercicio {
+            min-width: 400px;
+            text-align: center;
+            font-size: 0.625rem;
+            color: #71706f;
+            letter-spacing: 0px;
+            font-weight: 300;
+            margin-bottom: 1rem;
+        }
+        
+        .img-group-section {
+            display: flex;
+            gap: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .width-05 {
+            width: 50%;
+            margin: 0 auto;
+        }
+        
+        .mt-2rem {
+            margin-top: 2rem;
+        }
+        
+        .table-1-question-7 {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .table-1-question-7>thead>tr>th {
+            text-transform: uppercase;
+            height: min-content;
+            background: var(--color-quimica-d1);
+        }
+        
+        .table-1-question-7>tbody>tr>td {
+            text-align: center;
+            height: min-content;
+            padding: 2px;
+            background: white;
+        }
+        
+        .table-1-question-7>tbody>tr>td:first-child {
+            font-weight: normal;
+        }
+        
+        .table-1-question-7>tfoot>tr>td {
+            border: none;
+            background: white;
+            height: min-content;
+            font-weight: 500;
+            font-size: 13px;
+            text-align: right;
+        }
+        
+        .tabela-gravata {
+            width: 100%;
+            border-collapse: collapse;
+            color: #2b2e34;
+        }
+        
+        th,
+        td {
+            border: 1px solid var(--color-quimica-d1);
+            padding: 8px;
+            height: 60px;
+        }
+        
+        tbody tr td:first-child {
+            font-weight: bold;
+            text-align: center;
+            font-family: "proxima_novaregular";
+        }
+        
+        th {
+            color: white;
+            padding: 8px;
+        }
+        
+        tr.subtitle>th {
+            color: var(--color-quimica-d1) !important;
+            background: var(--color-quimica-d4) !important;
+            text-transform: none !important;
+        }
+        
+        th.subtitle,
+        td.subtitle {
+            color: var(--color-quimica-d1) !important;
+            background: var(--color-quimica-d4) !important;
+            text-transform: none !important;
+        }
+        
+        .tg-0lax {
+            text-align: center;
+            font-family: "proxima_novalight";
+        }
+        
+        .boxe-mt {
+            background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(252, 225, 188, 1) 100%);
+            margin: 2rem 0;
+        }
+        
+        .flex-icon {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .boxe-mt-header {
+            display: flex;
+            align-items: center;
+            padding: 1.5rem 1rem 0 1rem;
+            justify-content: space-between;
+            color: #bd8432;
+            font-size: 1.25rem;
+            font-weight: bold;
+            font-family: "Prelo", sans-serif;
+        }
+        
+        .boxe-mt-body {
+            padding: 0 1rem 1rem 1rem;
+        }
+        
+        .icon-boxe {
+            width: 32px;
+        }
+        
+        .text-center {
+            text-align: center;
+        }
+        
+        .questao-resolvida {
+            background-color: #ececec;
+            padding: 3rem 1rem 1rem 1rem;
+            position: relative;
+            margin-top: 3rem;
+        }
+        
+        .margin-questao-resolvida {
+            margin-top: 4rem;
+        }
+        
+        .double-columned-content {
+            padding: 0;
+        }
+        
+        .titulo4 {
+            margin-top: 3rem;
+            font-size: 1.25rem;
+            font-weight: 800;
+            color: #000000;
+            font-family: "Prelo_bold", sans-serif;
+        }
+        
+        .questao-resolvida::before {
+            content: " ";
+            width: 200px;
+        }
+        
+        .quote {
+            text-align: right;
+            font-size: 1rem;
+            margin-top: 1rem;
+            margin-left: 1.5rem;
+            font-family: "proxima_novalight", sans-serif;
+        }
+        
+        .quote-source {
+            text-align: right;
+            font-family: "proxima_novalight", sans-serif;
+            font-size: 0.625rem;
+            color: #71706f;
+            letter-spacing: 0px;
+            margin-bottom: 2rem;
+        }
+        
+        .poem {
+            margin: 1rem 0;
+            margin-left: 1.5rem;
+            font-size: 1.05rem;
+            font-family: "proxima_novalight", sans-serif;
+        }
+        
+        .align-horizontal {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .fake-input-model {
+            padding: 5px;
+            background: white;
+            display: inline-block;
+            height: 35px;
+            width: 71px;
+            border: 1px solid gray;
+            border-radius: 6px;
+        }
+        
+        .ml {
+            margin-left: 1.5rem;
+        }
+        /* .questao-resolvida p {
+margin: 0;
+} */
+        
+        .questao-resolvida .double-columned-content {
+            align-items: initial;
+        }
+        
+        .questao-alternativas {
+            margin-left: 3rem;
+            font-size: 1.125rem;
+        }
+        
+        .questao-alternativas li::marker {
+            color: black;
+            font-size: 1.125rem;
+            font-family: "proxima_novabold";
+        }
+        
+        .questao-alternativas li {
+            font-family: "proxima_novalight";
+            padding: 4px 0;
+            color: #000;
+        }
+        
+        .resposta-list {
+            counter-reset: list;
+            list-style: decimal;
+            list-style: none;
+            position: relative;
+        }
+        
+        .resposta-list li:before {
+            font-family: "proxima_novabold";
+            font-size: 18px;
+            font-weight: 800;
+            counter-increment: list;
+            content: counter(list, lower-alpha) ") ";
+            position: absolute;
+            left: -1.4em;
+        }
+        
+        .resposta p {
+            color: #707070;
+            font-size: 1.125rem;
+            /* margin: 1rem 0; */
+        }
+        
+        .fake-input-model {
+            padding: 5px;
+            background: white;
+            display: inline-block;
+            height: 35px;
+            width: 71px;
+            border: 1px solid gray;
+            border-radius: 6px;
+        }
+        
+        .resposta .resposta-title {
+            font-family: "proxima_novabold";
+            margin: 1rem 0;
+        }
+        
+        .number-list {
+            list-style: decimal;
+        }
+        
+        .number-list {
+            /*   font-size: 1.25rem;
+font-weight: bold; */
+            list-style-type: none;
+        }
+        
+        .number-list li:before {
+            font-family: "proxima_novabold";
+            font-size: 18px;
+            font-weight: 800;
+            content: counter(level1) " ";
+            /*Instead of ". " */
+            counter-increment: level1;
+        }
+        
+        .flex-question {
+            display: flex;
+            align-items: initial;
+            gap: 1rem;
+        }
+        
+        .header-questao-resolvida {
+            top: -4%;
+            left: 0;
+            position: absolute;
+            max-width: 40%;
+            color: white;
+            font-size: 1.25rem;
+            justify-content: center;
+            font-family: "Prelo_extra_bold", sans-serif;
+            background: linear-gradient(90deg, #B80071 0%, #850343 100%);
+            padding: 8px;
+            border: 4px solid var(--color-quimica-d1);
+        }
+        
+        .img-with-right-legend {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .img-with-right-legend>div {
+            gap: 10px;
+        }
+        
+        .img-with-right-legend>div img {
+            width: 500px;
+        }
+        
+        .img-with-right-legend>div p {
+            align-self: self-end;
+            flex: 1;
+        }
+        
+        .exercicios {
+            margin-top: 3rem;
+            color: white;
+            font-size: 1.25rem;
+            font-family: "Prelo_extra_bold", sans-serif;
+            background: linear-gradient(90deg, var(--color-quimica-d1) 0%, var(--color-quimica-d2) 100%);
+            padding: 8px;
+            border: 4px solid var(--color-quimica-d1);
+        }
+        
+        .exercicio-text {
+            color: #000;
+            margin-top: 1.5rem;
+            font-size: 1.125rem;
+            font-family: "proxima_novalight", sans-serif;
+        }
+        
+        .exercicio-text b {
+            color: black;
+        }
+        
+        .flex-exercicios {
+            font-family: "Prelo_regular", sans-serif;
+            display: flex;
+            gap: 1rem;
+            align-items: inherit;
+        }
+        
+        .divisor {
+            height: 2rem;
+            width: 90%;
+            border-bottom: 1px dotted #707070;
+        }
+        
+        .consolidando-saberes {
+            font-family: "Prelo_extra_bold", sans-serif;
+            padding: 0.5rem 1rem;
+            color: var(--color-quimica-d2);
+            font-size: 1.25rem;
+            text-transform: uppercase;
+            font-weight: 300;
+            border: 3px solid var(--color-quimica-d1);
+            background-color: var(--color-quimica-d3);
+            margin-top: 3rem;
+        }
+        
+        .enem {
+            color: white;
+            font-size: 1.25rem;
+            text-transform: uppercase;
+            font-family: "Prelo_extra_bold", sans-serif;
+            background-color: var(--color-quimica-d2);
+            border: 3px solid #fff;
+            padding: 0.5rem;
+            margin-top: 3rem;
+        }
+        
+        a.tooltip {
+            text-decoration: none;
+            color: var(--color-quimica-d1);
+            font-weight: bold;
+            position: relative;
+            cursor: pointer;
+            display: inline-block;
+            transition: all 0.4s ease;
+            -webkit-transition: all 0.4s ease;
+            background-color: #fff;
+            position: relative;
+        }
+        
+        a.tooltip:before {
+            font-family: "proxima_novalight", sans-serif;
+            content: attr(data-title);
+            background-color: white;
+            border: 3px solid var(--color-quimica-d1);
+            color: black;
+            font-size: 1rem;
+            padding: 10px;
+            box-sizing: border-box;
+            position: absolute;
+            left: 0;
+            bottom: 35px;
+            font-weight: 300;
+            width: 25rem;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.4s ease;
+        }
+        
+        a.tooltip:after {
+            content: "";
+            position: absolute;
+            opacity: 0;
+            width: 0;
+            height: 0;
+            left: 5px;
+            bottom: 25px;
+            border-style: solid;
+            border-width: 0 10px 10px 10px;
+            border-color: transparent transparent var(--color-quimica-d1) transparent;
+            transition: all 0.4s ease;
+            transform: rotateX(180deg);
+        }
+        
+        a.tooltip:focus:after,
+        a.tooltip:focus:before {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        a.left::before {
+            left: -16.25rem !important;
+        }
+        /* Collapse */
+        
+        .wrap-collabsible {
+            margin-bottom: 200px;
+        }
+        
+        input[type="checkbox"] {
+            display: none;
+        }
+        
+        .lbl-toggle-mat {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: bold;
+            font-size: 1.5rem;
+            text-align: center;
+            padding: 1rem;
+            background: var(--color-ing-a3);
+            color: #bd8432;
+            height: 3.25rem;
+            cursor: pointer;
+            transition: all 0.25s ease-out;
+        }
+        
+        .collapsible-content-mat {
+            background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, var(--color-ing-a3) 100%);
+            max-height: 0px;
+            overflow: hidden;
+            transition: max-height 0.25s ease-in-out;
+        }
+        
+        .toggle-mat:checked+.lbl-toggle-mat+.collapsible-content-mat {
+            max-height: 100vh;
+        }
+        
+        .toggle-mat:checked+.lbl-toggle-mat .ion-md-add {
+            display: none;
+        }
+        
+        .toggle-mat:checked+.lbl-toggle-mat .ion-md-remove {
+            display: block;
+        }
+        
+        .ion-md-remove {
+            display: none;
+        }
+        
+        .toggle-mat:checked+.lbl-toggle-mat {
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+        
+        .collapsible-content-mat .content-inner {
+            padding: 0 1rem;
+        }
+        
+        .content-inner,
+        .text-content-area,
+        .general-text {
+            font-family: "proxima_novalight", sans-serif;
+        }
+        
+        label img {
+            width: 2rem;
+        }
+        
+        .wrap-collabsible h3 {
+            margin: 0;
+            padding: 0;
+            font-size: 1.125rem;
+        }
+        
+        .wrap-collabsible h4 {
+            margin: 0;
+            padding: 0;
+            padding-top: 1rem;
+            font-size: 1.125rem;
+            text-align: left;
+        }
+        
+        .wrap-collabsible p {
+            margin: 0;
+            padding: 0;
+            font-size: 1.125rem;
+        }
+        
+        .wrap-collabsible p:not(:first-child) {
+            padding-top: 1rem;
+        }
+        
+        .wrap-collabsible .double-columned-content {
+            align-items: start;
+        }
+        
+        .teste3 {
+            background-color: #ECF0A6;
+        }
+        
+        .teste2 {
+            background-color: #ECF0A6;
+            width: 350px;
+            height: 115px;
+            font-style: italic;
+            font-size: 12px;
+        }
+        
+        .civetCats {
+            background-color: #ECF0A6;
+            height: 60px;
+            width: 230px;
+        }
+        
+        .img-gustave {
+            width: 190px;
+            height: 260px;
+        }
+        
+        .wrap-collabsible .text-credit {
+            padding: 0 !important;
+            margin-bottom: 1rem;
+            font-size: 0.75rem;
+            font-weight: 300;
+            text-align: left;
+        }
+        
+        .wrap-collabsible .img-description {
+            padding-top: 0.5rem !important;
+            font-size: 0.75rem;
+        }
+        
+        .wrap-collabsible ul {
+            margin: 0;
+            padding: 0;
+            padding-left: 1.5rem;
+            padding-top: 0.5rem;
+        }
+        
+        .collapsible-title {
+            padding: 0 !important;
+            font-size: 1.25rem !important;
+            color: var(--color-ing-a2);
+            font-family: "Prelo_bold";
+        }
+        
+        .no-margin {
+            margin: 0 !important;
+        }
+        
+        .no-margin-top {
+            margin-top: 0 !important;
+        }
+        
+        .width-38 {
+            width: 38rem;
+        }
+        
+        .align-self-end {
+            align-self: flex-end;
+        }
+        
+        .height-230 {
+            height: 230px;
+        }
+        
+        .margin-top {
+            margin-top: 3rem;
+        }
+        
+        .margin-top-1 {
+            margin-top: 1rem !important;
+        }
+        
+        .margin-top-7 {
+            margin-top: 7rem;
+        }
+        
+        .titulo-grafico {
+            position: relative;
+            font-size: 1.625rem;
+            text-align: left;
+            font-weight: 800;
+            color: var(--color-quimica-d1);
+            font-family: "Prelo_extra_bold", sans-serif;
+            text-align: center;
+        }
+        
+        .titulo-grafico::before {
+            content: "";
+            position: absolute;
+            height: 4px;
+            width: 100%;
+            background: var(--color-ing-a2);
+            left: 0;
+            top: -3px;
+        }
+        
+        .titulo-grafico::after {
+            content: "";
+            position: absolute;
+            height: 4px;
+            width: 100%;
+            background: var(--color-ing-a2);
+            left: 0;
+            bottom: -3px;
+        }
+        
+        .flex-images {
+            display: flex;
+            gap: 1rem;
+            align-items: flex-end;
+        }
+        
+        .align-items-top {
+            align-items: flex-start !important;
+        }
+        
+        .no-gap {
+            gap: 0 !important;
+        }
+        
+        .height-261 {
+            height: 261px;
+        }
+        
+        .height-728 {
+            height: 728px;
+        }
+        
+        .letter-image {
+            display: inline-block;
+            color: #fff;
+            font-weight: 800;
+            display: grid;
+            place-items: center;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: #B80071;
+        }
+        /*  */
+        
+        .quote-title {
+            font-size: 24px;
+            font-family: 'theserif_semibold', sans-serif;
+            text-align: center;
+            margin-bottom: 1rem;
+            margin-top: 1rem;
+        }
+        
+        .quote {
+            margin-top: 1rem;
+            margin-left: 1.5rem;
+            text-align: left;
+            font-size: 18px;
+            font-family: 'theserif_extralight', sans-serif;
+        }
+        
+        .quote-source {
+            text-align: right;
+            font-family: 'proxima_novalight', sans-serif;
+            font-size: 16px;
+            letter-spacing: 0px;
+            margin-bottom: 2rem;
+            margin-top: 1rem;
+            width: 90%;
+            margin-left: auto;
+        }
+        
+        .img-littlee3 {
+            max-width: 35px;
+            margin: 0 auto;
+            display: inline;
+        }
+        
+        .img-littlee2 {
+            max-width: 55px;
+            margin: 0 auto;
+            display: inline;
+        }
+        
+        .img-littlee {
+            max-width: 250px;
+            margin: 0 auto;
+            display: inline;
+        }
+        
+        .teste3 {
+            background-color: #DF8CBF;
+        }
+        
+        .img-md-banner {
+            max-width: 400px;
+            display: block;
+            margin-bottom: 0.5rem;
+            margin-top: -20rem;
+            margin-left: auto;
+            margin-right: -5rem;
+        }
+        
+        .img-md-1 {
+            max-width: 500px;
+            margin: 0 auto;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="body-book">
+            <div class="main">
+                <div class="section">
+
+                    <div class="content-fullwidth-area">
+                        <div class="titulo-cap-section">
+                            <div class="cap-section">
+                                <span class="cap-texto">Capítulo</span>
+                                <p class="cap-number">
+                                    3
+                                </p>
+                            </div>
+                            <div class="titulo-cap-background">
+                                <h1 class="título-cap">
+                                    Métodos para calcular ΔH
+                                </h1>
+                            </div>
+                        </div>
+                        <img class="img-full-width" src="./assets/img/ID001-F001-2020-EM-QUI-2S-L1-FA-U3-C10.png" alt="imagem">
+                    </div>
+
+                    <!-- home -->
+                    <div class="text-content-area">
+                        <p class="img-subtitle">No laboratório de Química, podemos produzir muitos tipos de substâncias.
+                        </p>
+                        <p class="img-credit">Motortion/iStockphoto.com
+
+                        </p>
+                        <p class="quote-title">Se sabemos a fórmula da água, por que não a produzimos em laboratório?</p>
+                        <p class="quote">
+                            Imagine se fosse possível acabar com toda a sede do mundo com o uso de um laboratório. A ideia é simples: sabendo a fórmula da água (H2O), cientistas fariam o líquido em ambiente controlado e ele seria distribuído ou vendido às regiões mais necessitadas.E
+                            isso é, de fato, possível? Tecnicamente, sim. Mas os custos seriam tão altos, que dificilmente essa seria uma opção.Segundo o químico Fernando Galembeck, professor da Unicamp, a ciência sabe como pegar dois hidrogênios e uni-los
+                            a um oxigênio para formar uma molécula de água. A técnica existe e é conhecida. O problema, entretanto, está no custo da operação. “É muito caro conseguir o hidrogênio, já que ele precisaria vir do petróleo.”Apesar de existir
+                            na atmosfera, como o oxigênio, ele está presente em quantidade bem menor no ar. Portanto, a melhor maneira de conseguir hidrogênio é como derivado do refinamento do petróleo. Além disso, a reação de formação da molécula da
+                            água é muito perigosa, já que existe liberação de energia. &quot;Em grande quantidade, haveria uma liberação muito grande de energia. [A reação de formação da molécula] poderia ser explosiva”, comenta Amanda Pavão, diretora
+                            de projetos da Química Jr. Unesp Araraquara.[...]
+                        </p>
+                        <p class="quote-source">
+                            YARAK, Aretha.
+                            <i>UOL</i> , 22 mar. 2017. Folhapress. Disponível em: &lt;https://www.uol.com.br/tilt/ultimas-noticias/redacao/2017/03/22/se-sabemos-a-formula-da-agua-por-que-nao-a-produzimos-em-laboratorio.htm&gt;. Acesso em: 17 nov. 2021.
+                        </p>
+
+                    </div>
+
+                    <!-- bullet and boxe-2 -->
+                    <div class="text-content-area">
+                        <!-- bullet -->
+                        <div class="bullet-list-section">
+                            <ul class="bullet-list">
+                                <li class="general-text">
+                                    Toda reação explosiva, como a formação da água, é exotérmica?
+                                </li>
+                                <li class="general-text">
+                                    O que caracteriza uma explosão?
+                                </li>
+                                <li class="general-text">
+                                    Ao calcular a quantidade de energia liberada por uma reação antes de realizá-la, podemos evitar acidentes?
+                                </li>
+                            </ul>
+                        </div>
+                        <!--boxe-2  -->
+                        <div class="boxe-06-02-cie-hab">
+                            <img src="./assets/icons/01_titulo1.svg" class="boxe-06-02-icon">
+                            <p class='chapter-description'> Neste capítulo serão abordadas as habilidades
+                                <span class='boxe-06-texto'>
+                                  EM13CNT101
+                                </span> ,
+                                <span class='boxe-06-texto'>
+                                  EM13CNT102
+                                </span>,<span class='boxe-06-texto'>
+                                  EM13CNT301
+                                </span>e<span class='boxe-06-texto'>
+                                  EM13CNT309
+                                </span>.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="text-content-area">
+                        <div class="titulo1-section">
+                            <img src="./assets/icons/01_titulo1.svg">
+                            <h3 class="titulo1">Lei de Hess</h3>
+                        </div>
+                        <p class="general-text">No capítulo anterior, aprendemos a calcular a variação de entalpia de um fenômeno químico fazendo uso das entalpias de formação das substâncias e da equação ΔH = H<sup>produtos</sup> – H<sup>reagentes</sup>. Neste capítulo, vamos
+                            aprender duas outras maneiras teóricas de se calcularem os ΔH das reações: usando a lei de Hess e a energia de ligação das moléculas participantes.</p>
+                        <p class="general-text">A lei de Hess é resultado dos estudos do químico suíço Germain Henry Hess (1802-1850). Segundo essa lei, a entalpia das reações depende apenas dos seus estados inicial e final, ou seja, de seus reagentes e produtos, não sendo relevante
+                            o caminho intermediário que a reação percorre. Podemos dizer mais: o valor de ΔH de um processo não depende do número de etapas intermediárias nem do tipo de reação que ocorre em cada etapa do processo.</p>
+                        <p class="general-text">Muitos processos químicos ocorrem em várias etapas, enquanto outros ocorrem em uma etapa só, e cada etapa tem um valor próprio de ΔH.</p>
+                        <p class="general-text">Veja um exemplo.</p>
+                        <p class="general-text">A reação 2 H2(g) + 2 NO(g) &#10141; N2(g) + 2 H2O(&#8467;) ocorre em duas etapas:</p>
+                        <ul class="questao-alternativas ml">
+                            <li>Etapa 1: H2(g) + 2 NO(g) &#10141; N2O(g) + H2O(&#8467;) ΔH1 = – 732,7 kJ</li>
+                            <li>Etapa 2: N2O(g) + H2(g) &#10141; N2(g) + H2O(&#8467;) ΔH2 = – 19,5 kJ</li>
+                        </ul>
+                        <p class="general-text">Como a reação mencionada pode ser vista como a soma das reações ocorridas nas duas etapas, pode-se afirmar que a variação de entalpia da reação geral será a soma das entalpias das duas etapas:</p>
+                        <img src="./assets/img/Eqn001.png" alt="imagem" class="img-md-1">
+                        <p class="general-text">De maneira gráfica:</p>
+                        <img src="./assets/img/ID016-I008-2020-EM-QUI-2S-L1-FA-U3-C10.png" alt="imagem" class="img-md-1">
+                        <p class="general-text">Para aplicar a lei de Hess, é necessário que a soma das reações intermediárias, ou etapas, resulte na reação cujo ΔH desejamos descobrir; para isso, pode ser necessário inverter alguma das etapas ou multiplicá-las por algum fator.
+                            Como vimos no capítulo anterior, quando invertemos uma equação termoquímica, invertemos também o sinal do valor de ΔH, e quando multiplicamos a equação, também multiplicamos o ΔH pelo mesmo valor.</p>
+                        <div class='questao-resolvida'>
+                            <div class='flex-icon header-questao-resolvida'>
+                                <img src='./assets/icons/06_BOXE_04.svg' class='icon-boxe'>Questão resolvida
+                            </div>
+
+                            <div class="flex-exercicios">
+                                <p class="exercicio-text"><b>1</b></p>
+                                <p class="exercicio-text"> Calcular a variação de entalpia da seguinte reação:</p>
+                            </div>
+                            <img src="./assets/img/Eqn002.png" alt="imagem" class="img-md">
+                            <p class="exercicio-text ml">Aplicando a lei de Hess com as seguintes reações:</p>
+                            <img src="./assets/img/Eqn003.png" alt="imagem" class="img-md">
+                            <h4 class="titulo4">Resolução:</h4>
+                            <p class="exercicio-text ml">Analisando a equação, concluímos que é necessário 1 mol de C<sup>2</sup>H<sup>4</sup> nos reagentes. Vemos que a equação I apresenta exatamente 1 mol de C<sup>2</sup>H<sup>4</sup> nos reagentes; então, podemos mantê-la:</p>
+                            <img src="./assets/img/Eqn004.png" alt="imagem" class="img-md">
+                            <p class="exercicio-text ml">Também é necessário 1 mol de H2 nos reagentes. A equação II apresenta exatamente 1 mol de H2 nos reagentes; então, também podemos mantê-la:</p>
+                            <img src="./assets/img/Eqn005.png" alt="imagem" class="img-md">
+                            <p class="exercicio-text ml">Por último, é preciso deletar 1 mol de C2H6 nos produtos. A equação III apresenta 1 mol de C2H6
+                                <b>nos reagentes</b>; então, é necessário invertê-la. Ao inverter a equação, também invertemos o sinal do ΔH:</p>
+                            <img src="./assets/img/Eqn006.png" alt="imagem" class="img-md">
+                            <p class="exercicio-text ml">Agora, vamos realizar a soma das três reações e dos três ΔH:</p>
+                            <img src="./assets/img/Eqn007.png" alt="imagem" class="img-md">
+
+                        </div>
+
+
+
+
+
+                        <div class="titulo1-section">
+                            <img src="./assets/icons/01_titulo1.svg">
+                            <h3 class="titulo1">Energia de ligação</h3>
+                        </div>
+                        <p class="general-text">Quando dois átomos formam uma ligação covalente simples, dupla ou tripla, ocorre a liberação de uma quantidade E de energia. Os átomos liberam energia e adquirem estabilidade. Logo, a formação da ligação química é um processo exotérmico
+                            (ΔH &lt; 0).</p>
+                        <p class="general-text">Para romper a ligação covalente simples, dupla ou tripla entre dois átomos, é necessário fornecer a mesma quantidade E de energia que estes haviam liberado na formação da ligação. Logo, o rompimento da ligação química é um processo
+                            endotérmico (ΔH &gt; 0).</p>
+                        <p class="general-text">Denomina-se energia de ligação a quantidade de energia necessária para romper 1 mol de ligações covalentes (simples, duplas ou triplas) entre dois átomos, a fim de obter esses átomos isolados na fase gasosa. O valor da energia
+                            de ligação é sempre fornecido em módulo, pois o sinal irá depender de a ligação estar sendo rompida (ΔH &gt; 0) ou formada (ΔH &lt; 0).</p>
+                        <p class="general-text">Em um meio reacional, as ligações presentes nas moléculas dos reagentes são rompidas para novas ligações serem formadas nos produtos:</p>
+                        <img src="./assets/img/Eqn013.png" alt="imagem" class="img-md">
+                        <p class="general-text">Átomos estabelecem ligações entre si para adquirirem estabilidade. Quase sempre, adquirir estabilidade significa evoluir de um estado de maior energia para outro de menor energia.</p>
+
+                        <ul class="questao-alternativas ml">
+                            <li>O processo de romper uma ligação química é sempre endotérmico (H<sup>rompidas</sup>). <br> Exemplo: H - H(g) &#10141; H(g) 1 H(g) ΔH = + 104,2 kcal/mol
+                            </li>
+                            <li>O processo de formar uma ligação química é sempre exotérmico (H<sup>formadas</sup>). <br> Exemplo: H(g) + H(g) &#10141; H - H(g) ΔH = – 104,2 kcal/mol
+                            </li>
+                        </ul>
+                        <p class="exercicio-text ml">Para calcular o ΔH das reações com base nas energias de ligação, utiliza-se a equação:</p>
+                        <img src="./assets/img/" alt="imagem" class="img-md">
+
+
+                        <div class='questao-resolvida'>
+                            <div class='flex-icon header-questao-resolvida'>
+                                <img src='./assets/icons/06_BOXE_04.svg' class='icon-boxe'>Questão resolvida
+                            </div>
+
+
+                            <div class="flex-exercicios">
+                                <p class="exercicio-text"><b>3</b></p>
+                                <p class="exercicio-text"><b> UCS-RS 2016</b> O 1,2-dicloroetano ocupa posição de destaque na indústria química americana. Trata-se de um líquido oleoso e incolor, de odor forte, inflamável e altamente tóxico. É empregado na produção do cloreto
+                                    de vinila que, por sua vez, é utilizado na produção do PVC, matéria-prima para a fabricação de dutos e tubos rígidos para água e esgoto.</p>
+                            </div>
+                            <p class="exercicio-text ml">A equação química que descreve, simplificadamente, o processo de obtenção industrial do 1,2-dicloroetano, a partir da reação de adição de gás cloro ao eteno, encontra-se representada abaixo.</p>
+                            <p class="exercicio-text ml">C<sup>2</sup>H<sup>4</sup>(g) + CL<sup>2</sup>(g) &#10141; C<sup>2</sup>H<sup>4</sup>CL<sup>2</sup>(&#8467;)</p>
+                            <p class="quote-source">Disponível em: http://laboratorios.cetesb.sp.gov.br/wp-content/uploads/sites/47/2013/11/dicloroetano.pdf. Acesso em: 3 set. 2015. (Adaptado).</p>
+                            <p class="exercicio-text ml"><b>Dados:</b></p>
+                            <img src="./assets/img/p30_fig01.png" alt="imagem" class="img-md-1">
+                            <p class="exercicio-text ml">A variação de entalpia da reação acima é igual a</p>
+                            <ol class="questao-alternativas ml" type="a">
+                                <li>– 144,4 kJ/mol</li>
+                                <li>– 230,6 kJ/mol</li>
+                                <li>– 363,8 kJ/mol</li>
+                                <li>+ 428,2 kJ/mol</li>
+                                <li>+ 445 kJ/mol</li>
+                            </ol>
+
+                            <h3 class="titulo4"><b>Resolução:</b></h3>
+                            <p class="exercicio-text ml">Alternativa A</p>
+                            <p class="exercicio-text ml">Para calcular a variação de entalpia com base nas energias de ligação, é preciso primeiro calcular todas as ligações de cada molécula envolvida na reação utilizando os valores de energia de ligação tabelados:
+                            </p>
+                            <p class="exercicio-text ml">C<sup>2</sup>H<sup>4</sup>(g) + CL<sup>2</sup>(g) &#10141; C<sup>2</sup>H<sup>4</sup>C&#8467;<sup>2</sup>(&#8467;)</p>
+                            <img src="./assets/img/p31_fig01.png" alt="imagem" class="img-md">
+                            <p class="exercicio-text ml">As entalpias relacionadas às ligações rompidas são positivas enquanto as entalpias relacionadas às ligações formadas são negativas:</p>
+                            <img src="./assets/img/Eqn014.png" alt="imagem" class="img-md">
+                            <p class="exercicio-text ml">ΔH = H<sup>rompidas</sup> + H<sup>formadas</sup> = 2510,4 – 2654,8 5 – 144,4 kJ/mol</p>
+                        </div>
+
+                        <img src="./assets/img/p31_fig02.png" alt="imagem" class="img-md-1">
+                        <p class="quote-source">Fonte: MAIA, J. D.; BIANCHI, J. C. de A. Química Geral: Fundamentos.</p>
+                        <p class="general-text">
+                            Os valores definidos para as energias de ligação são valores médios. Veja o exemplo da molécula de metano, CH4: para romper sucessivamente as quatro ligações covalentes simples carbono-hidrogênio, são necessárias quatro quantidades de energia diferentes,
+                            denominadas energias de dissociação,
+                            <b>D</b> .
+                        </p>
+
+                        <img src="./assets/img/p32_fig01.png" alt="imagem" class="img-md">
+                        <p class="quote-source">Fonte: MAHAN, Bruce M.; MYERS, Rollie J. Química um curso universitário. 4 ed. São Paulo: Edgard Blücher, 1995.</p>
+                        <p class="general-text">A energia de ligação associada à quebra da ligação carbono-hidrogênio, entretanto, é um valor médio de aproximadamente 413 kJ/mol de ligações.</p>
+
+                        <div class="titulo1-section">
+                            <img src="./assets/icons/01_titulo1.svg">
+                            <h3 class="titulo1">Espontaneidade das reações</h3>
+                        </div>
+                        <p class="general-text">Algumas transformações são espontâneas, como é o caso da corrosão de peças metálicas expostas ao ambiente; as peças são corroídas naturalmente, de forma espontânea. Já outras transformações não são espontâneas, ou seja, é preciso
+                            forçar de alguma maneira a reação a ocorrer. Por exemplo, para que uma amostra de água líquida se torne gelo, é necessário mudar as condições de temperatura e/ou pressão a que a amostra está exposta.</p>
+                        <p class="general-text">Com essa informação, poderíamos inferir que as reações exotérmicas são espontâneas, enquanto as reações endotérmicas são não espontâneas; porém, isso é um erro. Nas condições ambiente (25 °C e 1 atm), a solidificação da água líquida
+                            é um processo exotérmico e não espontâneo, enquanto a decomposição do carbonato de sódio é endotérmica e espontânea.</p>
+                        <p class="general-text">Então, o que define se uma reação é espontânea ou não? Para essa definição, utilizamos, além da entalpia, os conceitos de entropia e de energia livre.</p>
+                        <h3 class="titulo2">Entropia</h3>
+                        <p class="general-text">A entropia, simbolizada pela letra S, é uma grandeza termodinâmica que mede a desordem de um sistema. Na Termodinâmica, o termo “desordem” significa uma distribuição mais homogênea da matéria e/ou da energia pelo sistema.</p>
+                        <p class="general-text">Quanto maior o número de estados de energia do sistema (que podemos associar com um tipo de caos), maior a sua entropia. Assim, como a entalpia, é possível calcular a entropia do processo levando em conta apenas seus estados inicial
+                            e final: DS 5 Sfinal – Sinicial. Os gases, por apresentarem maior desorganização de suas moléculas, têm maior entropia que os líquidos, que, por sua vez, têm maior entropia que os sólidos.</p>
+                        <p class="general-text">A temperatura e a pressão também são fatores determinantes para caracterizar a entropia de um sistema.</p>
+                        <p class="general-text">Já aprendemos que, quanto maior a temperatura, maior o estado de agitação das partículas e consequentemente maior a movimentação delas, o que implica maior entropia, ou seja, maior desordem. Portanto, quanto maior a temperatura,
+                            maior a entropia.</p>
+                        <p class="general-text">
+                            No entanto, a pressão é inversamente proporcional à entropia: quanto maior a pressão, menor será a desordem das moléculas. Além disso, moléculas maiores apresentam maiores valores de entropia: quanto maior o número de átomos na molécula, maior será o
+                            número de estados vibracionais dessa molécula, e maior a
+                            <b>desordem termodinâmica</b> .
+                        </p>
+                        <div>
+                            <!-- watch out -->
+                            <div class='wrap-collabsible'>
+                                <input id='collapsible-his-3' class='toggle-mat' type='checkbox'>
+                                <label for='collapsible-his-3' class='lbl-toggle-mat'>
+                          <div class='flex-icon'>
+                              <img src='./assets/icons/06_BOXE_17_CT.svg' class='icon-boxe'>
+                              <p class='collapsible-title'>Fique ligado!</p>
+                          </div>
+                          <div class='flex-icon'>
+                              <img src='./assets/icons/arrow-down.svg' class='icon ion-md-add'>
+                              <img src='./assets/icons/arrow-up.svg' class='icon ion-md-remove'>
+                          </div>
+                      </label>
+                                <div class='collapsible-content-mat'>
+                                    <div class='content-inner'>
+                                        <div class='text-content-area'>
+
+                                            <p class='chapter-description general-text'>
+                                                S<sup>gás</sup> &gt; S<sup>líquido</sup> &gt; S<sup>sólido</sup>
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="general-text">A tabela a seguir indica os valores de entropia molar em condições padrão – 1 atm de pressão e temperatura 25 °C (298 K).</p>
+                        <img src="./assets/img/p33_fig01.png" alt="imagem" class="img-md-1">
+                        <img src="./assets/img/p33_fig02.png" alt="imagem" class="img-md-1">
+                        <img src="./assets/img/p33_fig03.png" alt="imagem" class="img-md-1">
+                        <p class="quote-source">Fonte: ATKINS, Peter; JONES, Loretta; LAVERMAN, Leroy. Princípios de Química: Questionando a vida moderna e o meio ambiente. Bookman Editora, 2018.</p>
+                        <p class="general-text">Ao comparar alguns dados da tabela anterior, podemos confirmar as afirmações que fizemos anteriormente:</p>
+                        <ul class="questao-alternativas ml">
+                            <li>Comparando as entropias molares padrão do C<sup>2</sup>H<sup>2</sup>, C<sup>2</sup>H<sup>4</sup> e C<sup>2</sup>H<sup>6</sup>, confirmamos que um aumento na complexidade da molécula geralmente implica aumento de entropia.</li>
+                            <li>A entropia é variável de acordo com a variedade alotrópica do elemento químico. Observe que a entropia molar padrão do diamante é menor que a do grafite, o que é consistente com o fato de que a organização dos átomos é maior
+                                no diamante do que no grafite e, por isso, a sua desordem térmica é menor.</li>
+                        </ul>
+                        <p class="general-text">Outra observação interessante diz respeito ao estado físico da substância na temperatura considerada. Observe, na tabela anterior, o crescimento dos valores de entropias molares padrão da água nos estados líquido e gasoso: há um
+                            aumento na entropia que corresponde à desordem crescente na passagem do estado líquido para o gasoso.</p>
+                        <p class="general-text">Do que vimos até aqui, podemos inferir que, quando ΔS assume valores positivos em um processo, estamos tratando de um processo espontâneo, e, quando ΔS assume valores negativos, estamos tratando de um processo não espontâneo. Mas
+                            esta relação também é incompleta.</p>
+
+                        <h3 class="titulo2">Energia livre de Gibbs</h3>
+                        <p class="general-text">Em muitos casos, determinar a espontaneidade do sistema não é uma tarefa simples. É preciso levar em conta os efeitos da interação da vizinhança com o sistema em estudo.</p>
+                        <p class="general-text">Vamos pensar no caso da fusão do gelo. Sabemos que a fusão é um processo endotérmico, cujo estado final tem mais desordem que o inicial. Mas, afinal, a fusão do gelo é um processo espontâneo ou não? Se desejarmos que a fusão ocorra
+                            em um local que está a – 20 °C, certamente o processo não será espontâneo, ao passo que, se o local estiver a 25 °C, a fusão ocorrerá espontaneamente.</p>
+                        <p class="general-text">Vimos que algumas reações ocorrem porque a energia dos produtos é menor que a energia dos reagentes e também que outras reações ocorrem porque a desordem do estado final é maior que a do estado inicial. Para avaliar o efeito dessas
+                            duas influências, há uma relação universal que inclui a entropia, a entalpia e a influência do ambiente.</p>
+                        <p class="general-text">
+                            A grandeza conhecida como
+                            <b>energia livre de Gibbs</b> ,
+                            <b>G</b> , é utilizada para facilitar essa classificação. Assim como a entalpia e a entropia, a variação da energia livre de Gibbs associada a um fenômeno também depende apenas dos estados inicial e final do processo, sendo
+                            então uma função de estado: ΔG 5 G<sup>final</sup> – G<sup>inicial</sup>.
+                        </p>
+                        </p>
+                        <p class="general-text">
+                            <p class="general-text">
+                                Para que uma reação química ocorra espontaneamente, é necessário que a energia livre do sistema
+                                <b>diminua</b> . Então,
+                            </p>
+                            <p class="general-text">
+                                Quando G<sup>final</sup> &lt; G<sup>inicial</sup>, então
+                                <b>ΔG &lt; 0</b> e o processo será
+                                <b>espontâneo</b> .
+                            </p>
+                            <p class="general-text">
+                                Quando G<sup>final</sup> &gt; G<sup>inicial</sup>, então
+                                <b>ΔG &gt; 0</b> e o processo será
+                                <b>não espontâneo</b> .
+                            </p>
+                            <p class="general-text">Porém, DG também pode ser expressa em função da entalpia e da entropia da reação:</p>
+                            <img src="./assets/img/" alt="imagem" class="img-md">
+                            <p class="general-text">Essa é a relação que procurávamos. Observando a expressão, é possível tirarmos as seguintes conclusões:</p>
+
+
+                            <div class="flex-exercicios">
+                                <p class="exercicio-text"><b>1</b></p>
+                                <p class="exercicio-text">Quando o processo é exotérmico (ΔH negativo) e a desordem do sistema aumenta (DS positivo), a variação de energia livre de Gibbs assume valor negativo, indicando um processo espontâneo em qualquer temperatura.</p>
+                            </div>
+                            <div class="flex-exercicios">
+                                <p class="exercicio-text"><b>2</b></p>
+                                <p class="exercicio-text">Quando o processo é endotérmico (ΔH positivo) e a desordem do sistema diminui (DS negativo), a variação de energia livre de Gibbs assume valor positivo, indicando um processo não espontâneo em qualquer temperatura.</p>
+                            </div>
+                            <div class="flex-exercicios">
+                                <p class="exercicio-text"><b>3</b></p>
+                                <p class="exercicio-text">Quando o processo é exotérmico e a desordem do sistema diminui (ΔH e DS ambos negativos), a temperatura determina a espontaneidade do processo:</p>
+                            </div>
+                            <ul class="questao-alternativas ml">
+                                <li>Para temperaturas baixas, a variação de energia livre de Gibbs é negativa e o processo é espontâneo.</li>
+                                <li>Para temperaturas altas, a variação de energia livre de Gibbs é positiva e o processo é não espontâneo.</li>
+                            </ul>
+                            <div class="flex-exercicios">
+                                <p class="exercicio-text"><b>4</b></p>
+                                <p class="exercicio-text">Quando o processo é endotérmico e a desordem do sistema aumenta (ΔH e DS ambos positivos), a temperatura determina a espontaneidade do processo:</p>
+                            </div>
+                            <ul class="questao-alternativas ml">
+                                <li>Para temperaturas baixas, a variação de energia livre de Gibbs é positiva e o processo é não espontâneo.</li>
+                                <li>Para temperaturas altas, a variação de energia livre de Gibbs é negativa e o processo é espontâneo.</li>
+                            </ul>
+
+                    </div>
+
+
+                    <!-- Predicting -->
+                    <div class="text-content-area">
+                        <div class=" flex-icon exercicios applying-knowledge">
+                            <img src="./assets/icons/07_SECAO_02.svg" class="icon-boxe"> Aplicando conhecimentos
+                        </div>
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>1</b></p>
+                            <p class="exercicio-text">Fazendo uso da lei de Hess, calcule o ΔH da reação de formação do CO2 com base nas seguintes reações:</p>
+                        </div>
+                        <p class="exercicio-text ml">C(grafite) +
+                            <imagem>FRACAO_01</imagem>
+                            O2(g) &#10141; CO(g) ΔH = – 26,4 kcal</p>
+                        <p class="exercicio-text ml">2 CO(g) + O2 &#10141; 2 CO2(g) ΔH = – 283 kcal</p>
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>2</b></p>
+                            <p class="exercicio-text">O ácido clorídrico (HCL) é um ácido forte, muitas vezes utilizado para limpeza industrial e de obras recém-finalizadas. Considerando a reação de formação do HCL representada abaixo, calcule o seu ΔH:</p>
+                        </div>
+                        <p class="exercicio-text ml">H2(g) + CL2(g) &#10141; 2 HCL(g) ΔH = ?</p>
+                        <p class="exercicio-text ml"><b>Dados:</b></p>
+                        <img src="./assets/img/p34_fig01.png" alt="imagem" class="img-md">
+
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>3</b></p>
+                            <p class="exercicio-text">A reação de combustão é exotérmica e muito utilizada para obtenção de energia. Utilizando a tabela de valores de entropia, calcule a entropia da reação de combustão completa do etano:</p>
+                        </div>
+                        <p class="exercicio-text ml">C2H6(g) 1
+                            <img src="./assets/img/Eqn001_.png" alt="imagem" class="img-littlee2"> O2(g) &#10141; 2 CO2(g) 1 3 H2O(g)</p>
+
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>4</b></p>
+                            <p class="exercicio-text">Calcule a entalpia da reação de combustão completa do etano e a energia livre de Gibbs a 25 °C.São dadas as energias de ligação a 25 °C:</p>
+                        </div>
+                        <img src="./assets/img/p35_fig01.png" alt="imagem" class="img-md-1">
+
+
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>5</b></p>
+                            <p class="exercicio-text">Com base no valor de energia livre de Gibbs a 25 °C, podemos dizer que a combustão do etano é espontânea ou não?</p>
+                        </div>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>6</b></p>
+                            <p class="exercicio-text"><b>Fuvest-SP 2018</b> A energia liberada na combustão do etanol de cana-de-açúcar pode ser considerada advinda da energia solar, uma vez que a primeira etapa para a produção do etanol é a fotossíntese. As transformações envolvidas
+                                na produção e no uso do etanol combustível são representadas pelas seguintes equações químicas:</p>
+                        </div>
+                        <p class="exercicio-text ml">6 CO2(g) + 6 H2O(g) &#10141; C6H12O6(aq) + 6 O2(g)</p>
+                        <p class="exercicio-text ml">C6H12O6(aq) &#10141; 2 C2H5OH(&#8467;) + 2 CO2(g)</p>
+                        <p class="exercicio-text ml">ΔH 5 – 70 kJ/mol</p>
+                        <p class="exercicio-text ml">C2H5OH(&#8467;) + 3 O2(g) &#10141; 2 CO2(g) + 3 H2O(g)</p>
+                        <p class="exercicio-text ml">ΔH 5 – 1235 kJ/mol</p>
+                        <p class="exercicio-text ml">Com base nessas informações, podemos afirmar que o valor de ΔH para a reação de fotossíntese é</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>– 1 305 kJ/mol</li>
+                            <li> + 1 305 kJ/mol</li>
+                            <li> + 2 400 kJ/mol</li>
+                            <li>– 2 540 kJ/mol</li>
+                            <li>+ 2 540 kJ/mol</li>
+                        </ol>
+
+
+
+
+
+                        <div class='consolidando-saberes'>
+                            Consolidando saberes
+                        </div>
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>1</b></p>
+                            <p class="exercicio-text"> <b>Fuvest-SP 2019</b> O tricloreto de nitrogênio (NC&#8467;3), ou tricloramina, é um composto de aparência oleosa muito perigoso quando puro, pois se decompõe explosivamente formando N2 e C&#8467;2. Ele era utilizado, até sua
+                                proibição na década de 1940, para o branqueamento de farinhas comerciais, no chamado processo Agene. Atualmente, é conhecido xcomo um dos subprodutos tóxicos indesejáveis formados no processo de desinfecção de piscinas.
+                                Ele se forma, por exemplo, pela reação do cloro usado nas piscinas com ureia proveniente da urina de nadadores que as utilizam.</p>
+                        </div>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>Represente a molécula do NC&#8467;3 utilizando fórmula de Lewis.</li>
+                            <li>Escreva a equação balanceada para a decomposição do NC&#8467;3 em N2 e C&#8467;2. Qual é o número de oxidação do nitrogênio no reagente e no produto?</li>
+                            <li>Calcule a entalpia da reação de decomposição do NC&#8467;3, considerando os valores de energia de ligação fornecidos. A reação é endotérmica ou exotérmica? Demonstre seus cálculos e justifique sua resposta.</li>
+                        </ol>
+                        <p class="exercicio-text ml"><b>Note e adote:</b></p>
+                        <img src="./assets/img/p35_fig02.png" alt="imagem" class="img-md-1">
+                        <p class="exercicio-text ml">Elétrons na camada de valência: N = 5, C&#8467; = 7.</p>
+
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>2</b></p>
+                            <p class="exercicio-text"><b>Unigranrio-RJ 2017</b> Cálculos de entalpias reacionais são em alguns casos efetuados por meio das energias de ligação das moléculas envolvidas, onde o saldo de energias de ligação rompidas e refeitas é considerado nesse
+                                procedimento. Alguns valores de energia de ligação entre alguns átomos são fornecidos no quadro abaixo:</p>
+                        </div>
+                        <img src="./assets/img/p36_fig01.png" alt="" class="img-md-1">
+                        <p class="exercicio-text ml">Considere a reação de combustão completa do metano representada na reação abaixo:</p>
+                        <p class="exercicio-text ml">CH4(g) + 2 O2(g) &#10141; CO2(g) + 2 H2O(v)</p>
+                        <p class="exercicio-text ml">A entalpia reacional, em kJ/mol, para a combustão de um mol de metano segundo a reação será de:</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>– 820</li>
+                            <li> – 360</li>
+                            <li>+ 106</li>
+                            <li>+ 360</li>
+                            <li>+ 820</li>
+                        </ol>
+
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>3</b></p>
+                            <p class="exercicio-text"><b>Unesp 2016</b> Em 1840, o cientista Germain Henri Hess (1802-1850) enunciou que a variação de entalpia em uma reação química é independente do caminho entre os estados inicial e final da reação, sendo igual à soma das variações
+                                de entalpias em que essa reação pode ser desmembrada.</p>
+                        </div>
+                        <p class="exercicio-text ml">Durante um experimento envolvendo a Lei de Hess, através do calor liberado pela reação de neutralização de uma solução aquosa de ácido cianídrico (HCN) e uma solução aquosa de hidróxido de sódio (NaOH), foi obtido o valor de 2,9
+                            kcal/mol para a entalpia nesta reação. Sabendo que a entalpia liberada pela neutralização de um ácido forte e uma base forte é de 13,3 kcal/mol, que o ácido cianídrico é um ácido muito fraco e que o hidróxido de sódio é uma
+                            base muito forte, calcule a entalpia de ionização do ácido cianídrico em água e apresente as equações químicas de todas as etapas utilizadas para esse cálculo.</p>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>4</b></p>
+                            <p class="exercicio-text"> <b>Unesp 2018</b> A regeneração do ácido sulfúrico (H2SO4) em geral não é economicamente vantajosa, mas é uma imposição das leis ambientais. Nessa regeneração, normalmente se utiliza o ácido proveniente de sínteses orgânicas,
+                                que está diluído e contaminado.</p>
+                        </div>
+                        <p class="quote-source">
+                            Mariana de Mattos V. M. Souza.
+                            <i>Processos inorgânicos</i> , 2012. (Adaptado)
+                        </p>
+                        <p class="exercicio-text ml">O processo de regeneração é feito em três etapas principais:</p>
+                        <p class="exercicio-text ml">Etapa I: H2SO4(aq, diluído) &#10141; SO2(g) 1 H2O(g) 1
+                            <imagem>FRACAO_01</imagem>
+                            O2(g)</p>
+                        <p class="exercicio-text ml">ΔH = 202 kJ/mol</p>
+                        <p class="exercicio-text ml"> Etapa II: SO2(g) 1
+                            <imagem>FRACAO_01</imagem>
+                            O2(g) &#10141; SO3(g)</p>
+                        <p class="exercicio-text ml">ΔH = – 99 kJ/mol</p>
+                        <p class="exercicio-text ml">Etapa III: SO3(g) 1 H2O(g) &#10141; H2SO4(&#8467;)</p>
+                        <p class="exercicio-text ml">ΔH = – 130 kJ/mol</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>Classifique as etapas I e II como endotérmica ou exotérmica. Justifique.</li>
+                            <li>Calcule a massa mínima de SO3(g) que deve ­reagir completamente com água para obtenção de 98 g de H2SO4 e 130 kJ de energia na etapa III.</li>
+                        </ol>
+                        <p class="exercicio-text ml"><b>Dados:</b> H = 1, S = 32, O = 16.</p>
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>5</b></p>
+                            <p class="exercicio-text"><b>EsPCEx-SP 2018</b> O trioxano, cuja fórmula estrutural plana simplificada encontra-se representada a seguir, é utilizado em alguns países como combustível sólido para o aquecimento de alimentos armazenados em embalagens
+                                especiais e que fazem parte das rações operacionais militares.</p>
+                        </div>
+                        <img src="./assets/img/p36_fig02.png" alt="imagem" class="img-md-1">
+                        <p class="exercicio-text ml">Considere a reação de combustão completa de um tablete de 90 g do trioxano com a formação de CO2 e H2O. Baseado nas energias de ligação fornecidas na tabela anterior, o valor da entalpia de combustão estimada para esta reação é</p>
+                        <p class="exercicio-text ml"><b>Dados:</b> O = 16 g/mol; H = 1 g/mol; C = 12 g/mol</p>
+
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>+ 168 kJ</li>
+                            <li>– 262 kJ</li>
+                            <li>+ 369 kJ</li>
+                            <li>– 1 461 kJ</li>
+                            <li>– 564 kJ</li>
+                        </ol>
+
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>6</b></p>
+                            <p class="exercicio-text"><b>Unesp 2021</b> Analise as equações termoquímicas.</p>
+                        </div>
+                        <p class="exercicio-text ml">C(s) 1
+                            <imagem>FRACAO_02</imagem>
+                            O2(g) 1 Ca(s) &#10141; CaCO3(s); ΔH 5 21207 kJ/mol</p>
+                        <p class="exercicio-text ml">C(s) 1 O2(g) &#10141; CO2(g); ΔH 5 2394 kJ/mol</p>
+                        <p class="exercicio-text ml">Ca(s) 1
+                            <imagem>FRACAO_01</imagem>
+                            O2(g) &#10141; CaO(s); ΔH 5 2634 kJ/mol</p>
+                        <p class="exercicio-text ml">A partir dessas equações, pode-se prever que o ΔH da reação de decomposição do calcário que produz cal viva (cal virgem) e dióxido de carbono seja igual a</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>+573 kJ/mol.</li>
+                            <li> +1601 kJ/mol.</li>
+                            <li> -2235 kJ/mol.</li>
+                            <li> -1028 kJ/mol.</li>
+                            <li>+179 kJ/mol.</li>
+                        </ol>
+                    </div>
+
+
+                    <div class="text-content-area">
+                        <div class="flex-icon enem">
+                            <img src="./assets/icons/07_SECAO_05.svg" class="icon-boxe"> No enem é assim
+                        </div>
+                        <p class="general-text">As questões selecionadas nesta seção são prioritariamente do Enem, mas questões de vestibulares diversos que apresentam características semelhantes aos itens do referido exame também foram usadas como recurso para estudo.</p>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>1</b></p>
+                            <p class="exercicio-text"> <b>Enem 2018</b> Por meio de reações químicas que envolvem carboidratos, lipídeos e proteínas, nossas células obtêm energia e produzem gás carbônico e água. A oxidação da glicose no organismo humano libera energia, conforme
+                                ilustra a equação química, sendo que aproximadamente 40% dela é disponibilizada para atividade muscular.</p>
+                        </div>
+                        <p class="exercicio-text ml">C6H12O6(s) + 6 O2(g) &#10141; 6 CO2(g) + 6 H2O(&#8467;)</p>
+                        <p class="exercicio-text ml">ΔH = – 2 800 kJ</p>
+                        <p class="exercicio-text ml">Considere as massas molares (g/mol): H = 1, C = 12 e O = 16</p>
+                        <p class="quote-source">
+                            LIMA, L.; FRAGA, C. A. M.; BARREIRO, E. J.
+                            <i>Química na saúde</i> . São Paulo: Sociedade Brasileira de Química, 2010. (Adaptado)
+                        </p>
+                        <p class="exercicio-text ml">Na oxidação de 1 grama de glicose, a energia obtida para atividade muscular, em quilojoule, é mais próxima de</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>6,2</li>
+                            <li>15,6</li>
+                            <li>70</li>
+                            <li>622,2</li>
+                            <li>1120</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>2</b></p>
+                            <p class="exercicio-text"><b>Enem Libras 2017</b> Energia elétrica nas instalações rurais podem ser obtida pela rede pública de distribuição ou por dispositivos alternativos que geram energia elétrica, como os geradores indicados no quadro.</p>
+                        </div>
+                        <img src="./assets/img/p37_fig01.png" alt="imagem" class="img-md-1">
+                        <p class="quote-source">Disponível em: www.ruranews.com.br. Acesso em: 20 ago. 2014.</p>
+                        <p class="exercicio-text ml">Os geradores que produzem resíduos poluidores durante o seu funcionamento são</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>I e II</li>
+                            <li>I e III</li>
+                            <li> I e IV</li>
+                            <li> II e III</li>
+                            <li> III e IV</li>
+                        </ol>
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>3</b></p>
+                            <p class="exercicio-text"><b>EsPCex-SP 2020</b> O carbeto de cálcio, de fórmula CaC2, é muito comum em equipamentos usados por exploradores de cavernas para fins de iluminação. Ele reage com água e gera como um dos produtos o gás acetileno (etino),
+                                de fórmula C2H2, conforme mostra a equação, não balanceada, a seguir</p>
+                        </div>
+                        <p class="exercicio-text ml">CaC<sup>2</sup>(s) + H2O(&#8467;) &#10141; C<sup>2</sup>H<sup>2</sup>(g) + Ca(OH)<sup>2</sup>(s) (equação 1)</p>
+                        <p class="exercicio-text ml">Sequencialmente, esse gás inflamável pode sofrer uma reação de combustão completa, liberando intensa energia, conforme a equação, não balanceada, a seguir</p>
+                        <p class="exercicio-text ml">C<sup>2</sup>H<sup>2</sup>(g) + O<sup>2</sup>(g) &#10141; CO<sup>2</sup>(g) + H<sup>2</sup>O (g) + calor (equação 2)</p>
+                        <p class="exercicio-text ml">Uma massa de 512 g de carbeto de cálcio com pureza de 50% (e 50% de materiais inertes) é tratada com água, obtendo-se uma certa quantidade de gás acetileno. Esse gás produzido sofre uma reação de combustão completa.</p>
+                        <p class="exercicio-text ml">Considerando a reação de combustão completa do acetileno nas condições ambientes (25 <sup>o</sup>C e 1 atm), o volume de gases obtidos e o valor da energia liberada como calor nessa reação, a partir da massa original de carbeto
+                            de cálcio, são, respectivamente,</p>
+                        <p class="exercicio-text ml"><b>Dados:</b></p>
+                        <p class="exercicio-text ml">– Volume molar na condição ambiente = 24,5 L ∙ mol21 (25 <sup>o</sup>C e 1 atm); calor de combustão do etino = -1 298 kJ ? mol21;</p>
+                        <p class="exercicio-text ml">– Constante universal dos gases</p>
+                        <p class="exercicio-text ml">R = 0,082 L ∙ atm ∙ mol<sup>-1</sup> ? K<sup>-1</sup>.</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li> 294 L e 3 240 kJ.</li>
+                            <li> 156 L e 2 320 kJ.</li>
+                            <li>294 L e 4 480 kJ.</li>
+                            <li>156 L e 6 660 kJ.</li>
+                            <li>294 L e 5 192 kJ.</li>
+                        </ol>
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>4</b></p>
+                            <p class="exercicio-text"><b>Unicamp-SP 2016</b> Podemos obter energia no organismo pela oxidação de diferentes fontes. Entre essas fontes destacam-se a gordura e o açúcar. A gordura pode ser representada por uma fórmula mínima (CH2)n enquanto um açúcar
+                                pode ser representado por (CH2O)n. Considerando essas duas fontes de energia, podemos afirmar corretamente que, na oxidação total de 1 grama de ambas as fontes em nosso organismo, os produtos formados são</p>
+                        </div>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>os mesmos, mas as quantidades de energia são diferentes.</li>
+                            <li>diferentes, mas as quantidades de energia são iguais.</li>
+                            <li> os mesmos, assim como as quantidades de energia.</li>
+                            <li>diferentes, assim como as quantidades de energia.</li>
+                        </ol>
+
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>5</b></p>
+                            <p class="exercicio-text"><b>Enem</b> Um dos problemas dos combustíveis que contêm carbono é que a sua queima produz dióxido de carbono. Portanto, uma característica importante, ao se escolher um combustível, é analisar seu calor de combustão (ΔHco),
+                                definido como a energia liberada na queima completa de um mol de combustível no estado padrão. O quadro seguinte relaciona algumas substâncias que contêm carbono e seu ΔHco.</p>
+                        </div>
+                        <img src="./assets/img/p38_fig01.png" alt="imagem" class="img-md">
+                        <p class="exercicio-text ml">Neste contexto, qual dos combustíveis, quando queimado completamente, libera mais dióxido de carbono no ambiente pela mesma quantidade de energia produzida?</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>Benzeno</li>
+                            <li>Metano</li>
+                            <li>Glicose</li>
+                            <li>Octano</li>
+                            <li>Etanol</li>
+                        </ol>
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>6</b></p>
+                            <p class="exercicio-text"><b>Enem</b></p>
+                        </div>
+                        <p class="quote">O abastecimento de nossas necessidades energéticas futuras dependerá certamente do desenvolvimento de tecnologias para aproveitar a energia solar com maior eficiência. A energia solar é a maior fonte de energia mundial. Num dia
+                            ensolarado, por exemplo, aproximadamente 1 kJ de energia solar atinge cada metro quadrado da superfície terrestre por segundo. No entanto, o aproveitamento dessa energia é difícil porque ela é diluída (distribuída por uma área
+                            muito extensa) e oscila com o horário e as condições climáticas. O uso efetivo da energia solar depende de formas de estocar a energia coletada para uso posterior.</p>
+                        <p class="quote-source">BROWN, T. Química, a ciência central. São Paulo: Pearson Prentice Hall, 2005.</p>
+                        <p class="exercicio-text ml">Atualmente, umas das formas de se utilizar a energia solar tem sido armazená-la por meio de processos químicos endotérmicos que mais tarde podem ser revertidos para liberar calor. Considerando a reação:</p>
+                        <p class="exercicio-text ml">CH4(g) + H2O(v) + calor ⥦ CO(g) + 2 H2(g)</p>
+                        <p class="exercicio-text ml">E analisando-a como potencial mecanismo para o aproveitamento posterior da energia solar, conclui-se que se trata de uma estratégia</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li> insatisfatória, pois a reação apresentada não permite que a energia presente no meio externo seja absorvida pelo sistema para ser utilizada posteriormente.</li>
+                            <li> insatisfatória, uma vez que há formação de gases poluentes e com potencial poder explosivo, tornando-a uma reação perigosa e de difícil controle.</li>
+                            <li>insatisfatória, uma vez que há formação de gás CO que não possui conteúdo energético passível de ser aproveitado posteriormente e é considerado um gás poluente.</li>
+                            <li> satisfatória, uma vez que a reação direta ocorre com absorção de calor e promove a formação das substâncias combustíveis que poderão ser utilizadas posteriormente para obtenção de energia e realização de trabalho útil.</li>
+                            <li> satisfatória, uma vez que a reação direta ocorre com liberação de calor havendo ainda a formação das substâncias combustíveis que poderão ser utilizadas posteriormente para obtenção de energia e realização de trabalho útil.</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>7</b></p>
+                            <p class="exercicio-text"><b>UnB-DF</b> Cada uma das reações abaixo libera energia:</p>
+                        </div>
+                        <ol class="questao-alternativas ml" type="I">
+                            <li> C(grafita) 1
+                                <imagem>FRACAO_01</imagem>
+                                O2(g) &#10141; CO(g) ΔHI</li>
+                            <li>Sn(s) 1 O2(g) &#10141; SnO2(s) ΔHII</li>
+                        </ol>
+                        <p class="exercicio-text ml">Sabendo-se que ΔHI e ΔHII são as entalpias de reação para os processos I e II, respectivamente, julgue os itens seguintes em verdadeiros ou falsos:</p>
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>( )</b></p>
+                            <p class="exercicio-text">Os reagentes, na reação II, são as substâncias simples mais estáveis dos elementos estanho e oxigênio.</p>
+                        </div>
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>( )</b></p>
+                            <p class="exercicio-text">As quantidades ΔHI e ΔHII são conhecidas como variação de entalpia de formação de monóxido de carbono, CO(g), e óxido de estanho IV, SnO2(s), respectivamente.</p>
+                        </div>
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>( )</b></p>
+                            <p class="exercicio-text">O ΔHII é maior que zero.</p>
+                        </div>
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>( )</b></p>
+                            <p class="exercicio-text">A variação de entalpia de formação, ΔH0, de O2 (g) a 25 °C e 1 atm, por definição, é diferente de zero.</p>
+                        </div>
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>( )</b></p>
+                            <p class="exercicio-text">O processo II é um exemplo de combustão.</p>
+                        </div>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>8</b></p>
+                            <p class="exercicio-text"><b>UFPR</b> A perspectiva de esgotamento das reservas mundiais de petróleo nas próximas décadas tem incentivado o uso de biocombustíveis. Entre eles está o etanol, que no Brasil já vem sendo usado como combustível de automóveis
+                                há décadas.</p>
+                        </div>
+                        <img src="./assets/img/ID008-Q001-2020-EM-QUI-2S-L1-FA-U3-C10.png" alt="imagem" class="img-md">
+                        <p class="exercicio-text ml">Usando o gráfico, considere as afirmativas a seguir:</p>
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>1.</b></p>
+                            <p class="exercicio-text">A energia E2 refere-se à entalpia de formação do etanol.</p>
+                        </div>
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>2.</b></p>
+                            <p class="exercicio-text">E3 é a energia molar de vaporização da água.</p>
+                        </div>
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>3.</b></p>
+                            <p class="exercicio-text"> A entalpia de formação do etanol é um processo endotérmico.</p>
+                        </div>
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>4.</b></p>
+                            <p class="exercicio-text">E4 é a entalpia de combustão do etanol.</p>
+                        </div>
+                        <p class="exercicio-text ml">Assinale a alternativa correta:</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>Somente a afirmativa 4 é verdadeira.</li>
+                            <li>Somente a afirmativa 1 é verdadeira.</li>
+                            <li>Somente as afirmativas 3 e 4 são verdadeiras.</li>
+                            <li>Somente as afirmativas 1, 2 e 3 são verdadeiras.</li>
+                            <li>Somente as afirmativas 2 e 3 são verdadeiras.</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>9</b></p>
+                            <p class="exercicio-text"><b>Mackenzie-SP</b> O cicloexano (C6H12) é um hidrocarboneto líquido à temperatura ambiente, insolúvel em água, que pode ser obtido pela redução com hidrogênio, na presença de um catalisador e pressão adequados, a partir do
+                                benzeno, apresentando valor de entalpia padrão de formação igual a – 156 kJ/mol. Sabendo-se que as entalpias padrão de formação, da água líquida e do dióxido de carbono gasoso são, respectivamente, – 286 kJ/mol e – 394 kJ/mol,
+                                pode-se afirmar que a entalpia padrão de combustão do cicloexano é de</p>
+                        </div>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>– 524 kJ/mol</li>
+                            <li>– 836 kJ/mol</li>
+                            <li>– 3 924 kJ/mol</li>
+                            <li>– 4 236 kJ/mol</li>
+                            <li> – 6 000 kJ/mol</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>10</b></p>
+                            <p class="exercicio-text"><b>Enem 2016</b> O benzeno, um importante solvente para a indústria química, é obtido industrialmente pela destilação do petróleo. Contudo, também pode ser sintetizado pela trimerização do acetileno catalisada por ferro metálico
+                                sob altas temperaturas, conforme a equação química:</p>
+                        </div>
+                        <p class="exercicio-text ml">3 C<sup>2</sup>H<sup>2</sup>(g) &#10141; C<sup>6</sup>H<sup>6</sup>(&#8467;)</p>
+                        <p class="exercicio-text ml">A energia envolvida nesse processo pode ser calculada indiretamente pela variação de entalpia das reações de combustão das substâncias participantes, nas mesmas condições experimentais:</p>
+                        <ol class="questao-alternativas ml" type="I">
+                            <li>C2H2(g) 1
+                                <imagem>FRACAO_03</imagem>
+                                O2 (g) &#10141; 2 CO2(g) 1 H2O(&#8467;)</li>
+                            <p class="general-text">ΔH = – 310 kcal/mol</p>
+                            <li>C6H6(&#8467;) 1
+                                <imagem>FRACAO_04</imagem>
+                                O2(g) &#10141; 6 CO2(g) 1 3 H2O(&#8467;)</li>
+                            <p class="exercicio-text ml">ΔH = – 780 kcal/mol</p>
+                        </ol>
+                        <p class="exercicio-text ml">A variação de entalpia do processo de trimerização, em kcal, para a formação de um mol de benzeno é mais próxima de</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>– 1 090</li>
+                            <li>– 150</li>
+                            <li>– 50</li>
+                            <li> + 157</li>
+                            <li>+ 470</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>11</b></p>
+                            <p class="exercicio-text"><b>Enem</b> O aproveitamento de resíduos florestais vem se tornando cada dia mais atrativo, pois eles são uma fonte renovável de energia. A figura representa a queima de um bio-óleo extraído do resíduo de madeira, sendo ΔH1
+                                a variação de entalpia devido à queima de 1 g desse bio-óleo, resultando em gás carbônico e água líquida, e ΔH2, a variação de entalpia envolvida na conversão de 1 g de água no estado gasoso para o estado líquido.</p>
+                        </div>
+                        <img src="./assets/img/ID009-Q002-2020-EM-QUI-2S-L1-FA-U3-C10.png" alt="imagem" class="img-md">
+                        <p class="exercicio-text ml">A variação de entalpia, em kJ, para a queima de 5 g desse bio-óleo resultando em CO2 (gasoso) e H2O (gasoso) é:</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li> - 106</li>
+                            <li>- 94</li>
+                            <li>- 82</li>
+                            <li>- 21,2</li>
+                            <li>- 16,4</li>
+                        </ol>
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>12</b></p>
+                            <p class="exercicio-text"> <b>PUC-SP 2017</b> Dado:
+                            </p>
+                        </div>
+                        <img src="./assets/img/p39.png" alt="imagem" class="img-md">
+                        <p class="exercicio-text ml">A reação de hidrogenação do etileno ocorre com aquecimento, na presença de níquel em pó como catalisador. A equação termoquímica que representa o processo é</p>
+                        <p class="exercicio-text ml">C2H4(g) + H2(g) &#10141; C2H6(g) ΔH0 = – 137 kJ/mol</p>
+                        <p class="exercicio-text ml">A partir dessas informações, pode-se deduzir que a energia de ligação da dupla ligação que ocorre entre os átomos de C no etileno é igual a</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>186 kJ/mol</li>
+                            <li>599 kJ/mol</li>
+                            <li> 692 kJ/mol</li>
+                            <li> 736 kJ/mol</li>
+                        </ol>
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>13</b></p>
+                            <p class="exercicio-text"><b>Famerp-SP 2021</b>O etanol (C2H6O) pode ser produzido em laboratório por meio da hidratação do etileno (C2H4), conforme a equação:</p>
+                        </div>
+                        <p class="exercicio-text ml">C2H4 1 H2O &#10141; C2H6O</p>
+                        <p class="exercicio-text ml">A entalpia dessa reação pode ser calculada por meio da Lei de Hess, utilizando-se as equações:</p>
+                        <p class="exercicio-text ml">C2H4 + 3 O2 &#10141; 2 CO2 + 2 H2O</p>
+                        <p class="exercicio-text ml">ΔH = -1 322 kJ/mol de C2H4</p>
+                        <p class="exercicio-text ml">C2H6O + 3 O2 &#10141; 2 CO2 + 3 H2O</p>
+                        <p class="exercicio-text ml">ΔH = -1 367 kJ/mol de C2H6O</p>
+                        <p class="exercicio-text ml">Com base nas informações fornecidas, a produção de 10 mol de etanol</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>absorve 2 689 kJ de energia.</li>
+                            <li> libera 45 kJ de energia.</li>
+                            <li> libera 450 kJ de energia.</li>
+                            <li>absorve 450 kJ de energia.</li>
+                            <li>libera 2 689 kJ de energia.</li>
+                        </ol>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+
+
+                    <!-- fim -->
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

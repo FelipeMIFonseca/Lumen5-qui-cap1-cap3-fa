@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <pg08-09>
+    <imagem>em_disciplinar_5v_qui_u1_fa_cap1_008a015_p5.png</imagem>
+    <p class="img-credit">Arifamin9/Shutterstock</p>
+    <p class="img-subtitle">Uma reação de combustão é um processo exotérmico, ou seja, que libera energia na forma de calor.</p>
+    <p class="general-text">FRENTE A</p>
+    <TITULO_UNID>
+      <TITULO_UNID>UNIDADE</TITULO_UNID>
+      <TITULO_UNID>1</TITULO_UNID>
+    </TITULO_UNID>
+    <TITULO_UNID_TEXTO>Termoquímica</TITULO_UNID_TEXTO>
+    <p class="general-text">
+      <p class="general-text">Antes de servir à produção de eletricidade e todos os benefícios que nos traz, a energia de origem térmica cumpre papel essencial na produção de calor: no uso doméstico, para aquecer e cozinhar; no uso veicular, o calor produz gases para fazer os automóveis se moverem.</p>
+      <p class="general-text">No contexto da Química e da Bioquímica, a energia armazenada nos compostos pode ser entendida (e calculada) como um componente estequiometricamente relacionado aos reagentes e produtos das equações químicas.</p>
+      <p class="general-text">A Termoquímica, assunto desta unidade, trata das transformações químicas e do conteúdo energético envolvido nos compostos. A grandeza mais significativa da Termoquímica é a entalpia, cuja definição veremos no capítulo 1. No capítulo 2, iremos representá-la nas equações químicas ou em diagramas energéticos. Finalmente, no capítulo 3, veremos as maneiras de calcular a variação de entalpia de uma equação termoquímica.</p>
+    </p>
+    <p class="general-text">
+      <p class="general-text">O carvão e a grafite são alótropos, ou seja, formados pelo mesmo elemento químico: o carbono. Por que a queima da grafite libera mais calor que o carvão?</p>
+      <p class="general-text">Ao dissolvermos ácido sulfúrico em água, notamos aumento na temperatura do sistema. Entretanto, ao dissolvermos cloreto de cálcio, notamos abaixamento da temperatura do sistema. Qual a razão para essa diferença de comportamentos?</p>
+    </p>
+  </pg08-09>
+  <pg10>
+    <TITULO_CAP>CAPÍTULO 1#</TITULO_CAP>
+    <TITULO_CAP_TEXTO>Introdução à Termoquímica</TITULO_CAP_TEXTO>
+    <imagem>
+      ID003-F002-EM-QUI-2S-L1-FA-U3-C8.png
+      <p class="img-credit">EVELYN CALIMAM SAMPAIO/Shutterstock.com</p>
+    </imagem>
+    <p class="img-subtitle">Doce de abóbora caseiro</p>
+    <p class="quote">
+     <p class="quote-title">Por que se usa cal em receitas de doces?</p>
+      <p class="quote">[...] A cal virgem para uso culinário, óxido de cálcio com alto grau de pureza, tem o poder de conferir aos doces de frutas uma fina camada de aspecto vítreo na superfície. São as famosas frutas cristalizadas que causam reações de amor e ódio entre os comedores de panetone. “A reação química provocada por ela libera calor, que funciona como uma espécie de semicozimento”, explica a professora Glaucia Maria Pastore, da Unicamp. “Essa energia liberada amolece as estruturas celulares da fruta, que não perde o aroma. O gosto fica peculiar.” A reação química já começa na mistura da cal à água. A cal se transforma em hidróxido de cálcio, um fenômeno altamente exotérmico, ou seja, em que há grande desprendimento de calor. Essa solução deve ficar em repouso por 24 horas. Dela só se aproveita a água de cal, a solução límpida que fica por cima. É nessa água de cal que os pedaços de abóbora ou de ­mamão vão passar mais 24 horas.</p>
+      <p class="quote">O hidróxido de cálcio que fica impregnado na abóbora reage como o gás carbônico do ar, formando carbonato de cálcio (substância presente no mármore) e liberando vapor de água. Depois de fria, aquela camada vítrea nada mais é que o carbonato de cálcio cristalizado. [...]</p>
+      <p class="quote-source">
+        LIMA, Claudia de Castro. &quot;Por que gostamos tanto de comer doce?&quot;.
+        <i>Superinteressante</i>
+        , 31 maio 2003. Abril Comunicações S.A.Disponível em: &lt;https://super.abril.com.br/saude/a-importancia-dos-doces/&gt;. Acesso em: 1o set. 2021.
+      </p>
+    </p>
+    <texto_lista_bullets>
+      <texto_lista_bullets>•	Quais são as aplicações de fenômenos que liberam energia?</texto_lista_bullets>
+      <texto_lista_bullets>•	Da mesma maneira que existem os processos que liberam energia, também existem os processos que absorvem energia. De onde essa energia sai?</texto_lista_bullets>
+      <texto_lista_bullets>•	Como são denominados esses fenômenos?</texto_lista_bullets>
+    </texto_lista_bullets>
+    <p class="general-text">
+      <imagem>Imagem</imagem>
+      Neste capítulo, serão abordadas as habilidades
+      <b>EM13CNT101</b>
+      ,
+      <b>EM13CNT102</b>
+      ,
+      <b>EM13CNT203</b>
+      e
+      <b>EM13CNT301</b>
+      .
+    </p>
+  </pg10>
+  <pg11-12>
+    <p class="general-text">
+      <titulo1>
+        <imagem>01_título1</imagem>
+        Termodinâmica
+      </titulo1>
+      <p class="general-text">Neste capítulo, estudaremos a energia térmica e suas trocas com o ambiente. A Termodinâmica tem como objetivo estudar as transformações de energia e a viabilidade de tais transformações e, para isso, faz uso de duas leis fundamentais:</p>
+      <texto_lista_bullets>•	A primeira lei é o princípio da conservação de energia, ou seja, a energia não pode ser criada e também não pode ser destruída, apenas pode ser transformada.</texto_lista_bullets>
+      <texto_lista_bullets>•	A segunda lei trata da transferência de calor do corpo mais quente para o mais frio, espontaneamente.</texto_lista_bullets>
+      <p class="general-text">Para iniciarmos nossos estudos em energia e como devemos considerá-la nas transformações químicas, precisamos definir alguns conceitos que serão úteis, como o sistema e a vizinhança.</p>
+      <p class="general-text">Denomina-se sistema o conjunto que se estuda, enquanto a vizinhança é tudo que está ao redor do sistema. Por exemplo, se nosso objeto de estudo é o planeta Terra, podemos dizer que o Universo é a vizinhança.</p>
+      <p class="general-text">Sistema e vizinhança podem trocar energia, em qualquer sentido.</p>
+      <imagem>ID004-I001-EM-QUI-2S-L1-FA-U3-C8.png</imagem>
+      <p class="general-text">O trabalho (t) pode ser definido como a medida da energia transferida pela aplicação de uma força ao longo do deslocamento, como empurrar um objeto ou variar o volume de uma porção gasosa.</p>
+      <p class="general-text">Quando se realiza trabalho sobre um sistema, transfere-se energia para ele, e essa energia pode ser armazenada em forma de calor.</p>
+      <p class="general-text">Mas o que é o calor? Já vimos anteriormente que o calor pode ser definido como a energia que passa de um objeto mais quente para outro mais frio. Por exemplo, sentimos o calor de uma lareira acesa quando nos aproximamos dela, pois o calor produzido pelo sistema (a madeira queimando na lareira) é capaz de aumentar a temperatura da vizinhança. O funcionamento da lareira acontece por causa de uma reação química que libera calor: a combustão, que transforma um combustível (que pode ser qualquer substância contendo energia acumulada) em substâncias de menor conteúdo energético, por meio de um comburente, que nesse caso é o gás oxigênio.</p>
+      <p class="general-text">É possível imaginar que o sistema contenha certa quantidade de energia, assim como a vizinhança, visto que existem transferências de energia entre eles. Mas como quantificar essa grandeza?</p>
+      <p class="general-text">
+        A energia interna de um sistema de partículas considera todas as energias associadas a ele: as energias cinéticas de agitação, a energia potencial associada ao estado de agregação, a energia armazenada nas ligações e a energia acumulada nos núcleos atômicos. O somatório de todas essas energias é a
+        <b>energia interna do sistema</b>
+        , que é representada pela letra
+        <b>U</b>
+        .
+      </p>
+      <p class="general-text">
+        Devido à complexidade dessas energias, quantificar a entalpia de um sistema não é simples; então, na maioria dos casos não conseguimos determinar o seu valor. O que é feito então é quantificar a variação de energia interna do sistema,
+        <b>DU</b>
+        , em decorrência dos processos ocorridos.
+      </p>
+    </p>
+    <boxe_11>
+      <boxe_11_titulo1>Em História vemos que...06_BOX_11</boxe_11_titulo1>
+      <boxe_11_texto>... as máquinas a vapor, símbolos do processo de industrialização e das mudanças sociais e trabalhistas trazidas pela primeira Revolução Industrial, forneceram energia para movimentar as indústrias da época, na Inglaterra, mudando o modo de produção, de artesanal para formas mais complexas de manufatura. A Termodinâmica se desenvolveu durante esse período, como uma resposta aos problemas de eficiência de processos envolvendo gases e vapores.</boxe_11_texto>
+      <boxe_11_texto>Nas aulas de História, você estudará a Revolução Industrial, suas causas e consequências, e o papel do carvão e outras fontes de energia nas indústrias da época.</boxe_11_texto>
+    </boxe_11>
+    <boxe_06>
+      <boxe_06_titulo1>EmFísica vemos que...06_BOX_06</boxe_06_titulo1>
+      <boxe_06_texto>... a energia pode ser definida como capacidade de realizar trabalho ou de transferir calor, enquanto a temperatura indica o grau de energia térmica de um corpo.</boxe_06_texto>
+      <boxe_06_texto>Sendo o calor uma forma de energia, a principal diferença entre o calor e a temperatura é que a temperatura não depende da massa do corpo, mas o calor depende. Historicamente, o calor é medido em calorias, uma unidade de energia relacionada a qualquer fenômeno que envolve trocas de calor.</boxe_06_texto>
+      <boxe_06_texto>Quando não há diferença de temperatura entre os corpos, as trocas de energia ocorrem na forma de trabalho.</boxe_06_texto>
+    </boxe_06>
+    <boxe_17>
+      <boxe_17_titulo1>Fique ligado 06_BOX_17</boxe_17_titulo1>
+      <boxe_17_texto>
+        Neste capítulo, as medidas de calor serão expressas em calorias e também em joules. Uma caloria é a quantidade de energia necessária para elevar a temperatura de 1 grama de água em 1 °C, e um joule é a quantidade de energia necessária para elevar a temperatura de 0,24 g de água em 1 °C. Essa relação é o resultado da compreensão de que
+        <b>o calor e o trabalho são grandezas equivalentes</b>
+        .
+      </boxe_17_texto>
+      <boxe_17_texto>1 cal 5 4,18 J, logo, 1 kcal 5 4,18 kJ</boxe_17_texto>
+      <boxe_17_texto>No Sistema Internacional de unidades, define-se o joule como o trabalho envolvido no deslocamento de um objeto em 1 metro com uma força de 1 newton.</boxe_17_texto>
+    </boxe_17>
+    <p class="general-text">
+      <p class="general-text">Sejam os fenômenos ocorridos no sistema químicos ou físicos, eles serão acompanhados de uma quantidade de calor perdido ou recebido pelo sistema (Q) e de um trabalho realizado pelo sistema ou sobre ele (t), e esses valores fornecerão a variação da energia interna:</p>
+      <p class="general-text">DU 5 Q 1 t</p>
+      <p class="general-text">Essa é a primeira lei da Termodinâmica, de caráter universal, aplicável a sistemas de qualquer natureza. É uma interpretação do princípio da conservação da energia.</p>
+      <texto_lista_bullets>
+        •	Quando ΔU assume valores positivos, significa que o sistema recebeu energia da vizinhança e o processo é dito
+        <b>endotérmico</b>
+        . A vizinhança pode experimentar diminuição de temperatura
+      </texto_lista_bullets>
+      <texto_lista_bullets>
+        •	Quando ΔU assume valores negativos, significa que o sistema forneceu energia para a vizinhança e o processo é dito
+        <b>exotérmico</b>
+        . A vizinhança pode experimentar aumento de temperatura.
+      </texto_lista_bullets>
+      <p class="general-text">A reação de combustão que ocorre nos motores dos veículos é um exemplo de processo exotérmico, enquanto a fotossíntese, que ocorre nas plantas clorofiladas, é um exemplo de processo endotérmico.</p>
+      <titulo2>Mudanças de fases e energia</titulo2>
+      <p class="general-text">As mudanças de estado físico foram estudadas anteriormente; agora vamos analisá-las do ponto de vista da Termodinâmica, determinando os processos endotérmicos e exotérmicos.</p>
+      <p class="general-text">Quando há mudança de estado físico do sólido para o líquido temos um processo endotérmico, pois é necessário que o sólido absorva energia para se transformar em líquido. Podemos pensar em outro processo endotérmico quando aquecemos a água: estamos fornecendo energia para que ela se transforme em vapor. No entanto, quando queremos transformar a água em gelo, retirarmos calor do sistema. Neste caso, estamos diante de uma transformação exotérmica, ou seja, a água elimina calor para se transformar em gelo.</p>
+      <p class="general-text">As mudanças de estado físico ressublimação e liquefação também envolvem trocas de calor com a vizinhança, pois são processos exotérmicos. Já a sublimação é considerada uma transformação endotérmica.</p>
+    </p>
+  </pg11-12>
+  <pg12>
+    <secao_01>
+      <secao_01_texto>
+        <secao_01_titulo1>
+          <imagem>06_BOXE_04</imagem>
+          Questão resolvida
+        </secao_01_titulo1>
+        <exercicio_enunciado>
+          1
+          <b>Enem Libras 2017</b>
+          Alguns fenômenos observados no cotidiano estão relacionados com as mudanças ocorridas no estado físico da matéria. Por exemplo, no sistema constituído por água em um recipiente de barro, a água mantém-se fresca mesmo em dias quentes.
+        </exercicio_enunciado>
+        <texto_geral_exercicio>A explicação para o fenômeno descrito é que, nas proximidades da superfície do recipiente, a</texto_geral_exercicio>
+        <exercicio_lista_letra>
+          <b>a)</b>
+          condensação do líquido libera energia para o meio.
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>b)</b>
+          solidificação do líquido libera energia para o meio.
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>c)</b>
+          evaporação do líquido retira energia do ­sistema.
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>d)</b>
+          sublimação do sólido retira energia do ­sistema.
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>e)</b>
+          fusão do sólido retira energia do sistema.
+        </exercicio_lista_letra>
+        <Titulo_resolucao>Resolução:</Titulo_resolucao>
+        <Texto_Resolucao>Alternativa: C</Texto_Resolucao>
+        <Texto_Resolucao>A evaporação que ocorre na superfície do líquido retira calor da massa líquida, resfriando-a.</Texto_Resolucao>
+        <Texto_Resolucao>H2O(L) 1 calor ñ H2O(g)</Texto_Resolucao>
+      </secao_01_texto>
+    </secao_01>
+  </pg12>
+  <pg12-13>
+    <p class="general-text">
+      <imagem>01_titulo1</imagem>
+      <titulo1>O conceito de entalpia</titulo1>
+      <p class="general-text">É bastante comum que as reações químicas ocorram em ambientes controlados, onde a pressão P é constante. Quando gases estão envolvidos nessas reações, como produtos ou reagentes, o trabalho (t) é realizado pelo sistema ou sobre ele, pois esses gases poderão se expandir ou se comprimir.</p>
+      <p class="general-text">Quando o gás é gerado na reação, a tendência é ocorrer expansão contra a fronteira com a vizinhança, realizando, assim, trabalho mecânico. Numericamente, esse trabalho pode ser calculado como a pressão multiplicada pela variação de volume do gás:</p>
+      <p class="general-text">t 5 2P ? DV</p>
+      <p class="general-text">Lembrando que DV 5 Vfinal 2 Vinicial</p>
+      <p class="general-text">A variação de entalpia de uma reação, representada por DH, é uma grandeza que revela a quantidade de calor absorvido ou liberado por uma reação química. Sua unidade é a mesma da energia ou do trabalho (calorias ou joules) e só pode ser definida quando a reação acontece a pressão P constante e apenas um tipo de trabalho é realizado, o trabalho 2P ? DV.</p>
+      <p class="general-text">
+        Para quantificar a variação de entalpia de um sistema que sofre uma transformação, precisamos entender que se trata de uma
+        <b>função de estado</b>
+        , ou seja, é uma grandeza que depende apenas dos estados inicial e final do sistema. Essa variação, portanto, é definida como:
+      </p>
+      <p class="general-text">DH 5 DU 2 t</p>
+      <p class="general-text">Lembrando que</p>
+      <p class="general-text">DU é a variação da energia interna do sistema,</p>
+      <p class="general-text">DU 5 Q 1 t,</p>
+      <p class="general-text">t 5 2P ? DV,</p>
+      <p class="general-text">e realizando as devidas substituições, temos:</p>
+      <p class="general-text">DH 5 Q 1 t – t</p>
+      <p class="general-text">Logo, DH 5 Q</p>
+      <p class="general-text">Assim, definimos a variação de entalpia de um processo como a quantidade de calor envolvida no processo a pressão constante e podemos representá-la por:</p>
+      <p class="general-text">DH 5 Hfinal – Hinicial</p>
+      <p class="general-text">No caso de uma transformação química, onde temos reagentes se transformando em produtos, vale a analogia de que os reagentes são o estado inicial do processo, enquanto os produtos são o estado final; então, a expressão DH 5 Hfinal – Hinicial pode ser reescrita como:</p>
+      <p class="general-text">DH 5 Hprodutos – Hreagentes</p>
+      <p class="general-text">Convém ressaltar que não existe uma maneira de determinar experimentalmente a entalpia inicial, Hreagentes, e a entalpia final, Hprodutos. O que podemos determinar, utilizando calorímetros, é a variação de entalpia, DH, da reação.</p>
+      <p class="general-text">De maneira similar a DU, quando DH &gt; 0 o processo é considerado endotérmico (absorve energia) e quando DH &lt; 0 o processo é conside-rado exotérmico (libera energia).</p>
+    </p>
+    <boxe_17>
+      <boxe_17_titulo1></boxe_17_titulo1>
+      <boxe_17_titulo1>Fique ligado 06_BOXE_17_MT</boxe_17_titulo1>
+      <boxe_17_texto>
+        O
+        <b>sinal negativo</b>
+        indica que, na expansão, o trabalho está sendo feito pelo sistema sobre a vizinhança, e não pela vizinhança.
+      </boxe_17_texto>
+    </boxe_17>
+    <boxe_02>
+      <imagem>06_BOXE_02</imagem>
+      <boxe_02_titulo1>Mais</boxe_02_titulo1>
+      <imagem>LID009-F006-EM-QUI-2S-L1-FA-U3-C8.png</imagem>
+      <p class="img-credit">Reprodução</p>
+      <boxe_02_titulo_2>
+        <i>A história e a química do fogo</i>
+        , Aécio Pereira Chagas. 2. ed. Campinas: Átomo, 2013.
+      </boxe_02_titulo_2>
+      <boxe_02_texto>Leia esse livro e entenda melhor as relações entre o homem e o fogo. As reações exotérmicas sempre despertaram a curiosidade nas pessoas, não apenas por liberarem energia, mas porque em alguns casos essa liberação de energia é tão violenta que causa explosões. Além disso, o fogo é causado por reações exotérmicas que não só liberam energia na forma de calor, mas também na forma de luz, e a humanidade tem feito uso do fogo desde que conseguiu controlá-lo.</boxe_02_texto>
+    </boxe_02>
+  </pg12-13>
+  <pg14>
+    <secao_02>
+      <secao_02_texto>
+        <secao_02_titulo1>
+          <imagem>secao_02</imagem>
+          Aplicando conhecimentos
+        </secao_02_titulo1>
+        <exercicio_enunciado>1	Classifique os fenômenos a seguir em endotérmicos ou exotérmicos:</exercicio_enunciado>
+        <exercicio_enunciado>
+          <b>a)</b>
+          Combustão da gasolina no motor de um carro.
+        </exercicio_enunciado>
+        <exercicio_lista_letra>
+          <b>b)</b>
+          O vidro do banheiro que embaça quando tomamos um banho quente.
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>c)</b>
+          Fotossíntese das folhas de uma árvore.
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>d)</b>
+          Ferver a água para cozinhar.
+        </exercicio_lista_letra>
+        <exercicio_enunciado>2	Quais mudanças de estado físico são endotérmicas?</exercicio_enunciado>
+        <exercicio_enunciado>3	Quais mudanças de estado físico são exotérmicas?</exercicio_enunciado>
+        <exercicio_enunciado>4	A gasolina é um dos combustíveis mais utilizados em veículos, mas tem caráter poluidor, pois emite o gás CO2 durante a sua combustão. Estima-se que a combustão de 1 mol de n-octano (o principal componente da gasolina, de fórmula C8H18) libere 5 471 kJ. Quantos quilogramas de gás carbônico são emitidos na atmosfera ao se obterem 106 kJ de energia na queima de octano?</exercicio_enunciado>
+        <texto_geral_exercicio>Dados: massa molar do CO2: 44 g/mol.</texto_geral_exercicio>
+        <exercicio_enunciado>
+          <b>a)</b>
+          50 kg.
+        </exercicio_enunciado>
+        <b>b)</b>
+        <exercicio_lista_letra>	55 kg.</exercicio_lista_letra>
+        <b>c)</b>
+        <exercicio_lista_letra>	57 kg.</exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>d)</b>
+          64 kg.
+        </exercicio_lista_letra>
+      </secao_02_texto>
+    </secao_02>
+  </pg14>
+  <pg14-15>
+    <secao_03>
+      <secao_03_texto>
+        <imagem>secao_03</imagem>
+        <secao_03_titulo1>Consolidando saberes</secao_03_titulo1>
+        <exercicio_enunciado>
+          1
+          <b>Unicamp-SP 2018</b>
+          Em 12 de maio de 2017, o Metrô de São Paulo trocou 240 metros de trilhos de uma de suas linhas, numa operação feita de madrugada, em apenas três horas. Na solda entre o trilho novo e o usado empregou-se uma reação química denominada térmita, que permite a obtenção de uma temperatura local de cerca de 2 000 °C. A reação utilizada foi entre um óxido de ferro e o alumínio metálico.
+        </exercicio_enunciado>
+        <texto_geral_exercicio>De acordo com essas informações, uma possível equação termoquímica do processo utilizado seria</texto_geral_exercicio>
+        <exercicio_enunciado>
+          <b>a)</b>
+          Fe<sub>2</sub>O<sub>3</sub> 1 + A&#8467; &#10141; 2 Fe + A&#8467;<sub>2</sub>O<sub>3</sub>	  ΔH 5 1852 kJ/mol
+        </exercicio_enunciado>
+        <exercicio_lista_letra>
+          <b>b)</b>
+          FeO<sub>3</sub> + A&#8467; &#10141; Fe + A&#8467;O<sub>3</sub>	  ΔH 5 2852 kJ/mol
+        </exercicio_lista_letra>
+        <exercicio_enunciado>
+          <b>c)</b>
+          FeO<sub>3</sub> + A&#8467; &#10141; Fe + A&#8467;O<sub>3</sub>	  ΔH 5 1852 kJ/mol
+        </exercicio_enunciado>
+        <exercicio_lista_letra>
+          <b>d)</b>
+          Fe<sub>2</sub>O<sub>3</sub> + 2 A&#8467; &#10141; 2 Fe + A&#8467;<sub>2</sub>O<sub>3</sub>	  ΔH = 2852 kJ/mol
+        </exercicio_lista_letra>
+        <exercicio_enunciado>
+          2
+          <b>UFRGS 2017</b>
+          Considere as seguintes afirmações sobre a termoquímica.
+        </exercicio_enunciado>
+        <exercicio_lista_romano>
+          <b>I.</b>
+          A vaporização do etanol é um processo exotérmico.
+        </exercicio_lista_romano>
+        <exercicio_lista_romano>
+          <b>II.</b>
+          Os produtos de uma reação de combustão têm entalpia inferior aos reagentes.
+        </exercicio_lista_romano>
+        <exercicio_lista_letra>
+          <b>III.</b>
+          A reação química da cal viva (óxido de cálcio) com a água é um processo em que ocorre absorção de calor.
+        </exercicio_lista_letra>
+        <texto_geral_exercicio>Quais estão corretas?</texto_geral_exercicio>
+        <exercicio_lista_letra>
+          <b>a)</b>
+          Apenas I
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>b)</b>
+          Apenas II
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>c)</b>
+          Apenas III
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>d)</b>
+          Apenas I e II
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>e)</b>
+          I, II e III
+        </exercicio_lista_letra>
+        <exercicio_enunciado>
+          3
+          <b>Uem-PR 2018</b>
+          Sabendo que a combustão completa de 1 mol de metano libera 802 kJ de energia; que a combustão completa de 1 mol de etanol libera 1 350 kJ de energia e que o gás oxigênio representa 20% do volume total do ar, assinale o que for correto.
+        </exercicio_enunciado>
+        <texto_geral_exercicio>
+          <b>01.</b>
+          O etanol é uma fonte de energia não poluente, pois, quando queimado com oxigênio, produz apenas água e calor.
+        </texto_geral_exercicio>
+        <texto_geral_exercicio>
+          <b>02.</b>
+          O metano pode ser obtido a partir da decomposição da matéria orgânica presente em restos de alimentos.
+        </texto_geral_exercicio>
+        <texto_geral_exercicio>
+          <b>04.</b>
+          A combustão incompleta do metano pode levar à produção de fuligem devido à formação de carbono.
+        </texto_geral_exercicio>
+        <texto_geral_exercicio>
+          <b>08.</b>
+          Estando os gases na CNPT, para a queima total de 45 L de metano são necessários aproximadamente 450 L de ar.
+        </texto_geral_exercicio>
+        <texto_geral_exercicio>
+          <b>16.</b>
+          O metano produz maior quantidade de energia por quantidade de massa do que o etanol.
+        </texto_geral_exercicio>
+        <b>Soma:</b>
+        <Texto_Resolucao>
+          <imagem>fake_input</imagem>
+        </Texto_Resolucao>
+        <exercicio_enunciado>
+          4
+          <b>UEPG-PR 2016</b>
+          Dadas as equações abaixo, que representam a combustão dos compostos metanol e etanol, e considerando iguais densidades dos dois líquidos, assinale o que for correto.
+        </exercicio_enunciado>
+        <b>Dados:</b>
+        <texto_geral_exercicio> C 5 12; O 5 16; H 5 1</texto_geral_exercicio>
+        <b>I.</b>
+        <exercicio_lista_romano>
+          <imagem>EQUACAO_01</imagem>
+          DH 5 2726 kJ/mol
+        </exercicio_lista_romano>
+        <b>II.</b>
+        <exercicio_lista_romano>	C2H6O 1 3 O2 ñ 2 CO2 1 3 H2O   DH 5 21 368 kJ/mol</exercicio_lista_romano>
+      </secao_03_texto>
+      <secao_03_texto>
+        <texto_geral_exercicio>
+          <b>01.</b>
+          Na combustão de volumes iguais dos dois compostos, o etanol libera maior quantidade de calor.
+        </texto_geral_exercicio>
+        <texto_geral_exercicio>
+          <b>02.</b>
+          Volumes iguais dos dois compostos apresentam massas iguais.
+        </texto_geral_exercicio>
+        <texto_geral_exercicio>
+          <b>04.</b>
+          Nas CNTP, a queima de 1 mol de etanol consome 22,4 L de O2.
+        </texto_geral_exercicio>
+        <texto_geral_exercicio>
+          <b>08.</b>
+          32 g de metanol liberam 726 kJ de calor.
+        </texto_geral_exercicio>
+        <texto_geral_exercicio>
+          <b>Soma:</b>
+          <imagem>fake-input</imagem>
+        </texto_geral_exercicio>
+        <exercicio_enunciado>
+          5
+          <b>UPF-RS 2016</b>
+          A transformação dos materiais está presente no setor produtivo e nos afazeres diários. Esses processos envolvem consumo e liberação de energia. A conversão da energia é uma das principais buscas da atual sociedade tecnológica. Analise as seguintes afirmativas, relacionadas aos processos que envolvem consumo e liberação de energia.
+        </exercicio_enunciado>
+        <exercicio_lista_romano>
+          <b>I.</b>
+          A solidificação da água em gelo, em dias de inverno, nas temperaturas negativas, ocorre com liberação de energia.
+        </exercicio_lista_romano>
+        <exercicio_lista_romano>
+          <b>II.</b>
+          A equação Fe2O3 1 3 C 1 energia ñ 2 Fe 1 3 CO2 representa a transformação do minério de ferro em ferro metálico, nas siderúrgicas, e é uma reação exotérmica.
+        </exercicio_lista_romano>
+        <exercicio_lista_romano>
+          <b>III.</b>
+          A decomposição da sacarose é representada pela equação C12H22O11 1 energia ñ 12 C 1 1 11 H2O e necessita de absorção de energia para que a reação química ocorra.
+        </exercicio_lista_romano>
+        <exercicio_lista_romano>
+          <b>IV.</b>
+          A combustão do etanol nos carros é representada pela equação C2H5OH 1 energia 1 3 O2 ñ ñ 2 CO2 1 3 H2O e absorve uma grande quantidade de calor, em um processo endotérmico, que depois será utilizado para o movimento do carro.
+        </exercicio_lista_romano>
+        <texto_geral_exercicio>Está correto apenas o que se afirma em:</texto_geral_exercicio>
+        <exercicio_lista_letra>
+          <b>a)</b>
+          I e II
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>b)</b>
+          II e III
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>c)</b>
+          I e IV
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>d)</b>
+          II, III e IV
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>e)</b>
+          I e III
+        </exercicio_lista_letra>
+        <exercicio_enunciado>
+          6
+          <b>Ueg-GO 2016</b>
+          Os hidrocarbonetos são largamente utilizados como combustíveis devido ao seu alto poder calorífico. Dentre eles destacam-se o metano e o butano, os quais apresentam calores de combustão iguais a 208 e 689 kcal/mol, respectivamente.
+        </exercicio_enunciado>
+        <texto_geral_exercicio>A energia produzida, em kcal/mol, pela combustão completa de 1 000 g de uma mistura de metano e butano na proporção em massa de 2 partes do primeiro para 3 partes do segundo, será aproximadamente</texto_geral_exercicio>
+        <exercicio_lista_letra>
+          <b>a)</b>
+          11 900
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>b)</b>
+          13 000
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>c)</b>
+          12 300
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>d)</b>
+          19 300
+        </exercicio_lista_letra>
+        <exercicio_enunciado>
+          7
+          <b>Uema 2016</b>
+          Leia a seguinte manchete recentemente veiculada em emissora de televisão nacional.
+        </exercicio_enunciado>
+        <p class="quote">“Combustível é uma substância que em contato com outra provoca uma reação química, produzindo energia que é liberada na forma de calor.”</p>
+        <p class="quote-source">PETROBRAS. Peça publicitária veiculada na TV Globo</p>
+        .
+        <texto_geral_exercicio>Não é simples definir energia, mas é fácil perceber sua existência. Nesse contexto, pode-se inferir que energia é a</texto_geral_exercicio>
+        <exercicio_lista_letra>
+          <b>a)</b>
+          grandeza que se manifesta apenas na forma de luz.
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>b)</b>
+          grandeza que se manifesta apenas na forma de calor.
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>c)</b>
+          grandeza que avalia a capacidade de um sistema realizar trabalho.
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>d)</b>
+          matéria que tem massa e ocupa lugar em dado espaço do sistema.
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>e)</b>
+          forma do calor fluir espontaneamente entre corpos com mesma temperatura.
+        </exercicio_lista_letra>
+        <exercicio_enunciado>
+          8
+          <b>UFG-GO</b>
+          Na digestão, os alimentos são modificados quimicamente pelo organismo, transformando-se em moléculas que reagem no interior das células para que energia seja liberada.
+        </exercicio_enunciado>
+        <texto_geral_exercicio>A equação química, não balanceada, a seguir representa a oxidação completa de um mol da substância tributirina, também conhecida como butirina, presente em certos alimentos</texto_geral_exercicio>
+        <texto_geral_exercicio>C15H26O6 1 O2 ñ CO2 1 H2O	DH5 28 120 kJ /mol</texto_geral_exercicio>
+        <texto_geral_exercicio>Considerando-se que toda a energia da reação esteja disponível para a realização de trabalho mecânico, quantos mols de O2 são necessários para que uma pessoa levante uma caixa de 20,3 kg do chão até uma altura h 5 2,0 m?</texto_geral_exercicio>
+        <b>Dados:</b>
+        <texto_geral_exercicio> g 5 10,0 m/s²</texto_geral_exercicio>
+        <exercicio_lista_letra>
+          <b>a)</b>
+          2,03 3 1024
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>b)</b>
+          4,06 3 1024
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>c)</b>
+          9,25 3 1024
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>d)</b>
+          18,50 3 1024
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>e)</b>
+          20,00 3 1024
+        </exercicio_lista_letra>
+        <exercicio_enunciado>
+          9
+          <b>Unicamp-SP 2018</b>
+          Mesmo em manhãs bem quentes, é comum ver um cão tomando sol. O pelo do animal esquenta e sua língua do lado de fora sugere que ele está cansado. O pelo do animal está muito quente, mas mesmo assim o cão permanece ao sol, garantindo a produção de vitamina D3. Durante essa exposição ao sol, ocorrem transferências de energia entre o cão e o ambiente, por processos indicados por números na figura abaixo.
+        </exercicio_enunciado>
+        <imagem>Unicamp-SP 2018.jpg</imagem>
+        <imagem></imagem>
+        <p class="quote-source">(Adaptado de KHAN ACADEMY, Endotherms and ectotherms. Disponível em www.khanacademy.org. Acessado em 26/07/17.</p>
+        )
+        <texto_geral_exercicio>Em ordem crescente, os números correspondem, respectivamente, aos processos de</texto_geral_exercicio>
+        <exercicio_lista_letra>
+          <b>a)</b>
+          convecção, evaporação, radiação, condução e radiação.
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>b)</b>
+          convecção, radiação, condução, radiação e evaporação.
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>c)</b>
+          condução, evaporação, convecção, radiação e radiação.
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>d)</b>
+          condução, radiação, convecção, evaporação e radiação.
+        </exercicio_lista_letra>
+      </secao_03_texto>
+    </secao_03>
+  </pg14-15>
+</Root>

@@ -1,0 +1,1170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <pg27>
+    <TITULO_CAP>Capítulo 3</TITULO_CAP>
+    <TITULO_CAP_TEXTO>Métodos para calcular ΔH</TITULO_CAP_TEXTO>
+    <imagem>ID001-F001-2020-EM-QUI-2S-L1-FA-U3-C10.png</imagem>
+    <p class="img-credit">Motortion/iStockphoto.com</credito>
+    <p class="img-subtitle">No laboratório de Química, podemos produzir muitos tipos de substâncias.</p>
+    <p class="quote">
+      <p class="quote-title">Se sabemos a fórmula da água, por que não a produzimos em laboratório?</p>
+      Imagine se fosse possível acabar com toda a sede do mundo com o uso de um laboratório. A ideia é simples: sabendo a fórmula da água (H2O), cientistas fariam o líquido em ambiente controlado e ele seria distribuído ou vendido às regiões mais necessitadas.E isso é, de fato, possível? Tecnicamente, sim. Mas os custos seriam tão altos, que dificilmente essa seria uma opção.Segundo o químico Fernando Galembeck, professor da Unicamp, a ciência sabe como pegar dois hidrogênios e uni-los a um oxigênio para formar uma molécula de água. A técnica existe e é conhecida. O problema, entretanto, está no custo da operação. “É muito caro conseguir o hidrogênio, já que ele precisaria vir do petróleo.”Apesar de existir na atmosfera, como o oxigênio, ele está presente em quantidade bem menor no ar. Portanto, a melhor maneira de conseguir hidrogênio é como derivado do refinamento do petróleo. Além disso, a reação de formação da molécula da água é muito perigosa, já que existe liberação de energia. &quot;Em grande quantidade, haveria uma liberação muito grande de energia. [A reação de formação da molécula] poderia ser explosiva”, comenta Amanda Pavão, diretora de projetos da Química Jr. Unesp Araraquara.[...]
+      <p class="quote-source">
+        YARAK, Aretha.
+        <i>UOL</i>
+        , 22 mar. 2017. Folhapress. Disponível em: &lt;https://www.uol.com.br/tilt/ultimas-noticias/redacao/2017/03/22/se-sabemos-a-formula-da-agua-por-que-nao-a-produzimos-em-laboratorio.htm&gt;. Acesso em: 17 nov. 2021.
+      </p>
+    </texto_citado>
+    <boxe_01>
+      <texto_lista_bullets>•	Toda reação explosiva, como a formação da água, é exotérmica?</texto_lista_bullets>
+      <texto_lista_bullets>•	O que caracteriza uma explosão?</texto_lista_bullets>
+      <texto_lista_bullets>•	Ao calcular a quantidade de energia liberada por uma reação antes de realizá-la, podemos evitar acidentes?</texto_lista_bullets>
+    </boxe_01>
+    <p class="general-text">
+      <imagem>01_titulo_1</imagem>
+      Neste capítulo, serão abordadas as habilidades
+      <b>EM13CNT101</b>
+      ,
+      <b>EM13CNT102</b>
+      <b>EM13CNT301</b>
+      e
+      <b>EM13CNT309</b>
+    </p>
+  </pg27>
+  <pg28>
+    <p class="general-text">
+      <titulo1>
+        <imagem>01_titulo_1</imagem>
+        Lei de Hess
+      </titulo1>
+      <p class="general-text">No capítulo anterior, aprendemos a calcular a variação de entalpia de um fenômeno químico fazendo uso das entalpias de formação das substâncias e da equação ΔH 5 Hprodutos – Hreagentes. Neste capítulo, vamos aprender duas outras maneiras teóricas de se calcularem os ΔH das reações: usando a lei de Hess e a energia de ligação das moléculas participantes.</p>
+      <p class="general-text">A lei de Hess é resultado dos estudos do químico suíço Germain Henry Hess (1802-1850). Segundo essa lei, a entalpia das reações depende apenas dos seus estados inicial e final, ou seja, de seus reagentes e produtos, não sendo relevante o caminho intermediário que a reação percorre. Podemos dizer mais: o valor de ΔH de um processo não depende do número de etapas intermediárias nem do tipo de reação que ocorre em cada etapa do processo.</p>
+      <p class="general-text">Muitos processos químicos ocorrem em várias etapas, enquanto outros ocorrem em uma etapa só, e cada etapa tem um valor próprio de ΔH.</p>
+      <p class="general-text">Veja um exemplo.</p>
+      <p class="general-text">A reação 2 H2(g) 1 2 NO(g) &#10141; N2(g) 1 2 H2O(&#8467;) ocorre em duas etapas:</p>
+      <texto_lista_bullets>•	Etapa 1: H2(g) 1 2 NO(g) &#10141; N2O(g) 1  H2O(&#8467;)	ΔH1 5 – 732,7 kJ</texto_lista_bullets>
+      <texto_lista_bullets>•	Etapa 2: N2O(g) 1  H2(g) &#10141; N2(g) 1  H2O(&#8467;)	ΔH2 5 – 19,5 kJ</texto_lista_bullets>
+      <p class="general-text">Como a reação mencionada pode ser vista como a soma das reações ocorridas nas duas etapas, pode-se afirmar que a variação de entalpia da reação geral será a soma das entalpias das duas etapas:</p>
+      Eqn001.png
+      <imagem></imagem>
+      <p class="general-text">De maneira gráfica:</p>
+      <imagem>ID016-I008-2020-EM-QUI-2S-L1-FA-U3-C10.png</imagem>
+      <p class="general-text">Para aplicar a lei de Hess, é necessário que a soma das reações intermediárias, ou etapas, resulte na reação cujo ΔH desejamos descobrir; para isso, pode ser necessário inverter alguma das etapas ou multiplicá-las por algum fator. Como vimos no capítulo anterior, quando invertemos uma equação termoquímica, invertemos também o sinal do valor de ΔH, e quando multiplicamos a equação, também multiplicamos o ΔH pelo mesmo valor.</p>
+    </p>
+  </pg28>
+  <pg29>
+    <secao_01>
+      <secao_01_texto>
+        <secao_01_titulo1>
+          <imagem>06_boxe_04</imagem>
+          Questão resolvida
+        </secao_01_titulo1>
+        <exercicio_enunciado>1	Calcular a variação de entalpia da seguinte reação:</exercicio_enunciado>
+        Eqn002.png
+        <imagem></imagem>
+        <texto_geral_exercicio>Aplicando a lei de Hess com as seguintes reações:</texto_geral_exercicio>
+        Eqn003.png
+        <titulo_resolucao>Resolução:</titulo_resolucao>
+        <texto_resolucao>Analisando a equação, concluímos que é necessário 1 mol de C2H4 nos reagentes. Vemos que a equação I apresenta exatamente 1 mol de C2H4 nos reagentes; então, podemos mantê-la:</texto_resolucao>
+        <imagem>Eqn004.png</imagem>
+        <texto_resolucao>Também é necessário 1 mol de H2 nos reagentes. A equação II apresenta exatamente 1 mol de H2 nos reagentes; então, também podemos mantê-la:</texto_resolucao>
+        Eqn005.png
+        <imagem></imagem>
+        <texto_resolucao>
+          Por último, é preciso deletar 1 mol de C2H6 nos produtos. A equação III apresenta 1 mol de C2H6
+          <b>nos</b>
+          reagentes; então, é necessário invertê-la. Ao inverter a equação, também invertemos o sinal do ΔH:
+        </texto_resolucao>
+        <imagem>Eqn006.png</imagem>
+        <texto_resolucao>Agora, vamos realizar a soma das três reações e dos três ΔH:</texto_resolucao>
+        Eqn007.png
+        <imagem></imagem>
+      </secao_01_texto>
+    </secao_01>
+  </pg29>
+  <pg29-32>
+    <p class="general-text">
+      <imagem>01_titulo_1</imagem>
+      <titulo1>	Energia de ligação</titulo1>
+      <p class="general-text">Quando dois átomos formam uma ligação covalente simples, dupla ou tripla, ocorre a liberação de uma quantidade E de energia. Os átomos liberam energia e adquirem estabilidade. Logo, a formação da ligação química é um processo exotérmico (ΔH &lt; 0).</p>
+      <p class="general-text">Para romper a ligação covalente simples, dupla ou tripla entre dois átomos, é necessário fornecer a mesma quantidade E de energia que estes haviam liberado na formação da ligação. Logo, o rompimento da ligação química é um processo endotérmico (ΔH &gt; 0).</p>
+      <p class="general-text">Denomina-se energia de ligação a quantidade de energia necessária para romper 1 mol de ligações covalentes (simples, duplas ou triplas) entre dois átomos, a fim de obter esses átomos isolados na fase gasosa. O valor da energia de ligação é sempre fornecido em módulo, pois o sinal irá depender de a ligação estar sendo rompida (ΔH &gt; 0) ou formada (ΔH &lt; 0).</p>
+    </p>
+    <p class="general-text">
+      <p class="general-text">Em um meio reacional, as ligações presentes nas moléculas dos reagentes são rompidas para novas ligações serem formadas nos produtos:</p>
+      Eqn013.png
+      <imagem></imagem>
+      <p class="general-text">Átomos estabelecem ligações entre si para adquirirem estabilidade. Quase sempre, adquirir estabilidade significa evoluir de um estado de maior energia para outro de menor energia.</p>
+      <texto_lista_bullets>•	O processo de romper uma ligação química é sempre endotérmico (Hrompidas).</texto_lista_bullets>
+      <p class="general-text">Exemplo: H E H(g) &#10141; H(g) 1 H(g) 	ΔH 5 1 104,2 kcal/mol</p>
+      <texto_lista_bullets>•	O processo de formar uma ligação química é sempre exotérmico (Hformadas).</texto_lista_bullets>
+      <p class="general-text">Exemplo: H(g) 1 H(g) &#10141; H E H(g) 	ΔH 5 – 104,2 kcal/mol</p>
+      <p class="general-text">Para calcular o ΔH das reações com base nas energias de ligação, utiliza-se a equação:</p>
+      <imagem>EQUACAO_01</imagem>
+    </p>
+    <tabela>
+      <Table xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="11" aid:tcols="8">
+        <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="8" aid:ccolwidth="482.1259842517877">Valores de algumas energias de ligação</tabela_titulo1>
+        <tabela_titulo2 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118104">Ligação</tabela_titulo2>
+        <tabela_titulo2 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="82.2047244092679">Energia (kJ/mol)</tabela_titulo2>
+        <tabela_titulo2 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="6.377952755905596"></tabela_titulo2>
+        <tabela_titulo2 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="86.45669291338584">Ligação</tabela_titulo2>
+        <tabela_titulo2 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="74.88188976377955">Energia (kJ/mol)</tabela_titulo2>
+        <tabela_titulo2 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="6.377952755724493"></tabela_titulo2>
+        <tabela_titulo2 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="86.45669291338584">Ligação</tabela_titulo2>
+        <tabela_titulo2 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="79.8425196852204">Energia (kJ/mol)</tabela_titulo2>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118104">H – H</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="82.2047244092679">435</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="6.377952755905596"></tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="86.45669291338584">H – Br</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="74.88188976377955">365</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="6.377952755724493"></tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="86.45669291338584">C – CL</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="79.8425196852204">338</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118104">F – F</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="82.2047244092679">155</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="6.377952755905596"></tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="86.45669291338584">H – O</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="74.88188976377955">462</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="6.377952755724493"></tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="86.45669291338584">C – Br</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="79.8425196852204">276</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118104">CL – CL</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="82.2047244092679">242</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="6.377952755905596"></tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="86.45669291338584">H – N</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="74.88188976377955">390</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="6.377952755724493"></tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="86.45669291338584">C – I</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="79.8425196852204">238</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118104">Br – Br</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="82.2047244092679">193</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="6.377952755905596"></tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="86.45669291338584">H – C</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="74.88188976377955">413</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="6.377952755724493"></tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="86.45669291338584">C – N</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="79.8425196852204">305</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118104">I – I</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="82.2047244092679">151</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="6.377952755905596"></tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="86.45669291338584">C – C</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="74.88188976377955">345</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="6.377952755724493"></tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="86.45669291338584">N – H</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="79.8425196852204">390</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118104">O 5 O</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="82.2047244092679">493</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="6.377952755905596"></tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="86.45669291338584">C 5 C</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="74.88188976377955">609</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="6.377952755724493"></tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="86.45669291338584">N – O</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="79.8425196852204">210</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118104">N Ë N</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="82.2047244092679">944</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="6.377952755905596"></tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="86.45669291338584">C Ë C</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="74.88188976377955">838</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="6.377952755724493"></tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="86.45669291338584">CL – O</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="79.8425196852204">205</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118104">H – F</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="82.2047244092679">564</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="6.377952755905596"></tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="86.45669291338584">C – O</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="74.88188976377955">360</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="6.377952755724493"></tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="86.45669291338584">N – CL</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="79.8425196852204">193</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118104">H – CL</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="82.2047244092679">431</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="6.377952755905596"></tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="86.45669291338584">C 5 O</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="74.88188976377955">803</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="6.377952755724493"></tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="86.45669291338584"></tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="79.8425196852204"></tabela_texto_geral>
+      </Table>
+    </tabela>
+    <p class="quote-source">Fonte: MAIA, J. D.; BIANCHI, J. C. de A. Química Geral: Fundamentos.</p>
+    <p class="general-text">
+      Os valores definidos  para as energias de ligação são valores médios. Veja o exemplo da molécula de metano, CH4: para romper sucessivamente as quatro ligações covalentes simples carbono-hidrogênio, são necessárias quatro quantidades de energia diferentes, denominadas energias de dissociação,
+      <b>D</b>
+      .
+    </p>
+    <tabela>
+      <Table xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="4" aid:tcols="3">
+        <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="114.09448818897638">Quebra da 1a ligação:</tabela_titulo1>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="210.94488188976385">
+          <imagem>Itens tabela.png</imagem>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="141.96850393700782">
+          <imagem>
+            <imagem>Itens tabela5.png</imagem>
+          </imagem>
+        </tabela_texto_geral>
+        <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="114.09448818897638">Quebra da 2a ligação:</tabela_titulo1>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="210.94488188976385">
+          <imagem>
+            <imagem>Itens tabela2.png</imagem>
+          </imagem>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="141.96850393700782">
+          <imagem>
+            <imagem>Itens tabela6.png</imagem>
+          </imagem>
+        </tabela_texto_geral>
+        <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="114.09448818897638">Quebra da 3a ligação:</tabela_titulo1>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="210.94488188976385">
+          <imagem>
+            <imagem>Itens tabela3.png</imagem>
+          </imagem>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="141.96850393700782">
+          <imagem>
+            E
+            <imagem>Itens tabela7.png</imagem>
+          </imagem>
+        </tabela_texto_geral>
+        <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="114.09448818897638">Quebra da 4a ligação:</tabela_titulo1>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="210.94488188976385">
+          <imagem>
+            E
+            <imagem>Itens tabela4.png</imagem>
+          </imagem>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="141.96850393700782">
+          <imagem>
+            <imagem>Itens tabela8.png</imagem>
+          </imagem>
+        </tabela_texto_geral>
+      </Table>
+    </tabela>
+    <nota_rodape_chamada>Fonte: MAHAN, Bruce M.; MYERS, Rollie J. Química um curso universitário. 4 ed. São Paulo: Edgard Blücher, 1995.</nota_rodape_chamada>
+    <nota_rodape_chamada>A energia de ligação associada à quebra da ligação carbono-hidrogênio, entretanto, é um valor médio de aproximadamente 413 kJ/mol de ligações.</nota_rodape_chamada>
+  </pg29-32>
+  <pg30-31>
+    <secao_01>
+      <secao_01_texto>
+        <secao_01_titulo1>06_boxe_04 Questão resolvida</secao_01_titulo1>
+        <exercicio_enunciado>
+          3
+          <b>UCS-RS 2016</b>
+          O 1,2-dicloroetano ocupa posição de destaque na indústria química americana. Trata-se de um líquido oleoso e incolor, de odor forte, inflamável e altamente tóxico. É empxregado na produção do cloreto de vinila que, por sua vez, é utilizado na produção do PVC, matéria-prima para a fabricação de dutos e tubos rígidos para água e esgoto.
+        </exercicio_enunciado>
+        <texto_geral_exercicio>A equação química que descreve, simplificadamente, o processo de obtenção industrial do 1,2-dicloroetano, a partir da reação de adição de gás cloro ao eteno, encontra-se representada abaixo.</texto_geral_exercicio>
+        <texto_geral_exercicio>C2H4(g) 1 CL2(g) &#10141; C2H4CL2(&#8467;)</texto_geral_exercicio>
+        <p class="quote-source">Disponível em: &lt;http://laboratorios.cetesb.sp.gov.br/wp-content/uploads/sites/47/2013/11/dicloroetano.pdf&gt;. Acesso em: 3 set. 2015. (Adaptado).</p>
+        <texto_geral_exercicio>
+          <b>Dados:</b>
+        </texto_geral_exercicio>
+        <tabela xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="6" aid:tcols="2">
+          <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">Ligação</tabela_titulo1>
+          <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="141.73228346456693">Energia de ligação (kJ/mol)</tabela_titulo1>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">C – H</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="141.73228346456693">413,4</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">C – CL</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="141.73228346456693">327,2</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">C – C</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="141.73228346456693">346,8</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">C 5 C</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="141.73228346456693">614,2</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">CL – CL</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="141.73228346456693">242,6</tabela_texto_geral>
+        </tabela>
+        <texto_geral_exercicio>A variação de entalpia da reação acima é igual a</texto_geral_exercicio>
+        <exercicio_lista_letra>
+          <b>a)</b>
+          – 144,4 kJ/mol
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>b)</b>
+          – 230,6 kJ/mol
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>c)</b>
+          – 363,8 kJ/mol
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>d)</b>
+          1 428,2 kJ/mol
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>e)</b>
+          1 445 kJ/mol
+        </exercicio_lista_letra>
+      </secao_01_texto>
+      <secao_01_texto>
+        <titulo_resolucao>Resolução:</titulo_resolucao>
+        <texto_resolucao>Alternativa A</texto_resolucao>
+        <texto_resolucao>Para calcular a variação de entalpia com base nas energias de ligação, é preciso primeiro calcular todas as ligações de cada molécula envolvida na reação utilizando os valores de energia de ligação tabelados:</texto_resolucao>
+        <texto_resolucao>C2H4(g) 1 CL2(g) &#10141; C2H4CL2(&#8467;)</texto_resolucao>
+        <tabela xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="4" aid:tcols="3">
+          <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="95.58838582695284">Fórmula molecular</tabela_titulo1>
+          <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="124.50177165354337">Fórmula estrutural</tabela_titulo1>
+          <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="124.50177165354337">Energia de ligações</tabela_titulo1>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="95.58838582695284">C2H4</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="124.50177165354337">
+            ID003-I001-2020-EM-QUI-2S-L1-FA-U3-C10.png
+            <imagem></imagem>
+          </tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="124.50177165354337">4 ligações C – H 11 ligação C 5 C:4(413,4) 1 614,2 5  5 2 267,8 kJ/mol C2H4</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="95.58838582695284">CL2</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="124.50177165354337">CL – CL</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="124.50177165354337">1 ligação CL – CL 5  5 242,6 kJ/mol CL2</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="95.58838582695284">C2H4CL2</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="124.50177165354337">
+            <imagem>ID004-I002-2020-EM-QUI-2S-L1-FA-U3-C10.png</imagem>
+          </tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="124.50177165354337">4 ligações C – H12 ligações C – CL1 1 ligação C – C: 4(413,4) 1 2(327,2) 1 346,8 5  5 2 654,8 kJ/mol C2H4CL2</tabela_texto_geral>
+        </tabela>
+        <texto_resolucao>As entalpias relacionadas às ligações rompidas são positivas enquanto as entalpias relacionadas às ligações formadas são negativas:</texto_resolucao>
+        Eqn014.png
+        <imagem></imagem>
+        <texto_resolucao>ΔH 5 Hrompidas 1 Hformadas 5 2 510,4 – 2 654,8 5 – 144,4 kJ/mol</texto_resolucao>
+      </secao_01_texto>
+    </secao_01>
+  </pg30-31>
+  <pg32-34>
+    <p class="general-text">
+      <titulo1>
+        <imagem>01_titulo_1</imagem>
+        Espontaneidade das reações
+      </titulo1>
+      <p class="general-text">Algumas transformações são espontâneas, como é o caso da corrosão de peças metálicas expostas ao ambiente; as peças são corroídas naturalmente, de forma espontânea. Já outras transformações não são espontâneas, ou seja, é preciso forçar de alguma maneira a reação a ocorrer. Por exemplo, para que uma amostra de água líquida se torne gelo, é necessário mudar as condições de temperatura e/ou pressão a que a amostra está exposta.</p>
+      <p class="general-text">Com essa informação, poderíamos inferir que as reações exotérmicas são espontâneas, enquanto as reações endotérmicas são não espontâneas; porém, isso é um erro. Nas condições ambiente (25 °C e 1 atm), a solidificação da água líquida é um processo exotérmico e não espontâneo, enquanto a decomposição do carbonato de sódio é endotérmica e espontânea.</p>
+      <p class="general-text">Então, o que define se uma reação é espontânea ou não? Para essa definição, utilizamos, além da entalpia, os conceitos de entropia e de energia livre.</p>
+      <titulo2>Entropia</titulo2>
+      <p class="general-text">A entropia, simbolizada pela letra S, é uma grandeza termodinâmica que mede  a desordem de um sistema. Na Termodinâmica, o termo “desordem” significa uma distribuição mais homogênea da matéria e/ou da energia pelo sistema.</p>
+      <p class="general-text">Quanto maior o número de estados de energia do sistema (que podemos associar com um tipo de caos), maior a sua entropia. Assim, como a entalpia, é possível calcular a entropia do processo levando em conta apenas seus estados inicial e final: DS 5 Sfinal – Sinicial. Os gases, por apresentarem maior desorganização de suas moléculas, têm maior entropia que os líquidos, que, por sua vez, têm maior entropia que os sólidos.</p>
+      <p class="general-text">A temperatura e a pressão também são fatores determinantes para caracterizar a entropia de um sistema.</p>
+      <p class="general-text">Já aprendemos que, quanto maior a temperatura, maior o estado de agitação das partículas e consequentemente maior a movimentação delas, o que implica maior entropia, ou seja, maior desordem. Portanto, quanto maior a temperatura, maior a entropia.</p>
+      <p class="general-text">
+        No entanto, a pressão é inversamente proporcional à entropia: quanto maior a pressão, menor será a desordem das moléculas. Além disso, moléculas maiores apresentam maiores valores de entropia: quanto maior o número de átomos na molécula, maior será o número de estados vibracionais dessa molécula, e maior a
+        <b>desordem termodinâmica</b>
+        .
+      </p>
+    </p>
+    <boxe_17>
+      <boxe_17_titulo1>
+        <imagem>06_BOXE_17_CT</imagem>
+        Fique ligado
+      </boxe_17_titulo1>
+      <boxe_17_texto>Sgás &gt; Slíquido &gt; Ssólido</boxe_17_texto>
+    </boxe_17>
+    <p class="general-text">A tabela a seguir indica os valores de entropia molar em condições padrão – 1 atm de pressão e temperatura 25 °C (298 K).</p>
+    <tabela>
+      <Table xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="7" aid:tcols="2">
+        <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118104">Substância</tabela_titulo1>
+        <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="86.45669291338584">
+          Entropia molar padrão, em
+          <imagem>Eqn018.png</imagem>
+        </tabela_titulo1>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118104">C(grafite)</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="86.45669291338584">5,74</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118104">C(diamante)</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="86.45669291338584">2,38</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118104">C2H2(g)</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="86.45669291338584">200,8</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118104">C2H4(g)</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="86.45669291338584">219,5</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118104">C2H6(g)</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="86.45669291338584">229,5</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118104">C6H6</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="86.45669291338584">173,3</tabela_texto_geral>
+      </Table>
+    </tabela>
+    <tabela>
+      <Table xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="7" aid:tcols="2">
+        <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118104">Substância</tabela_titulo1>
+        <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="86.45669291338584">
+          Entropia molar padrão, em
+          <imagem>Eqn018.png</imagem>
+        </tabela_titulo1>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118104">C2H5OH(&#8467;)</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="86.45669291338584">160,7</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118104">CO2(g)</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="86.45669291338584">213,6</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118104">H2(g)</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="86.45669291338584">130,6</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118104">HCL(g)</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="86.45669291338584">186,8</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118104">NaCL</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="86.45669291338584">72,4</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118104">H2O(&#8467;)</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="86.45669291338584">69,9</tabela_texto_geral>
+      </Table>
+    </tabela>
+    <tabela>
+      <Table xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="6" aid:tcols="2">
+        <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118104">Substância</tabela_titulo1>
+        <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="86.45669291338584">
+          Entropia molar padrão, em
+          <imagem>Eqn018.png</imagem>
+        </tabela_titulo1>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118104">H2O(g)</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="86.45669291338584">188,7</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118104">O2(g)</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="86.45669291338584">205,1</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118104">N2(g)</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="86.45669291338584">191,1</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118104">NH3(g)</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="86.45669291338584">192,3</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118104">S8(s)</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="86.45669291338584">255,1</tabela_texto_geral>
+      </Table>
+    </tabela>
+    <p class="quote-source">Fonte: ATKINS, Peter; JONES, Loretta; LAVERMAN, Leroy. Princípios de Química: Questionando a vida moderna e o meio ambiente. Bookman Editora, 2018.</p>
+    <p class="general-text">
+      <p class="general-text">Ao comparar alguns dados da tabela anterior, podemos confirmar as afirmações que fizemos anteriormente:</p>
+      <texto_lista_bullets>•	Comparando as entropias molares padrão do C2H2, C2H4 e C2H6, confirmamos que um aumento na complexidade da molécula geralmente implica aumento de entropia.</texto_lista_bullets>
+      <texto_lista_bullets>•	A entropia é variável de acordo com a variedade alotrópica do elemento químico. Observe que a entropia molar padrão do diamante é menor que a do grafite, o que é consistente com o fato de que a organização dos átomos é maior no diamante do que no grafite e, por isso, a sua desordem térmica é menor.</texto_lista_bullets>
+      <p class="general-text">Outra observação interessante diz respeito ao estado físico da substância na temperatura considerada. Observe, na tabela anterior, o crescimento dos valores de entropias molares padrão da água nos estados líquido e gasoso: há um aumento na entropia que corresponde à desordem crescente na passagem do estado líquido para o gasoso.</p>
+      <p class="general-text">Do que vimos até aqui, podemos inferir que, quando DS assume valores positivos em um processo, estamos tratando de um processo espontâneo, e, quando DS assume valores negativos, estamos tratando de um processo não espontâneo. Mas esta relação também é incompleta.</p>
+      <titulo2>Energia livre de Gibbs</titulo2>
+      <p class="general-text">Em muitos casos, determinar a espontaneidade do sistema não é uma tarefa simples. É preciso levar em conta os efeitos da interação da vizinhança com o sistema em estudo.</p>
+      <p class="general-text">Vamos pensar no caso da fusão do gelo. Sabemos que a fusão é um processo endotérmico, cujo estado final tem mais desordem que o inicial. Mas, afinal, a fusão do gelo é um processo espontâneo ou não? Se desejarmos que a fusão ocorra em um local que está a – 20 °C, certamente o processo não será espontâneo, ao passo que, se o local estiver a 25 °C, a fusão ocorrerá espontaneamente.</p>
+      <p class="general-text">Vimos que algumas reações ocorrem porque a energia dos produtos é menor que a energia dos reagentes e também que outras reações ocorrem porque a desordem do estado final é maior que a do estado inicial. Para avaliar o efeito dessas duas influências, há uma relação universal que inclui a entropia, a entalpia e a influência do ambiente.</p>
+      <p class="general-text">
+        A grandeza conhecida como
+        <b>energia livre de Gibbs</b>
+        ,
+        <b>G</b>
+        , é utilizada para facilitar essa classificação. Assim como a entalpia e a entropia, a variação da energia livre de Gibbs associada a um fenômeno também depende apenas dos estados inicial e final do processo, sendo então uma função de estado: DG 5 Gfinal – Ginicial.
+      </p>
+    </p>
+    <p class="general-text">
+      <p class="general-text">
+        Para que uma reação química ocorra espontaneamente, é necessário que a energia livre do sistema
+        <b>diminua</b>
+        . Então,
+      </p>
+      <p class="general-text">
+        Quando Gfinal &lt; Ginicial, então
+        <b>DG &lt; 0</b>
+        e o processo será
+        <b>espontâneo</b>
+        .
+      </p>
+      <p class="general-text">
+        Quando Gfinal &gt; Ginicial, então
+        <b>DG &gt; 0</b>
+        e o processo será
+        <b>não espontâneo</b>
+        .
+      </p>
+      <p class="general-text">Porém, DG também pode ser expressa em função da entalpia e da entropia da reação:</p>
+      <imagem>EQUACAO_02</imagem>
+      <p class="general-text">Essa é a relação que procurávamos. Observando a expressão, é possível tirarmos as seguintes conclusões:</p>
+      <texto_lista_numero>1	Quando o processo é exotérmico (ΔH negativo) e a desordem do sistema aumenta (DS positivo), a variação de energia livre de Gibbs assume valor negativo, indicando um processo espontâneo em qualquer temperatura.</texto_lista_numero>
+      <texto_lista_numero>2	Quando o processo é endotérmico (ΔH positivo) e a desordem do sistema diminui (DS negativo), a variação de energia livre de Gibbs assume valor positivo, indicando um processo não espontâneo em qualquer temperatura.</texto_lista_numero>
+      <texto_lista_numero>3	Quando o processo é exotérmico e a desordem do sistema diminui (ΔH e DS ambos negativos), a temperatura determina a espontaneidade do processo:</texto_lista_numero>
+      <texto_lista_bullets>•	Para temperaturas baixas, a variação de energia livre de Gibbs é negativa e o processo é espontâneo.</texto_lista_bullets>
+      <texto_lista_bullets>•	Para temperaturas altas, a variação de energia livre de Gibbs é positiva e o processo é não espontâneo.</texto_lista_bullets>
+      <texto_lista_numero>4	Quando o processo é endotérmico e a desordem do sistema aumenta (ΔH e DS ambos positivos), a temperatura determina a espontaneidade do processo:</texto_lista_numero>
+      <texto_lista_bullets>•	Para temperaturas baixas, a variação de energia livre de Gibbs é positiva e o processo é não espontâneo.</texto_lista_bullets>
+      <texto_lista_bullets>•	Para temperaturas altas, a variação de energia livre de Gibbs é negativa e o processo é espontâneo.</texto_lista_bullets>
+    </p>
+  </pg32-34>
+  <pg34-35>
+    <secao_02>
+      <secao_02_texto>
+        <secao_02_titulo1>
+          <imagem>01_titulo_1</imagem>
+          Aplicando conhecimentos
+        </secao_02_titulo1>
+        <exercicio_enunciado>1	Fazendo uso da lei de Hess, calcule o ΔH da reação de formação do CO2 com base nas seguintes reações:</exercicio_enunciado>
+        <texto_geral_exercicio>
+          C(grafite) 1
+          <imagem>FRACAO_01</imagem>
+          O2(g) &#10141; CO(g)	ΔH 5 – 26,4 kcal
+        </texto_geral_exercicio>
+        <texto_geral_exercicio>2 CO(g) 1 O2 &#10141; 2 CO2(g)	ΔH 5 – 283 kcal</texto_geral_exercicio>
+        <exercicio_enunciado>2	O ácido clorídrico (HCL) é um ácido forte, muitas vezes utilizado para limpeza industrial e de obras recém-finalizadas. Considerando a reação de formação do HCL representada abaixo, calcule o seu ΔH:</exercicio_enunciado>
+        <texto_geral_exercicio>H2(g) 1 CL2(g) &#10141; 2 HCL(g)	ΔH 5 ?</texto_geral_exercicio>
+        <texto_geral_exercicio>
+          <b>Dados:</b>
+        </texto_geral_exercicio>
+        <tabela xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="4" aid:tcols="2">
+          <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118104">Ligação</tabela_titulo1>
+          <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.52755905511811">Entalpia (kJ)</tabela_titulo1>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118104">H – H</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.52755905511811">435</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118104">CL – CL</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.52755905511811">242</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118104">H – CL</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.52755905511811">431</tabela_texto_geral>
+        </tabela>
+      </secao_02_texto>
+      <secao_02_texto>
+        <exercicio_enunciado>3	A reação de combustão é exotérmica e muito utilizada para obtenção de energia. Utilizando a tabela de valores de entropia, calcule a entropia da reação de combustão completa do etano:</exercicio_enunciado>
+        <texto_geral_exercicio>
+          C2H6(g) 1
+          <imagem>Eqn001_pg35.png</imagem>
+          O2(g) &#10141; 2 CO2(g) 1 3 H2O(g)
+        </texto_geral_exercicio>
+        <exercicio_enunciado>4	Calcule a entalpia da reação de combustão completa do etano e a energia livre de Gibbs a 25 °C.São dadas as energias de ligação a 25 °C:</exercicio_enunciado>
+        <tabela xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="7" aid:tcols="2">
+          <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118104">Ligação</tabela_titulo1>
+          <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.52755905511811">Entalpia (kJ)</tabela_titulo1>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118104">C – H</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.52755905511811">413</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118104">C – C</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.52755905511811">345</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118104">C – O</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.52755905511811">360</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118104">O – H</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.52755905511811">462</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118104">O 5 O</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.52755905511811">493</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118104">C 5 O</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.52755905511811">803</tabela_texto_geral>
+        </tabela>
+        <exercicio_enunciado>5	Com base no valor de energia livre de Gibbs a 25 °C, podemos dizer que a combustão do etano é espontânea ou não?</exercicio_enunciado>
+        <exercicio_enunciado>
+          6
+          <b>Fuvest-SP 2018</b>
+          A energia liberada na combustão do etanol de cana-de-açúcar pode ser considerada advinda da energia solar, uma vez que a primeira etapa para a produção do etanol é a fotossíntese. As transformações envolvidas na produção e no uso do etanol combustível são representadas pelas seguintes equações químicas:
+        </exercicio_enunciado>
+        <texto_geral_exercicio>6 CO2(g) 1 6 H2O(g) &#10141; C6H12O6(aq) 1 6 O2(g)</texto_geral_exercicio>
+        <texto_geral_exercicio>C6H12O6(aq) &#10141; 2 C2H5OH(&#8467;) 1 2 CO2(g)</texto_geral_exercicio>
+        <texto_geral_exercicio>ΔH 5 – 70 kJ/mol</texto_geral_exercicio>
+        <texto_geral_exercicio>C2H5OH(&#8467;) 1 3 O2(g) &#10141; 2 CO2(g) 1 3 H2O(g)</texto_geral_exercicio>
+        <texto_geral_exercicio>ΔH 5 – 1235 kJ/mol</texto_geral_exercicio>
+        <texto_geral_exercicio>Com base nessas informações, podemos afirmar que o valor de ΔH para a reação de fotossíntese é</texto_geral_exercicio>
+        <exercicio_lista_letra>
+          <b>a)</b>
+          – 1 305 kJ/mol
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>b)</b>
+          1 1 305 kJ/mol
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>c)</b>
+          1 2 400 kJ/mol
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>d)</b>
+          – 2 540 kJ/mol
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>e)</b>
+          1 2 540 kJ/mol
+        </exercicio_lista_letra>
+      </secao_02_texto>
+    </secao_02>
+  </pg34-35>
+  <pg35-36>
+    <secao_03>
+      <secao_03_texto>
+        <secao_03_titulo1>Consolidando saberes</secao_03_titulo1>
+        <exercicio_enunciado>
+          1
+          <b>Fuvest-SP 2019</b>
+          O tricloreto de nitrogênio (NCL3), ou tricloramina, é um composto de aparência oleosa muito perigoso quando puro, pois se decompõe explosivamente formando N2 e CL2. Ele era utilizado, até sua proibição na década de 1940, para o branqueamento de farinhas comerciais, no chamado processo Agene. Atualmente, é conhecido xcomo um dos subprodutos tóxicos indesejáveis formados no processo de desinfecção de piscinas. Ele se forma, por exemplo, pela reação do cloro usado nas piscinas com ureia proveniente da urina de nadadores que as utilizam.
+        </exercicio_enunciado>
+        <texto_geral_exercicio>Pede-se:</texto_geral_exercicio>
+        <exercicio_lista_letra>
+          <b>a)</b>
+          Represente a molécula do NCL3 utilizando fórmula de Lewis.
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>b)</b>
+          Escreva a equação balanceada para a decomposição do NCL3 em N2 e CL2. Qual é o número de oxidação do nitrogênio no reagente e no produto?
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>c)</b>
+          Calcule a entalpia da reação de decomposição do NCL3, considerando os valores de energia de ligação fornecidos. A reação é endotérmica ou exotérmica? Demonstre seus cálculos e justifique sua resposta.
+        </exercicio_lista_letra>
+        <texto_geral_exercicio>
+          <b>Note e adote:</b>
+        </texto_geral_exercicio>
+        <tabela xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="4" aid:tcols="2">
+          <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.98622047244129">Ligação</tabela_titulo1>
+          <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="141.9409470445528">Energia de ligação (kJ/mol)</tabela_titulo1>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.98622047244129">N Ë N</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="141.9409470445528">940</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.98622047244129">CL – CL</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="141.9409470445528">240</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.98622047244129">N – CL</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="141.9409470445528">200</tabela_texto_geral>
+        </tabela>
+        <texto_geral_exercicio>Elétrons na camada de valência: N 5 5, CL 5 7.</texto_geral_exercicio>
+        <exercicio_enunciado>
+          2
+          <b>Unigranrio-RJ 2017</b>
+          Cálculos de entalpias reacionais são em alguns casos efetuados por meio das energias de ligação das moléculas envolvidas, onde o saldo de energias de ligação rompidas e refeitas é considerado nesse procedimento. Alguns valores de energia de ligação entre alguns átomos são fornecidos no quadro abaixo:
+        </exercicio_enunciado>
+      </secao_03_texto>
+      <secao_03_texto>
+        <tabela xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="5" aid:tcols="2">
+          <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118104">Ligação</tabela_titulo1>
+          <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="124.72440944881896">Energia de ligação(kJ/mol)</tabela_titulo1>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118104">C – H</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="124.72440944881896">413</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118104">O 5 O</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="124.72440944881896">494</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118104">C 5 O</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="124.72440944881896">804</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118104">O – H</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="124.72440944881896">463</tabela_texto_geral>
+        </tabela>
+        <texto_geral_exercicio>Considere a reação de combustão completa do metano representada na reação abaixo:</texto_geral_exercicio>
+        <texto_geral_exercicio>CH4(g) 1 2 O2(g) &#10141; CO2(g) 1 2 H2O(v)</texto_geral_exercicio>
+        <texto_geral_exercicio>A entalpia reacional, em kJ/mol, para a combustão de um mol de metano segundo a reação será de:</texto_geral_exercicio>
+        <exercicio_lista_letra>
+          <b>a)</b>
+          – 820
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>b)</b>
+          – 360
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>c)</b>
+          1 106
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>d)</b>
+          1 360
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>e)</b>
+          1 820
+        </exercicio_lista_letra>
+        <exercicio_enunciado>
+          3
+          <b>Unesp 2016</b>
+          Em 1840, o cientista Germain Henri Hess (1802-1850) enunciou que a variação de entalpia em uma reação química é independente do caminho entre os estados inicial e final da reação, sendo igual à soma das variações de entalpias em que essa reação pode ser desmembrada.
+        </exercicio_enunciado>
+        <texto_geral_exercicio>Durante um experimento envolvendo a Lei de Hess, através do calor liberado pela reação de neutralização de uma solução aquosa de ácido cianídrico (HCN) e uma solução aquosa de hidróxido de sódio (NaOH), foi obtido o valor de 2,9 kcal/mol para a entalpia nesta reação. Sabendo que a entalpia liberada pela neutralização de um ácido forte e uma base forte é de 13,3 kcal/mol, que o ácido cianídrico é um ácido muito fraco e que o hidróxido de sódio é uma base muito forte, calcule a entalpia de ionização do ácido cianídrico em água e apresente as equações químicas de todas as etapas utilizadas para esse cálculo.</texto_geral_exercicio>
+        <exercicio_enunciado>
+          4
+          <b>Unesp 2018</b>
+          A regeneração do ácido sulfúrico (H2SO4) em geral não é economicamente vantajosa, mas é uma imposição das leis ambientais. Nessa regeneração, normalmente se utiliza o ácido proveniente de sínteses orgânicas, que está diluído e contaminado.
+        </exercicio_enunciado>
+        <p class="quote-source">
+          Mariana de Mattos V. M. Souza.
+          <i>Processos inorgânicos</i>
+          , 2012. (Adaptado)
+        </p>
+        <texto_geral_exercicio>O processo de regeneração é feito em três etapas principais:</texto_geral_exercicio>
+        <texto_geral_exercicio>
+          Etapa I: H2SO4(aq, diluído) &#10141; SO2(g) 1 H2O(g) 1
+          <imagem>FRACAO_01</imagem>
+          O2(g)
+        </texto_geral_exercicio>
+        <texto_geral_exercicio>ΔH 5 202 kJ/mol</texto_geral_exercicio>
+        <texto_geral_exercicio>
+          Etapa II: SO2(g) 1
+          <imagem>FRACAO_01</imagem>
+          O2(g) &#10141; SO3(g)
+        </texto_geral_exercicio>
+        <texto_geral_exercicio>ΔH 5 – 99 kJ/mol</texto_geral_exercicio>
+        <texto_geral_exercicio>Etapa III: SO3(g) 1 H2O(g) &#10141; H2SO4(&#8467;)</texto_geral_exercicio>
+        <texto_geral_exercicio>ΔH 5 – 130 kJ/mol</texto_geral_exercicio>
+        <exercicio_lista_letra>
+          <b>a)</b>
+          Classifique as etapas I e II como endotérmica ou exotérmica. Justifique.
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>b)</b>
+          Calcule a massa mínima de SO3(g) que deve ­reagir completamente com água para obtenção de 98 g de H2SO4 e 130 kJ de energia na etapa III.
+        </exercicio_lista_letra>
+        <texto_geral_exercicio>
+          <b>Dados:</b>
+          H 5 1, S 5 32, O 5 16.
+        </texto_geral_exercicio>
+        <exercicio_enunciado>
+          5
+          <b>EsPCEx-SP 2018</b>
+          O trioxano, cuja fórmula estrutural plana simplificada encontra-se representada a seguir, é utilizado em alguns países como combustível sólido para o aquecimento de alimentos armazenados em embalagens especiais e que fazem parte das rações operacionais militares.
+        </exercicio_enunciado>
+        <tabela xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="6" aid:tcols="3">
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="88.05118110236208"></tabela_texto_geral>
+          <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="2" aid:ccolwidth="158.74015748031496">Energias de ligação (kJ/mol)</tabela_titulo1>
+          <tabela_texto_geral aid:table="cell" aid:crows="5" aid:ccols="1" aid:ccolwidth="88.05118110236208">
+            <imagem>ID006-I003-2020-EM-QUI-2S-L1-FA-U3-C10.png</imagem>
+          </tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="87.8740157480315">C – H</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="70.86614173228347">413</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="87.8740157480315">O – C</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="70.86614173228347">358</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="87.8740157480315">H – O</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="70.86614173228347">463</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="87.8740157480315">O 5 O</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="70.86614173228347">495</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="87.8740157480315">C 5 O</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="70.86614173228347">799</tabela_texto_geral>
+        </tabela>
+        <texto_geral_exercicio>Considere a reação de combustão completa de um tablete de 90 g do trioxano com a formação de CO2 e H2O. Baseado nas energias de ligação fornecidas na tabela anterior, o valor da entalpia de combustão estimada para esta reação é</texto_geral_exercicio>
+        <b>Dados:</b>
+        <texto_geral_exercicio> O 5 16 g/mol; H 5 1 g/mol; C 5 12 g/mol</texto_geral_exercicio>
+        a)	1 168 kJb)	– 262 kJc)	1 369 kJd)	– 1 461 kJe)	– 564 kJ
+        <exercicio_citado_titulo>
+          6
+          <b>Unesp 2021</b>
+          Analise as equações termoquímicas.
+        </exercicio_citado_titulo>
+        <texto_geral_exercicio>
+          C(s) 1
+          <imagem>FRACAO_02</imagem>
+          O2(g) 1 Ca(s) &#10141; CaCO3(s);	ΔH 5 21207 kJ/mol
+        </texto_geral_exercicio>
+        <texto_geral_exercicio>C(s) 1 O2(g) &#10141; CO2(g);	ΔH 5 2394 kJ/mol</texto_geral_exercicio>
+        <texto_geral_exercicio>
+          Ca(s) 1
+          <imagem>FRACAO_01</imagem>
+          O2(g) &#10141; CaO(s);	ΔH 5 2634 kJ/mol
+        </texto_geral_exercicio>
+        <texto_geral_exercicio>A partir dessas equações, pode-se prever que o ΔH da reação de decomposição do calcário que produz cal viva (cal virgem) e dióxido de carbono seja igual a</texto_geral_exercicio>
+        <b>a)</b>
+        <exercicio_lista_letra>	1573 kJ/mol.</exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>b)</b>
+          11601 kJ/mol.
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>c)</b>
+          22235 kJ/mol.
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>d)</b>
+          21028 kJ/mol.
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>e)</b>
+          1179 kJ/mol.
+        </exercicio_lista_letra>
+      </secao_03_texto>
+    </secao_03>
+  </pg35-36>
+  <pg37-39>
+    <secao_05>
+      <secao_05_titulo1>No Enem é assim</secao_05_titulo1>
+      <secao_05_texto>As questões selecionadas nesta seção são prioritariamente do Enem, mas questões de vestibulares diversos que apresentam características semelhantes aos itens do referido exame também foram usadas como recurso para estudo.</secao_05_texto>
+      <secao_05_texto>
+        <exercicio_enunciado>
+          1
+          <b>Enem 2018</b>
+          Por meio de reações químicas que envolvem carboidratos, lipídeos e proteínas, nossas células obtêm energia e produzem gás carbônico e água. A oxidação da glicose no organismo humano libera energia, conforme ilustra a equação química, sendo que aproximadamente 40% dela é disponibilizada para atividade muscular.
+        </exercicio_enunciado>
+        <texto_geral_exercicio>C6H12O6(s) 1 6 O2(g) &#10141; 6 CO2(g) 1 6 H2O(&#8467;)</texto_geral_exercicio>
+        <texto_geral_exercicio>ΔH 5 – 2 800 kJ</texto_geral_exercicio>
+        <texto_geral_exercicio>Considere as massas molares (g/mol): H 5 1, C 5 12 e O 5 16</texto_geral_exercicio>
+        <p class="quote-source">
+          LIMA, L.; FRAGA, C. A. M.; BARREIRO, E. J.
+          <i>Química na saúde</i>
+          . São Paulo: Sociedade Brasileira de Química, 2010. (Adaptado)
+        </p>
+        <texto_geral_exercicio>Na oxidação de 1 grama de glicose, a energia obtida para atividade muscular, em quilojoule, é mais próxima de</texto_geral_exercicio>
+        <exercicio_lista_letra>
+          <b>a)</b>
+          6,2
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>b)</b>
+          15,6
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>c)</b>
+          70
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>d)</b>
+          622,2
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>e)</b>
+          1 120
+        </exercicio_lista_letra>
+        <exercicio_enunciado>
+          2
+          <b>Enem Libras 2017</b>
+          Energia elétrica nas instalações rurais podem ser obtida pela rede pública de distribuição ou por dispositivos alternativos que geram energia elétrica, como os geradores indicados no quadro.
+        </exercicio_enunciado>
+        <tabela xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="5" aid:tcols="3">
+          <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="28.34645669291339">TIPO</tabela_titulo1>
+          <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118175">GERADORES</tabela_titulo1>
+          <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="133.22834645669292">FUNCIONAMENTO</tabela_titulo1>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="28.34645669291339">I</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118175">A gasolina</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="133.22834645669292">Convertem energia térmica da queima da gasolina em energia elétrica</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="28.34645669291339">II</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118175">Fotovoltaicos</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="133.22834645669292">Convertem energia solar em energia elétrica e armazenam-na em baterias</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="28.34645669291339">III</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118175">Hidráulicos</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="133.22834645669292">Uma roda d’água é acoplada a um dínamo, que gera a energia elétrica</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="28.34645669291339">IV</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118175">A carvão</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="133.22834645669292">Com a queima do carvão, a energia térmica transforma-se em elétrica</tabela_texto_geral>
+        </tabela>
+        <p class="quote-source">Disponível em: www.ruranews.com.br. Acesso em: 20 ago. 2014.</p>
+        <texto_geral_exercicio>Os geradores que produzem resíduos poluidores durante o seu funcionamento são</texto_geral_exercicio>
+        <exercicio_lista_letra>
+          <b>a)</b>
+          I e II
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>b)</b>
+          I e III
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>c)</b>
+          I e IV
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>d)</b>
+          II e III
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>e)</b>
+          III e IV
+        </exercicio_lista_letra>
+        <exercicio_enunciado>
+          3
+          <b>EsPCex-SP 2020</b>
+          O carbeto de cálcio, de fórmula CaC2, é muito comum em equipamentos usados por exploradores de cavernas para fins de iluminação. Ele reage com água e gera como um dos produtos o gás acetileno (etino), de fórmula C2H2, conforme mostra a equação, não balanceada, a seguir
+        </exercicio_enunciado>
+        <texto_geral_exercicio>CaC2(s) 1 H2O(&#8467;) &#10141; C2H2(g) 1 Ca(OH)2(s) (equação 1)</texto_geral_exercicio>
+        <texto_geral_exercicio>Sequencialmente, esse gás inflamável pode sofrer uma reação de combustão completa, liberando intensa energia, conforme a equação, não balanceada, a seguir</texto_geral_exercicio>
+        <texto_geral_exercicio>C2H2(g) 1 O2(g) &#10141; CO2(g) 1 H2O (g) 1 calor	(equação 2)</texto_geral_exercicio>
+        <texto_geral_exercicio>Uma massa de 512 g de carbeto de cálcio com pureza de 50% (e 50% de materiais inertes) é tratada com água, obtendo-se uma certa quantidade de gás acetileno. Esse gás produzido sofre uma reação de combustão completa.</texto_geral_exercicio>
+        <texto_geral_exercicio>Considerando a reação de combustão completa do acetileno nas condições ambientes (25 oC e 1 atm), o volume de gases obtidos e o valor da energia liberada como calor nessa reação, a partir da massa original de carbeto de cálcio, são, respectivamente,</texto_geral_exercicio>
+        <texto_geral_exercicio>
+          <b>Dados:</b>
+        </texto_geral_exercicio>
+        <texto_geral_exercicio>– Volume molar na condição ambiente 5 24,5 L ? mol21 (25 oC e 1 atm); calor de combustão do etino 5 21 298 kJ ? mol21;</texto_geral_exercicio>
+        <texto_geral_exercicio>– Constante universal dos gases</texto_geral_exercicio>
+        <texto_geral_exercicio>R 5 0,082 L ? atm ? mol21 ? K21.</texto_geral_exercicio>
+        <exercicio_lista_letra>
+          <b>a)</b>
+          294 L e 3 240 kJ.
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>b)</b>
+          156 L e 2 320 kJ.
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>c)</b>
+          294 L e 4 480 kJ.
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>d)</b>
+          156 L e 6 660 kJ.
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>e)</b>
+          294 L e 5 192 kJ.
+        </exercicio_lista_letra>
+        <exercicio_enunciado>
+          4
+          <b>Unicamp-SP 2016</b>
+          Podemos obter energia no organismo pela oxidação de diferentes fontes. Entre essas fontes destacam-se a gordura e o açúcar. A gordura pode ser representada por uma fórmula mínima (CH2)n enquanto um açúcar pode ser representado por (CH2O)n. Considerando essas duas fontes de energia, podemos afirmar corretamente que, na oxidação total de 1 grama de ambas as fontes em nosso organismo, os produtos formados são
+        </exercicio_enunciado>
+        <exercicio_lista_letra>
+          <b>a)</b>
+          os mesmos, mas as quantidades de energia são diferentes.
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>b)</b>
+          diferentes, mas as quantidades de energia são iguais.
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>c)</b>
+          os mesmos, assim como as quantidades de energia.
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>d)</b>
+          diferentes, assim como as quantidades de energia.
+        </exercicio_lista_letra>
+        <exercicio_enunciado>
+          5
+          <b>Enem</b>
+          Um dos problemas dos combustíveis que contêm carbono é que a sua queima produz dióxido de carbono. Portanto, uma característica importante, ao se escolher um combustível, é analisar seu calor de combustão (ΔHco), definido como a energia liberada na queima completa de um mol de combustível no estado padrão. O quadro seguinte relaciona algumas substâncias que contêm carbono e seu ΔHco.
+        </exercicio_enunciado>
+      </secao_05_texto>
+      <secao_05_texto>
+        <tabela xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="6" aid:tcols="3">
+          <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="76.53543307068526">Substância</tabela_titulo1>
+          <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="76.53543307086619">Fórmula</tabela_titulo1>
+          <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="76.53543307104707">ΔHco (kJ/mol)</tabela_titulo1>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="76.53543307068526">Benzeno</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="76.53543307086619">C6H6</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="76.53543307104707">– 3 268</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="76.53543307068526">Etanol</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="76.53543307086619">C2H5OH</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="76.53543307104707">– 1 368</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="76.53543307068526">Glicose</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="76.53543307086619">C6H12O6</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="76.53543307104707">– 2 808</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="76.53543307068526">Metano</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="76.53543307086619">CH4</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="76.53543307104707">– 890</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="76.53543307068526">Octano</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="76.53543307086619">C8H18</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="76.53543307104707">– 5471</tabela_texto_geral>
+        </tabela>
+        <texto_geral_exercicio>Neste contexto, qual dos combustíveis, quando queimado completamente, libera mais dióxido de carbono no ambiente pela mesma quantidade de energia produzida?</texto_geral_exercicio>
+        <exercicio_lista_letra>
+          <b>a)</b>
+          Benzeno
+        </exercicio_lista_letra>
+        <b>b)</b>
+        <exercicio_lista_letra>	Metano</exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>c)</b>
+          Glicose
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>d)</b>
+          Octano
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>e)</b>
+          Etanol
+        </exercicio_lista_letra>
+        <exercicio_enunciado>
+          6
+          <b>Enem</b>
+          <p class="quote">O abastecimento de nossas necessidades energéticas futuras dependerá certamente do desenvolvimento de tecnologias para aproveitar a energia solar com maior eficiência. A energia solar é a maior fonte de energia mundial. Num dia ensolarado, por exemplo, aproximadamente 1 kJ de energia solar atinge cada metro quadrado da superfície terrestre por segundo. No entanto, o aproveitamento dessa energia é difícil porque ela é diluída (distribuída por uma área muito extensa) e oscila com o horário e as condições climáticas. O uso efetivo da energia solar depende de formas de estocar a energia coletada para uso posterior.</texto_citado>
+        </exercicio_enunciado>
+        <p class="quote-source">BROWN, T. Química, a ciência central. São Paulo: Pearson Prentice Hall, 2005.</p>
+        <texto_geral_exercicio>Atualmente, umas das formas de se utilizar a energia solar tem sido armazená-la por meio de processos químicos endotérmicos que mais tarde podem ser revertidos para liberar calor. Considerando a reação:</texto_geral_exercicio>
+        <texto_geral_exercicio>CH4(g)  1  H2O(v)  1  calor Ì CO(g)  1  2 H2(g)</texto_geral_exercicio>
+        <texto_geral_exercicio>E analisando-a como potencial mecanismo para o aproveitamento posterior da energia solar, conclui-se que se trata de uma estratégia</texto_geral_exercicio>
+        <exercicio_lista_letra>
+          <b>a)</b>
+          insatisfatória, pois a reação apresentada não permite que a energia presente no meio externo seja absorvida pelo sistema para ser utilizada posteriormente.
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>b)</b>
+          insatisfatória, uma vez que há formação de gases poluentes e com potencial poder explosivo, tornando-a uma reação perigosa e de difícil controle.
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>c)</b>
+          insatisfatória, uma vez que há formação de gás CO que não possui conteúdo energético passível de ser aproveitado posteriormente e é considerado um gás poluente.
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>d)</b>
+          satisfatória, uma vez que a reação direta ocorre com absorção de calor e promove a formação das substâncias combustíveis que poderão ser utilizadas posteriormente para obtenção de energia e realização de trabalho útil.
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>e)</b>
+          satisfatória, uma vez que a reação direta ocorre com liberação de calor havendo ainda a formação das substâncias combustíveis que poderão ser utilizadas posteriormente para obtenção de energia e realização de trabalho útil.
+        </exercicio_lista_letra>
+        <exercicio_enunciado>
+          7
+          <b>UnB-DF</b>
+          Cada uma das reações abaixo libera energia:
+        </exercicio_enunciado>
+        <exercicio_lista_romano>
+          <b>I.</b>
+          C(grafita)  1
+          <imagem>FRACAO_01</imagem>
+          O2(g) &#10141; CO(g) 	ΔHI
+        </exercicio_lista_romano>
+        <exercicio_lista_romano>
+          <b>II.</b>
+          Sn(s)  1  O2(g) &#10141; SnO2(s)		ΔHII
+        </exercicio_lista_romano>
+        <texto_geral_exercicio>Sabendo-se que ΔHI e ΔHII são as entalpias de reação para os processos I e II, respectivamente, julgue os itens seguintes em verdadeiros ou falsos:</texto_geral_exercicio>
+        <texto_geral_exercicio>(    )	Os reagentes, na reação II, são as substâncias simples mais estáveis dos elementos estanho e oxigênio.</texto_geral_exercicio>
+        <texto_geral_exercicio>(    )	As quantidades ΔHI e ΔHII são conhecidas como variação de entalpia de formação de monóxido de carbono, CO(g), e óxido de estanho IV, SnO2(s), respectivamente.</texto_geral_exercicio>
+        <texto_geral_exercicio>(    )	O ΔHII é maior que zero.</texto_geral_exercicio>
+        <texto_geral_exercicio>(    )	A variação de entalpia de formação, ΔH0, de O2 (g) a 25 °C e 1 atm, por definição, é diferente de zero.</texto_geral_exercicio>
+        <texto_geral_exercicio>(    )	O processo II é um exemplo de combustão.</texto_geral_exercicio>
+        <exercicio_enunciado>
+          8
+          <b>UFPR</b>
+          A perspectiva de esgotamento das reservas mundiais de petróleo nas próximas décadas tem incentivado o uso de biocombustíveis. Entre eles está o etanol, que no Brasil já vem sendo usado como combustível de automóveis há décadas.
+        </exercicio_enunciado>
+        <imagem>ID008-Q001-2020-EM-QUI-2S-L1-FA-U3-C10.pngi</imagem>
+        <texto_geral_exercicio>Usando o gráfico, considere as afirmativas a seguir:</texto_geral_exercicio>
+        <texto_lista_numero>
+          <b>1.</b>
+          A energia E2 refere-se à entalpia de formação do etanol.
+        </texto_lista_numero>
+      </secao_05_texto>
+      <secao_05_texto>
+        <texto_lista_numero>
+          <b>2.</b>
+          E3 é a energia molar de vaporização da água.
+        </texto_lista_numero>
+        <texto_lista_numero>
+          <b>3.</b>
+          A entalpia de formação do etanol é um processo endotérmico.
+        </texto_lista_numero>
+        <texto_lista_numero>
+          <b>4.</b>
+          E4 é a entalpia de combustão do etanol.
+        </texto_lista_numero>
+        <texto_geral_exercicio>Assinale a alternativa correta:</texto_geral_exercicio>
+        <exercicio_lista_letra>
+          <b>a)</b>
+          Somente a afirmativa 4 é verdadeira.
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>b)</b>
+          Somente a afirmativa 1 é verdadeira.
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>c)</b>
+          Somente as afirmativas 3 e 4 são verdadeiras.
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>d)</b>
+          Somente as afirmativas 1, 2 e 3 são verdadeiras.
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>e)</b>
+          Somente as afirmativas 2 e 3 são verdadeiras.
+        </exercicio_lista_letra>
+        <exercicio_enunciado>
+          9
+          <b>Mackenzie-SP</b>
+          O cicloexano (C6H12) é um hidrocarboneto líquido à temperatura ambiente, insolúvel em água, que pode ser obtido  pela redução com hidrogênio, na presença de um catalisador e pressão adequados, a partir do benzeno, apresentando valor de entalpia padrão de formação igual a – 156 kJ/mol. Sabendo-se que as entalpias padrão de formação, da água líquida e do dióxido de carbono gasoso são, respectivamente, – 286 kJ/mol e – 394 kJ/mol, pode-se afirmar que a entalpia padrão de combustão do cicloexano é de
+        </exercicio_enunciado>
+        <exercicio_lista_letra>
+          <b>a)</b>
+          – 524 kJ/mol
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>b)</b>
+          – 836 kJ/mol
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>c)</b>
+          – 3 924 kJ/mol
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>d)</b>
+          – 4 236 kJ/mol
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>e)</b>
+          – 6 000 kJ/mol
+        </exercicio_lista_letra>
+        <exercicio_enunciado>
+          10
+          <b>Enem 2016</b>
+          O benzeno, um importante solvente para a indústria química, é obtido industrialmente pela destilação do petróleo. Contudo, também pode ser sintetizado pela trimerização do acetileno catalisada por ferro metálico sob altas temperaturas, conforme a equação química:
+        </exercicio_enunciado>
+        <texto_geral_exercicio>3 C2H2(g) &#10141; C6H6(&#8467;)</texto_geral_exercicio>
+        <texto_geral_exercicio>A energia envolvida nesse processo pode ser calculada indiretamente pela variação de entalpia das reações de combustão das substâncias participantes, nas mesmas condições experimentais:</texto_geral_exercicio>
+        <exercicio_lista_romano>
+          <b>I.</b>
+          C2H2(g) 1
+          <imagem>FRACAO_03</imagem>
+          O2 (g) &#10141; 2 CO2(g) 1 H2O(&#8467;)
+        </exercicio_lista_romano>
+        <texto_geral_exercicio>ΔH 5 – 310 kcal/mol</texto_geral_exercicio>
+        <exercicio_lista_romano>
+          <b>II.</b>
+          C6H6(&#8467;) 1
+          <imagem>FRACAO_04</imagem>
+          O2(g) &#10141; 6 CO2(g) 1 3 H2O(&#8467;)
+        </exercicio_lista_romano>
+        <texto_geral_exercicio>ΔH 5 – 780 kcal/mol</texto_geral_exercicio>
+        <texto_geral_exercicio>A variação de entalpia do processo de trimerização, em kcal, para a formação de um mol de benzeno é mais próxima de</texto_geral_exercicio>
+        <exercicio_lista_letra>
+          <b>a)</b>
+          – 1 090
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>b)</b>
+          – 150
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>c)</b>
+          – 50
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>d)</b>
+          1 157
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>e)</b>
+          1 470
+        </exercicio_lista_letra>
+        <exercicio_enunciado>
+          11
+          <b>Enem</b>
+          O aproveitamento de resíduos florestais vem se tornando cada dia mais atrativo, pois eles são uma fonte renovável de energia. A figura representa a queima de um bio-óleo extraído do resíduo de madeira, sendo ΔH1 a variação de entalpia devido à queima de 1 g desse bio-óleo, resultando em gás carbônico e água líquida, e ΔH2, a variação de entalpia envolvida na conversão de 1 g de água no estado gasoso para o estado líquido.
+        </exercicio_enunciado>
+        ID009-Q002-2020-EM-QUI-2S-L1-FA-U3-C10.pngi
+        <imagem></imagem>
+        <texto_geral_exercicio>A variação de entalpia, em kJ, para a queima de 5 g desse bio-óleo resultando em CO2 (gasoso) e H2O (gasoso) é:</texto_geral_exercicio>
+        <exercicio_lista_letra>
+          <b>a)</b>
+          2 106
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>b)</b>
+          2 94
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>c)</b>
+          2 82
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>d)</b>
+          2 21,2
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>e)</b>
+          2 16,4
+        </exercicio_lista_letra>
+        <exercicio_enunciado>
+          12
+          <b>PUC-SP 2017</b>
+          Dado:
+        </exercicio_enunciado>
+        <tabela xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="2" aid:tcols="4">
+          <tabela_titulo1 aid:table="cell" aid:crows="2" aid:ccols="1" aid:ccolwidth="63.779527558874065">Energia de ligação</tabela_titulo1>
+          <tabela_titulo2 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="55.275590551181104">C – H </tabela_titulo2>
+          <tabela_titulo2 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="55.275590551181104">C – C </tabela_titulo2>
+          <tabela_titulo2 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="55.275590551181104">H – H </tabela_titulo2>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="55.275590551181104">413 kJ ∙ mol–1</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="55.275590551181104">346 kJ ∙ mol–1</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="55.275590551181104">436 kJ ∙ mol–1</tabela_texto_geral>
+        </tabela>
+        <texto_geral_exercicio>A reação de hidrogenação do etileno ocorre com aquecimento, na presença de níquel em pó como catalisador. A equação termoquímica que representa o processo é</texto_geral_exercicio>
+        <texto_geral_exercicio>C2H4(g) 1 H2(g) &#10141; C2H6(g)	ΔH0 5 – 137 kJ/mol</texto_geral_exercicio>
+        <texto_geral_exercicio>A partir dessas informações, pode-se deduzir que a energia de ligação da dupla ligação que ocorre entre os átomos de C no etileno é igual a</texto_geral_exercicio>
+        a)	186 kJ/molb)	599 kJ/molc)	692 kJ/mold)	736 kJ/mol
+        <exercicio_enunciado>13	Famerp-SP 2021 O etanol (C2H6O) pode ser produzido em laboratório por meio da hidratação do etileno (C2H4), conforme a equação:</exercicio_enunciado>
+        <texto_geral_exercicio>C2H4 1 H2O &#10141; C2H6O</texto_geral_exercicio>
+        <texto_geral_exercicio>A entalpia dessa reação pode ser calculada por meio da Lei de Hess, utilizando-se as equações:</texto_geral_exercicio>
+        <texto_geral_exercicio>C2H4 1 3 O2 &#10141; 2 CO2 1 2 H2O</texto_geral_exercicio>
+        <texto_geral_exercicio>ΔH 5 21 322 kJ/mol de C2H4</texto_geral_exercicio>
+        <texto_geral_exercicio>C2H6O 1 3 O2 &#10141; 2 CO2 1 3 H2O</texto_geral_exercicio>
+        <texto_geral_exercicio>ΔH 5 21 367 kJ/mol de C2H6O</texto_geral_exercicio>
+        <texto_geral_exercicio>Com base nas informações fornecidas, a produção de 10 mol de etanol</texto_geral_exercicio>
+        <exercicio_lista_letra>
+          <b>a)</b>
+          absorve 2 689 kJ de energia.
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>b)</b>
+          libera 45 kJ de energia.
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>c)</b>
+          libera 450 kJ de energia.
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>d)</b>
+          absorve 450 kJ de energia.
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>e)</b>
+          libera 2 689 kJ de energia.
+        </exercicio_lista_letra>
+      </secao_05_texto>
+    </secao_05>
+  </pg37-39>
+</Root>

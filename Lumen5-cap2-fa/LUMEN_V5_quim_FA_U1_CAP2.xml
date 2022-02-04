@@ -1,0 +1,1011 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <pg16>
+    <TITULO_CAP>2</TITULO_CAP>
+    <TITULO_CAP_TEXTO>Gráficos e equações termoquímicas</TITULO_CAP_TEXTO>
+    <imagem>ID001-F001-2020-EM-QUI-2S-L1-FA-U3-C9.png</imagem>
+    <p class="img-credit">Sasha_Suzi/iStockphoto.com</p>
+    <p class="img-subtitle">A temperatura do organismo acima de 37,8 °C caracteriza febre.</p>
+    <p class="quote">
+      <p class="quote-title">Por que sentimos frio quando estamos com febre? </p>
+      <p class="quote">A febre funciona como um alarme de que alguma infecção (seja por vírus, seja por bactérias) está atacando o organismo. Ela dá o sinal para acelerar a produção dos anticorpos que irão combater a ­doença e é essa atividade mais intensa em nosso organismo que aumenta sua temperatura. A sensação de frio ocorre porque o corpo passa a perder calor muito rapidamente, a partir do momento em que os vasos sanguíneos da pele se dilatam irradiando mais calor para o exterior. “Além disso, como os seres humanos têm sua temperatura equilibrada com a do ambiente (cerca de 37 °C), ao se aquecer a pessoa passará a sentir o ambiente mais frio. Por isso, embora o corpo esteja quente, a temperatura externa parecerá relativamente mais baixa”, afirma o neurologista Paulo Monzillo, do Hospital ­Albert Einstein, em São Paulo. Outro fator que contribui para reforçar a sensação de frio é o aumento da transpiração, que, ao evaporar sobre a pele, também tem a função de resfriar o corpo. </p>
+      <p class="quote-source">
+        REDAÇÃO. “Por que sentimos frio quando estamos com febre?”.
+        <i>Mundo Estranho</i>
+        , 1o abr. 2002. Abril Comunicações S.A. Disponível em: &lt;https://super.abril.com.br/mundo-estranho/por-que-sentimos-frio-quando-estamos-com-febre/&gt;. Acesso em: 20 out. 2021.
+      </p>
+    </p>
+    <boxe_01>
+      <texto_lista_bullets>•	Quando perdemos calor para o ambiente, estamos realizando um fenômeno endotérmico ou exotérmico?</texto_lista_bullets>
+      <texto_lista_bullets>•	Como podemos representar os processos termoquímicos?</texto_lista_bullets>
+      <texto_lista_bullets>•	Para situações de primeiros socorros, existem compressas instantâneas, quentes ou frias. Como funcionam?</texto_lista_bullets>
+    </boxe_01>
+    <p class="general-text">
+      <imagem_inline>01_titulo_1</imagem_inline>
+      Neste capítulo, serão abordadas as habilidades EM13CNT101, EM13CNT102 e EM13CNT309
+    </p>
+  </pg16>
+  <pg17-23>
+    <secao_17>
+      <imagem_inline>06_BOXE_17_CT</imagem_inline>
+      <secao_17_titulo1>Fiqueligado</secao_17_titulo1>
+      <secao_17_texto>É comum encontrarmostambém as seguintesrepresentações para asreações termoquímicasexotérmicas:</secao_17_texto>
+      <secao_17_texto>Reagentes &#10141; Produtos 1 calorReagentes 2 calor &#10141; Produtos</secao_17_texto>
+    </secao_17>
+    <p class="general-text">
+      <imagem_inline>01_titulo_1</imagem_inline>
+      <titulo1>Cálculos de entalpia</titulo1>
+      <p class="general-text">Conforme vimos no capítulo anterior, a variação de entalpia de um processo pode ser definida por DH 5 Hprodutos – Hreagentes.</p>
+      <p class="general-text">Quando tratamos de uma reação exotérmica, que libera calor, temos Hreagentes &gt; Hprodutos e o valor que DH assume é negativo. Uma reação termoquímica exotérmica pode ser representada por:</p>
+      <p class="general-text">Reagentes &#10141; Produtos	DH &lt; 0</p>
+      <p class="general-text">Além disso, também existe a representação gráfica:</p>
+      <imagem>ID003-I001-2020-EM-QUI-2S-L1-FA-U3-C9.png-</imagem>
+      <b>Exemplo:</b>
+      <p class="general-text">A combustão do carbono grafite, formando gás carbônico, é exotérmica:C(grafite) 1 O2(g) &#10141; CO2(g)	            DH 5 –393 kJ/mol</p>
+      <p class="general-text">Na forma gráfica, teremos a seguinte representação:</p>
+      <imagem>ID004-I002-2020-EM-QUI-2S-L1-FA-U3-C9.png</imagem>
+      <p class="general-text">A variação de entalpia da reação de combustão é dada em kJ/mol, isto é, são liberados 393 kJ a cada mol de CO2(g) produzido. Se 2 mols de CO2(g) forem produzidos, a energia liberada será o dobro:</p>
+      <p class="general-text">2 C(grafite) 1 2 O2(g) &#10141; 2 CO2(g)       DH 5 – 786 kJ</p>
+      <p class="general-text">Quando tratamos de uma reação endotérmica, que absorve calor, temos Hprodutos &gt; Hreagentes, e o valor que DH assume é positivo. Uma reação termoquímica endotérmica pode ser representada por:</p>
+      <p class="general-text">Reagentes &#10141; Produtos       DH &gt; 0</p>
+    </p>
+    <boxe_17>
+      <imagem_inline>06_BOXE_17_CT</imagem_inline>
+      <boxe_17_titulo1>Fiqueligado</boxe_17_titulo1>
+      <boxe_17_texto>É comum encontrarmos também as seguintes representações para as reações termoquímicas endotérmicas:</boxe_17_texto>
+      <boxe_17_texto>Reagentes &#10141; Produtos 2 calorReagentes 1 calor &#10141; Produtos</boxe_17_texto>
+    </boxe_17>
+    <p class="general-text">
+      <p class="general-text">Além disso, também existe a representação gráfica:</p>
+      <imagem>ID005-I003-2020-EM-QUI-2S-L1-FA-U3-C9.png</imagem>
+      <b>Exemplo:</b>
+      <p class="general-text">A decomposição do carbonato de cálcio é endotérmica:</p>
+      <p class="general-text">CaCO3(s) &#10141; CaO(s) 1 CO2(g)	DH 5 1 177,9 kJ</p>
+      <p class="general-text">Na forma gráfica teremos a seguinte representação:</p>
+      <imagem>ID006-I004-2020-EM-QUI-2S-L1-FA-U3-C9.png</imagem>
+      <p class="general-text">A variação de entalpia dessa reação é dada em kJ/mol, isto é, são absorvidos 177,9 kJ a cada mol de CaCO3 consumido. Se 3 mols de carbonato de cálcio forem consumidos, a energia necessária para a reação ocorrer será o triplo:</p>
+      <p class="general-text">3 CaCO3(s) &#10141; 3 CaO(s) 1 3 CO2(g)       DH 5 1533,7 kJ</p>
+      <p class="general-text">Se desejarmos representar os respectivos processos inversos, as equações deverão ser escritas no sentido contrário.</p>
+      <p class="general-text">A reação inversa à da combustão do grafite equivale à decomposição do gás carbônico; essa reação é endotérmica. Veja dois exemplos.</p>
+      <p class="general-text">
+        <b>Reação direta:</b>
+        combustão do grafite.
+      </p>
+      <p class="general-text">C(grafite) 1 O2(g) &#10141; CO2(g)</p>
+      <p class="general-text">DH 5 – 393 kJ/mol</p>
+      <p class="general-text">
+        <b>Reação inversa:</b>
+        de composição do CO2.
+      </p>
+      <p class="general-text">CO2(g) &#10141; C(grafite) 1 O2(g)</p>
+      <p class="general-text">DH 5 1 393 kJ/mol</p>
+      <p class="general-text">A reação inversa da decomposição do carbonato de cálcio é a reação entre o óxido de cálcio e o gás carbônico, que é exotérmica.</p>
+    </p>
+    <boxe_17>
+      <imagem_inline>06_BOXE_17_CT</imagem_inline>
+      <boxe_17_titulo1>Fiqueligado</boxe_17_titulo1>
+      <boxe_17_texto>Ao inverter as reações químicas, inverteremos também o sinal do DH, e, ao multiplicar os coeficientes da equação por um número qualquer,</boxe_17_texto>
+      <boxe_17_texto>
+        o DH também deverá ser multiplicado por esse mesmo número. Isso ocorre porque o
+        <b>DH é uma grandeza extensiva</b>
+        , ou seja, é diretamente proporcional às respectivas quantidades de reagentes e produtosda reação.
+      </boxe_17_texto>
+    </boxe_17>
+    <boxe_03>
+      <imagem_inline>06_BOXE_03</imagem_inline>
+      <boxe_03_titulo1>Discussão em sala</boxe_03_titulo1>
+      <boxe_03_titulo2>Termoquímica no cotidiano</boxe_03_titulo2>
+      <boxe_03_texto>Considerando que os processos exotérmicos são aqueles que liberam energia e os endotérmicos são aqueles que absorvem energia, vamos refletir juntos em sala: Quando um tijolo é atirado do vigésimo andar de um prédio e atinge o chão, temos um processo exotérmico ou endotérmico?</boxe_03_texto>
+    </boxe_03>
+    <p class="general-text">
+      <p class="general-text">
+        <b>Reação direta:</b>
+        decomposição do CaCO3.
+      </p>
+      <p class="general-text">CaCO3(s) &#10141; CaO(s) 1 CO2(g)</p>
+      <p class="general-text">DH 5 1 177,9 kJ/mol</p>
+      <p class="general-text">
+        <b>Reação inversa:</b>
+        formação do CaCO3.
+      </p>
+      <p class="general-text">CaO(s) 1 CO2(g) &#10141; CaCO3(s)</p>
+      <p class="general-text">DH 5 – 177,9 kJ/mol</p>
+      <titulo2>Tipos de entalpia</titulo2>
+      <p class="general-text">
+        Uma substância química está no seu
+        <b>estado-padrão</b>
+        quando a pressão é de 100 kPa e a temperatura é de 25 °C.
+      </p>
+      <p class="general-text">
+        Quando a reação química é representada por uma equação com reagentes e produtos que estão em seu estado-padrão, denomina-se a variação da entalpia reacional como
+        <b>entalpia-padrão</b>
+        , e o DH passa a ser representado por DH0.
+      </p>
+      <titulo3>Entalpia-padrão de combustão</titulo3>
+      <p class="general-text">
+        Reações de combustão ocorrem em presença de oxigênio. Quando essas reações ocorrem nas condições-padrão, é possível obter a entalpia-padrão de formação (DHf0). Caso a reação de combustão do metano ocorra no estado-padrão (1 atm e 25 °C), a energia liberada é chamada de
+        <b>entalpia-padrão</b>
+        de combustão. Veja dois exemplos:
+      </p>
+      <p class="general-text">Equação de combustão do metano	Entalpia-padrão de combustão </p>
+      <p class="general-text">CH4(g) 1 2 O2(g) &#10141; CO2(g) 1 2 H2O(g)	DHc0 5 – 890,8 kJ/mol</p>
+      <p class="general-text">Equação de combustão do hidrogênio	Entalpia-padrão de combustão</p>
+      <p class="general-text">
+        H2(g) 1
+        <imagem>fracao_001</imagem>
+        O2(g) &#10141; H2O(L)	DHc0 5 – 286 kJ/mol
+      </p>
+      <p class="general-text">
+        O calorímetro é um equipamento utilizado para quantificar o calor liberado ou absorvido durante fenômenos químicos ou físicos. O instrumento funciona medindo a temperatura antes e depois de um processo que ocorre em seu interior. A partir daí, pode-se medir o
+        <glossario>calor específico</glossario>
+        de substâncias e entalpias de processos químicos.
+      </p>
+      <p class="general-text">Fazendo uso de um calorímetro, é possível determinar o calor envolvido em reações de combustão e determinar a entalpia-padrão dos mais diversos combustíveis.</p>
+      <imagem>ID007-F002-2020-EM-QUI-2S-L1-FA-U3-C9.png</imagem>
+      <p class="img-credit">Sinhyu/iStockphoto.com</p>
+      <p class="img-subtitle">Calorímetro.</p>
+    </p>
+    <glossario>
+      <b>Calor específico:</b>
+      <glossario_descricao>é um valor característico de cada substância que corresponde à quantidade de calor necessária para variar de 1 °C a temperatura de um grama dessa substância. </glossario_descricao>
+    </glossario>
+    <boxe_02>
+      <imagem_inline>06_BOXE_02</imagem_inline>
+      <boxe_02_titulo1>Mais</boxe_02_titulo1>
+      <boxe_02_titulo2>
+        Pontociência –
+        <b_italico>Calorímetro</b_italico>
+        de espuma, Pontociência.
+      </boxe_02_titulo2>
+      <boxe_02_texto>
+        Neste
+        <i>web</i>
+        canal é possível acompanhar a produção de um calorímetro caseiro utilizando espuma e garrafa PET.
+      </boxe_02_texto>
+      <p class="quote-source">Disponível em: &lt;http://p.p4ed.com/DJNHM&gt;. Acesso em: 1o set. 2021.</p>
+    </boxe_02>
+    <p class="general-text">
+      <tabela xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="16" aid:tcols="2">
+        <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="2" aid:ccolwidth="313.70078740157487">
+          <b>Entalpia-padrão de combustão</b>
+        </tabela_titulo1>
+        <tabela_titulo2 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="156.0944881889763">
+          <b>Substância</b>
+        </tabela_titulo2>
+        <tabela_titulo2 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="157.60629921259854">
+          <b>DHc° (kJ/mol)</b>
+        </tabela_titulo2>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="156.0944881889763">
+          <tabela_texto_geral>H2(g)</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="157.60629921259854">
+          <tabela_texto_geral>– 285,8 </tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="156.0944881889763">
+          <tabela_texto_geral>C(grafite)</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="157.60629921259854">
+          <tabela_texto_geral>– 393,5 </tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="156.0944881889763">
+          <tabela_texto_geral>CO(g)</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="157.60629921259854">
+          <tabela_texto_geral>– 283 </tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="156.0944881889763">
+          <tabela_texto_geral>CH4(g)</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="157.60629921259854">
+          <tabela_texto_geral>– 890,8 </tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="156.0944881889763">
+          <tabela_texto_geral>C2H2(g)</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="157.60629921259854">
+          <tabela_texto_geral>– 1 301,1 </tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="156.0944881889763">
+          <tabela_texto_geral>C2H4(g)</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="157.60629921259854">
+          <tabela_texto_geral>– 1 411,2 </tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="156.0944881889763">
+          <tabela_texto_geral>C2H6(g)</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="157.60629921259854">
+          <tabela_texto_geral>– 1 560,7 </tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="156.0944881889763">
+          <tabela_texto_geral>C3H8(g)</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="157.60629921259854">
+          <tabela_texto_geral>– 2 219,2 </tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="156.0944881889763">
+          <tabela_texto_geral>C4H10(g)</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="157.60629921259854">
+          <tabela_texto_geral>– 2 877,6 </tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="156.0944881889763">
+          <tabela_texto_geral>C6H6(L)</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="157.60629921259854">
+          <tabela_texto_geral>– 3 267,6 </tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="156.0944881889763">
+          <tabela_texto_geral>CH2O(g)</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="157.60629921259854">
+          <tabela_texto_geral>– 570,7 </tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="156.0944881889763">
+          <tabela_texto_geral>CH3OH(L)</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="157.60629921259854">
+          <tabela_texto_geral>– 726,1 </tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="156.0944881889763">
+          <tabela_texto_geral>C2H5OH(L)</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="157.60629921259854">
+          <tabela_texto_geral>– 1 366,8 </tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="156.0944881889763">
+          <tabela_texto_geral>C3H6O(L)</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="157.60629921259854">
+          <tabela_texto_geral>– 1 789 </tabela_texto_geral>
+        </tabela_texto_geral>
+      </tabela>
+      <p class="quote-source">CRC Press. Handbook of Chemistry and Physics 102nd Edition.</p>
+      <titulo3>Entalpia-padrão de formação</titulo3>
+      <p class="general-text">As reações químicas de formação são caracterizadas pela presença de apenas substâncias simples como reagentes e formando apenas um mol de um único produto. Quando essas reações ocorrem nas condições-padrão, é possível obter a entalpia-padrão de formação (DHf0). Veja dois exemplos.</p>
+      <p class="general-text">Equação de formação do iodeto de potássio</p>
+      <p class="general-text">Entalpia-padrão de formação do iodeto de potássio</p>
+      <p class="general-text">
+        K(s) 1
+        <imagem>fracao_001</imagem>
+         I2(g) &#10141; KI(s)
+      </p>
+      <p class="general-text">DHf0 5 – 327,9 kJ/mol</p>
+      <p class="general-text">Equação de formação da água</p>
+      <p class="general-text">Entalpia-padrão de formação da água</p>
+      H
+      <p class="general-text">
+        2(g) 1
+        <imagem>fracao_001</imagem>
+         O2(g) &#10141; H2O(L)
+      </p>
+      <p class="general-text">DHf0 5 – 286 kJ/mol</p>
+      <imagem>BOX_001</imagem>
+      <p class="general-text">De acordo com essa convenção, o potássio metálico (K), o iodo sólido (I2) e o gás hidrogênio (H2) têm entalpia-padrão de formação igual a zero.</p>
+      <p class="general-text">E se houver mais de uma forma alotrópica? Como determinar qual forma é a mais estável? A forma alotrópica mais estável é a menos energética e, consequentemente, a mais abundante na natureza. Por exemplo, entre o carbono grafite e o carbono diamante, a forma alotrópica mais estável é o grafite, e a essa forma alotrópica atribuímos Hf0 5 0; para as demais formas alotrópicas do carbono, atribuímos Hf0 = 0.</p>
+      <p class="general-text">Para apreciarmos a influência da forma alotrópica na reação, vamos comparar as energias liberadas na combustão do carbono em duas formas alotrópicas distintas:</p>
+      <p class="general-text">C(grafite) 1 O2(g) &#10141; CO2(g)		DH 5 – 94,0 kcal</p>
+      <p class="general-text">C(diamante) 1 O2(g) &#10141; CO2(g)	DH 5 – 94,45 kcal</p>
+    </p>
+    <p class="general-text">
+      <p class="general-text">Partindo-se do reagente na forma alotrópica mais estável (menos energética), obtém-se menor quantidade de energia liberada ao fim da reação. </p>
+      <p class="general-text">De maneira similar à tabela de entalpia-padrão de combustão, é possível tabelar também os valores de entalpia-padrão de formação para diversas substâncias.</p>
+      <tabela xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="19" aid:tcols="4">
+        <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="4" aid:ccolwidth="311.8110236220473">
+          <b>
+            <tabela_titulo1>Entalpia-padrão de formação</tabela_titulo1>
+          </b>
+        </tabela_titulo1>
+        <tabela_titulo2 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <b>Substância</b>
+        </tabela_titulo2>
+        <tabela_titulo2 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <b>DHf° (kJ/mol)</b>
+        </tabela_titulo2>
+        <tabela_titulo2 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <b>Substância</b>
+        </tabela_titulo2>
+        <tabela_titulo2 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <b>DHf° (kJ/mol)</b>
+        </tabela_titulo2>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>AL2O3(s)</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>– 1 675,7</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>CO2(g)</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>– 393,5</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>AL(OH)3(s)</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>– 1 276</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>CO(g)</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>– 110,5</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>AgCL(s)</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>– 127,1</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>HBr(g)</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>– 36,2</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>AgBr(s)</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>– 100,4</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>HCL(g)</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>– 92,3</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>AgI(s)</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>– 61,8</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>HF(g)</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>– 268,6</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>BaCL2(s)</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>– 860,1</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>HI(g)</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>1 26,5</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>BaCO3(s)</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>– 1 216,3</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>HNO3(L)</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>– 173,2</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>CaO(s)</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>– 635,1</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>NaCL(s)</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>– 411</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>Ca(OH)2</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>– 896,1</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>NaOH(s)</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>– 426,7</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>CH4(g)</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>– 74,8</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>N2O4(g)</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>1 9,2</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>C2H2(g)</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>1 226,7</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>Fe2O3(s)</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>– 824,2</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>C2H4(g)</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>1 52,3</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>H2O(L)</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>– 285,8</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>C2H6(g)</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>– 84,7</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>H2O2(L)</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>– 187,8</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>C3H8(g)</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>– 103,9</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>NH3(g)</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>– 46,2</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>C6H6(L)</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>1 49</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>NH4CL(s)</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>– 315,4</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">CH3OH(L)</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>– 238,9</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>NO2(g)</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>1 33,9</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>C2H5OH(L)</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>– 277,7</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>C6H12O6(s)</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="77.95275590551182">
+          <tabela_texto_geral>– 1 268</tabela_texto_geral>
+        </tabela_texto_geral>
+      </tabela>
+      <p class="quote-source">CRC Press. Handbook of Chemistry and Physics 102nd Edition.</p>
+      <titulo3>Entalpia-padrão de dissolução</titulo3>
+      <p class="general-text">Os processos de dissolução podem ser endotérmicos ou exotérmicos e são baseados em duas etapas, cada uma delas envolvendo um tipo de energia:</p>
+      <texto_lista_bullets>
+        •	Inicialmente, é preciso romper a estrutura do sólido, seja ele iônico ou molecular, ou seja, romper o retículo cristalino. A energia necessária para desfazer o retículo cristalino, nas condições-padrão, é denominada
+        <b>entalpia-padrão reticular DHret0</b>
+        . Como essa energia precisa ser fornecida, essa primeira etapa é endotérmica:
+      </texto_lista_bullets>
+      <p class="general-text">DHret0 &gt; 0</p>
+      <texto_lista_bullets>
+        •	A segunda etapa consiste no isolamento das partículas constituintes da substância. A água, solvente que estamos considerando, envolve essas partículas e impede que se reorganizem novamente. A hidratação ou solvatação dessas partículas nas condições-padrão, que é exotérmica, envolve uma quantidade de energia denominada
+        <b>entalpia-padrão de hidratação DHhid0</b>
+        :
+      </texto_lista_bullets>
+      <p class="general-text">DHhid0 &lt; 0</p>
+      <p class="general-text">
+        Assim, a
+        <b>entalpia-padrão de dissolução DHd0</b>
+        é a soma da entalpia-padrão reticular e a de hidratação:
+      </p>
+      <p class="general-text">DHd0 5 DHret0  1  DHhid0</p>
+      <p class="general-text">Se |DHret0| &gt; |DHhid0|, a dissolução é endotérmica e a vizinhança experimenta uma diminuição de temperatura.</p>
+      <p class="general-text">Se |DHret0| &lt; |DHhid0|, a dissolução é exotérmica e a vizinhança experimenta aumento de temperatura.</p>
+    </p>
+    <p class="general-text">
+      <titulo2>Entalpia de reação e entalpias de formação</titulo2>
+      <p class="general-text">Voltemos à definição de entalpia de uma reação química:</p>
+      <texto_exemplo>DH 5 Hprodutos – Hreagentes</texto_exemplo>
+      <p class="general-text">O que representa a quantidade Hreagentes? Podemos dizer que representa todo o conteúdo energético do estado inicial da reação, quando todos os componentes estão na forma de reagentes; é razoável, então, associar essa quantidade de energia à soma das entalpias de formação de todos os reagentes. Assim, Hreagentes 5 S DHf0 reagentes.</p>
+      <p class="general-text">De maneira análoga, a quantidade Hprodutos representa todo o conteúdo energético do estado final da reação, quando todos os componentes estão na forma de produtos; é razoável, então, associar essa quantidade de energia à soma das entalpias de formação de todos os produtos. Assim, Hprodutos 5 S DHf0 produtos.</p>
+      <p class="general-text">Então, podemos escrever a variação de entalpia de uma reação como sendo a variação das entalpias de formação dos reagentes para os produtos. Em outras palavras,</p>
+      <p class="general-text">DH 5 S DHf0 produtos – S DHf0 reagentes</p>
+      <imagem_inline>01_titulo_1</imagem_inline>
+      <titulo1>Fatores que influenciam o DH das reações</titulo1>
+      <p class="general-text">Os valores da variação de entalpia das reações são dependentes de muitos fatores, da energia intrínseca das substâncias envolvidas, da temperatura, da quantidade de reagentes adicionados, dos estados físicos de produtos e reagentes, da alotropia e da pressão do sistema reacional. Aprenderemos um pouco mais sobre cada um desses fatores.</p>
+      <titulo2>Temperatura</titulo2>
+      <p class="general-text">
+        Uma reação que ocorre a uma temperatura X apresenta um DHx. A mesma reação ocorrida a uma temperatura Y &gt; X apresenta um DHy = DHx. Isso ocorre porque o calor envolvido na variação de temperatura
+        <b>dos reagentes</b>
+        de X até Y é diferente do calor envolvido na variação de temperatura
+        <b>dos produtos</b>
+        de X até Y. Exemplo:
+      </p>
+      <p class="general-text">a 25 °C: 1 Fe2O3(s) 1 3 H2(g) &#10141; 2 Fe(s) 1 3 H2O(L)	DH 5 – 35,1 kJ</p>
+      <p class="general-text">a 85 °C: 1 Fe2O3(s) 1 3 H2(g) &#10141; 2 Fe(s) 1 3 H2O(L) 	DH 5 – 29,7 kJ</p>
+      <titulo2>Quantidade de reagentes</titulo2>
+      <p class="general-text">Já vimos que quando aumentamos as quantidades de reagentes, o valor da entalpia aumenta proporcionalmente.</p>
+      <titulo2>Estados físicos</titulo2>
+      <p class="general-text">A mesma substância, em estados físicos diferentes, tem entalpias diferentes. O estado sólido apresenta alto nível de organização das moléculas, e isso significa baixa quantidade de energia nas moléculas e alto nível de energia disponível para ser liberado para o ambiente; o estado líquido apresenta organização intermediária nas moléculas, o que implica energia também intermediária; o estado gasoso apresenta organização molecular baixa; portanto, as moléculas estão livres para se movimentar e consequentemente têm muita energia, sobrando menos energia para ser liberada na reação</p>
+    </p>
+    <boxe_17>
+      <imagem_inline>06_BOXE_17_CT</imagem_inline>
+      <boxe_17_titulo1>Fiqueligado</boxe_17_titulo1>
+      <boxe_17_texto>Em módulo, podemos determinar que:</boxe_17_texto>
+      <b>DHsólido &gt; DHlíquido &gt; DHgasoso</b>
+    </boxe_17>
+    <p class="general-text">
+      <p class="general-text">Para o caso da formação da molécula de água:</p>
+      <p class="general-text">
+        H2(g)  1
+        <imagem>fracao_001</imagem>
+        O2(g) &#10141; H2O(s)		DH 5 – 291,8 kJ
+      </p>
+      <p class="general-text">
+        H2(g)  1
+        <imagem>fracao_001</imagem>
+        O2(g) &#10141; H2O(L)		DH 5 – 285,8 kJ
+      </p>
+      <p class="general-text">
+        H2(g)  1
+        <imagem>fracao_001</imagem>
+        O2(g) &#10141; H2O(g)		DH 5 – 241,8 kJ
+      </p>
+      <titulo2>Alotropia</titulo2>
+      <p class="general-text">Como já vimos, a variedade alotrópica mais estável nas condições-padrão apresenta entalpia de formação igual a zero; isso significa que a substância mais estável é também a menos energética.</p>
+      <titulo2>Pressão</titulo2>
+      <p class="general-text">A pressão só influencia o DH de reações que envolvem substâncias gasosas. O valor do DH só varia de modo significativo para pressões da ordem de 1 000 atm. Como as reações normalmente são padronizadas sob pressão atmosférica normal (1 atm), a menos que haja alguma ressalva, não se leva em conta a variação no valor de DH com a pressão.</p>
+    </p>
+    <secao_01>
+      <imagem_inline>06_boxe_04</imagem_inline>
+      <secao_01_titulo1>Questão resolvida</secao_01_titulo1>
+      <exercicio_lista_numero>
+        <b>1</b>
+        <b>Uerj</b>
+        Considere os seguintes valores das entalpias-padrão da síntese do HCL, a partir dos mesmos reagentes no estado gasoso.
+      </exercicio_lista_numero>
+      <secao_01_texto>HCL(g)	DH0 5 – 92,5 kJ/mol</secao_01_texto>
+      <secao_01_texto>HCL(L)	DH0 5 – 108,7 kJ/mol</secao_01_texto>
+      <secao_01_texto>Calcule a entalpia-padrão, em kJ/mol, de vaporização do HCL e nomeie duas mudanças de estado físico dessa substância que sejam exotérmicas.</secao_01_texto>
+      <titulo_resolucao>Resolução:</titulo_resolucao>
+      <texto_resolucao>A vaporização é a mudança do estado líquido para o estado gasoso.Vaporização do HCL:</texto_resolucao>
+      <texto_resolucao>
+        <imagem>equacao_001</imagem>
+         DH 5 Hprodutos – Hreagentes 5 – 92,5 – (– 108,7) 5  1  16,2 kJ/mol
+      </texto_resolucao>
+      <texto_resolucao>Mudanças de estado exotérmicas, que ocorrem com liberação de energia: solidificação (líquido &#10141; sólido) e liquefação (gasoso &#10141; líquido).</texto_resolucao>
+    </secao_01>
+    <secao_02>
+      <imagem_inline>01_titulo_1</imagem_inline>
+      <secao_02_titulo1>Aplicando conhecimentos</secao_02_titulo1>
+      <exercicio_enunciado>
+        <b>1</b>
+        A glicose sofre combustão no nosso organismo, gerando energia para que possamos realizar as atividades do nosso dia a dia:
+      </exercicio_enunciado>
+      <secao_02_texto>C6H12O6 1 6 O2 &#10141; 6 CO2 1 6 H2O</secao_02_texto>
+      <secao_02_texto>DH 5 – 2 820 kJ/mol</secao_02_texto>
+      <exercicio_enunciado>Se uma refeição fornece aproximadamente 500 g de glicose, quanto de energia será liberada em sua combustão?</exercicio_enunciado>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        –8 502,7 kJ
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        –7 833,4 kJ
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        –9 753,2 kJ
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        –8 932,1 kJ
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>e)</b>
+        –7 983,5 kJ
+      </exercicio_lista_letra>
+    </secao_02>
+    <p class="quote-source">
+      <exercicio_enunciado>
+        <b>2</b>
+        Observe o gráfico e responda.
+      </exercicio_enunciado>
+    </p>
+  </pg17-23>
+  <pg24-26>
+    <secao_02>
+      <exercicio_enunciado>
+        <b>2</b>
+        Observe o gráfico e responda.
+      </exercicio_enunciado>
+      ID010-I007-2020-EM-QUI-2S-L1-FA-U3-C9.png
+      <imagem></imagem>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        Escreva a reação representada graficamente com seu valor de variação de entalpia.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        Escreva a reação inversa também com seu valor de DH.
+      </exercicio_lista_letra>
+    </secao_02>
+    <secao_02>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        Se a água formada na reação fosse líquida, e não gasosa, o valor de DH seria maior ou menor?
+      </exercicio_lista_letra>
+      <exercicio_enunciado>3	A combustão completa da sacarose sólida libera 1 348,9 kJ. Se a entalpia-padrão de formação do gás carbônico é –393 e da água líquida é –286, qual é a entalpia-padrão de formação da sacarose no estado sólido?Dado: fórmula da sacarose: C12H22O11</exercicio_enunciado>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        4 120,5 kJ/mol
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        – 5 370,8 kJ/mol
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        8 540,3 kJ/mol
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        – 6 513,1 kJ/mol
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>e)</b>
+        – 9 367,2 kJ/mol
+      </exercicio_lista_letra>
+    </secao_02>
+    <secao_03>
+      <secao_03_titulo1>Consolidando saberes</secao_03_titulo1>
+      <exercicio_enunciado>
+        <b>1</b>
+        <b>EsPCEx-SP 2018</b>
+        Algumas viaturas militares administrativas possuem motores à combustão que utilizam como combustível a gasolina. A queima (combustão) de combustíveis como a gasolina, nos motores à combustão, fornece a energia essencial para o funcionamento dessas viaturas militares. Considerando uma gasolina na condição padrão (25 °C e 1 atm), composta apenas por n-octano (C8H18) e que a sua combustão seja completa (formação exclusiva de CO2 e H2O gasosos como produtos), são feitas as seguintes afirmativas:
+      </exercicio_enunciado>
+      <b>Dados:</b>
+      <tabela xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="3" aid:tcols="3">
+        <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="3" aid:ccolwidth="213.73228346385082">
+          <b>Entalpias de formação (DHf0)</b>
+        </tabela_titulo1>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="71.24409448795028">
+          <tabela_texto_geral>H2O(g)</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="71.24409448795028">
+          <tabela_texto_geral>CO2(g)</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="71.24409448795028">
+          <tabela_texto_geral>C8H18(L)</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="71.24409448795028">
+          <tabela_texto_geral>–242 kJ/mol</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="71.24409448795028">
+          <tabela_texto_geral>–394 kJ/mol</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="71.24409448795028">
+          <tabela_texto_geral>–250 kJ/mol</tabela_texto_geral>
+        </tabela_texto_geral>
+      </tabela>
+      <tabela xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="3" aid:tcols="3">
+        <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="3" aid:ccolwidth="214.3559055103787">
+          <b>Massas atômicas</b>
+        </tabela_titulo1>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="71.45196850345957">
+          <tabela_texto_geral>C</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="71.45196850345957">
+          <tabela_texto_geral>H</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="71.45196850345957">
+          <tabela_texto_geral>O</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="71.45196850345957">
+          <tabela_texto_geral>12 u</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="71.45196850345957">
+          <tabela_texto_geral>1 u</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="71.45196850345957">
+          <tabela_texto_geral>16 u</tabela_texto_geral>
+        </tabela_texto_geral>
+      </tabela>
+      <exercicio_lista_romano>
+        <b>I.</b>
+         A combustão da gasolina (C8H18) é uma reação exotérmica;
+      </exercicio_lista_romano>
+      <exercicio_lista_romano>
+        <b>II.</b>
+         Na combustão completa de 1 mol de gasolina, são liberados 16 mols de gás carbônico (CO2);
+      </exercicio_lista_romano>
+      <exercicio_lista_romano>
+        <b>III.</b>
+         A entalpia de combustão (calor de combustão) dessa gasolina é –5 080 kJ/mol (DHc 5 –5 080 kJ/mol);
+      </exercicio_lista_romano>
+      <exercicio_lista_romano>
+        <b>IV.</b>
+         O calor liberado na combustão de 57 g de gasolina é de 1 270 kJ.
+      </exercicio_lista_romano>
+    </secao_03>
+    <secao_03>
+      <exercicio_enunciado>Das afirmativas apresentadas estão corretas apenas a</exercicio_enunciado>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        I, II e III
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        I, III e IV
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        I e II
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        II e IV
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>e)</b>
+        I e III
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>2</b>
+      </exercicio_enunciado>
+      <b>UFU-MG 2018</b>
+      <imagem>em_disciplinar_5v_qui_u1_fa_cap2_q2_ufu_mg_2018.png</imagem>
+      <p class="quote-source">Disponível em: &lt;https://www.colegioweb.com.br/wp-content/uploads/21337.jpg.&gt;. Acesso em: 30 mar. 2018.</p>
+      <exercicio_enunciado>O esquema ilustra o aspecto energético da reação de formação de água líquida a partir dos gases hidrogênio e oxigênio. Essa reação é uma</exercicio_enunciado>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        eletrólise, que gera a alteração do número de oxidação do oxigênio e do hidrogênio da molécula de água.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        queima, com absorção de energia durante toda a etapa da reação química entre os reagentes.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        combustão, que libera energia na forma de calor e pode ser utilizada na propulsão de naves espaciais.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        hidrólise, que ocorre com a formação de água pela reação do oxigênio com o hidrogênio.
+      </exercicio_lista_letra>
+    </secao_03>
+    <secao_03>
+      <exercicio_enunciado>
+        <b>3</b>
+        <b>EsPCEx-SP 2017</b>
+        Uma das aplicações da trinitroglicerina, cuja fórmula é C3H5N3O9, é a confecção de explosivos. Sua decomposição enérgica gera como produtos os gases nitrogênio, dióxido de carbono e oxigênio, além da água, conforme mostra a equação da reação a seguir:
+      </exercicio_enunciado>
+      <exercicio_enunciado>4 C3H5N3O9(L) &#10141; 6 N2(g) 1 12 CO2(g) 1 O2(g) 11 10 H2O(L)</exercicio_enunciado>
+      <exercicio_enunciado>Além de explosivo, a trinitroglicerina também é utilizada como princípio ativo de medicamentos no tratamento de angina, uma doença que acomete o coração. Medicamentos usados no tratamento da angina usam uma dose padrão de 0,6 mg de trinitroglicerina na formulação. Considerando os dados termoquímicos da reação a 25 °C e 1 atm e supondo que essa massa de trinitroglicerina sofra uma reação de decomposição completa, a energia liberada seria aproximadamente de</exercicio_enunciado>
+      <b>Dados:</b>
+      <exercicio_enunciado>Massas atômicas: C 5 12 u; H 5 1 u; N 5 14 u; O 5 16 u.</exercicio_enunciado>
+      <exercicio_enunciado>DHf0 (H2O) 5 –286 kJ/mol;</exercicio_enunciado>
+      <exercicio_enunciado>DHf0 (CO2) 5 –394 kJ/mol;</exercicio_enunciado>
+      <exercicio_enunciado>DHf0 (C3H5N3O9) 5 –353,6 kJ/mol</exercicio_enunciado>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        4,1 J
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        789,2 J
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        1432,3 J
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        5,3 kJ
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>e)</b>
+        362,7 kJ
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>4</b>
+        <b>FICSAE-SP 2017</b>
+        A fermentação é um processo anaeróbico de síntese de ATP, fornecendo energia para o metabolismo celular. Dois dos processos de fermentação mais comuns a partir da glicose são a fermentação alcoólica e a fermentação láctica.
+      </exercicio_enunciado>
+      <texto_geral_exercicio>C6H12O6 &#10141; 2 CO2 1 2 C2H5OH (fermentação alcoólica)</texto_geral_exercicio>
+      <texto_geral_exercicio>C6H12O6 &#10141; 2 C3H6O3 (fermentação láctica)</texto_geral_exercicio>
+      <texto_geral_exercicio>
+        <b>Dados:</b>
+        Entalpia de formação (DHf0):
+      </texto_geral_exercicio>
+      <texto_geral_exercicio>DHf0 do CO2 5 –394 kJ/mol</texto_geral_exercicio>
+      <texto_geral_exercicio>DHf0 do C3H6O3 5 –678 kJ/mol</texto_geral_exercicio>
+      <texto_geral_exercicio>DHf0 do C2H5OH 5 –278 kJ/mol</texto_geral_exercicio>
+      <texto_geral_exercicio>DHf0 do C6H12O6 5 –1268 kJ/mol</texto_geral_exercicio>
+      <texto_geral_exercicio>Sobre a energia envolvida nesses processos de fermentação, é possível afirmar que</texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        a fermentação láctica absorve energia enquanto que a fermentação alcoólica libera energia.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        os dois processos são endotérmicos, absorvendo a mesma quantidade de energia para uma mesma massa de glicose fermentada.
+      </exercicio_lista_letra>
+    </secao_03>
+    <secao_03>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        a fermentação alcoólica libera uma quantidade de energia maior do que a fermentação láctica para uma mesma massa de glicose envolvida.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        a fermentação láctica libera uma quantidade de energia maior do que a fermentação alcoólica para uma mesma massa de glicose envolvida.
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>5</b>
+        <b>Unesp 2018</b>
+        Analise os três diagramas de entalpia.
+      </exercicio_enunciado>
+      <imagem>em_disciplinar_5v_qui_u1_fa_cap2_q7_unesp_2018.png</imagem>
+      <p class="general-text">O DH da combustão completa de 1 mol de acetileno, C2H2(g), produzindo CO2(g) e H2O(L) é</p>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        11140 kJ
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        1820 kJ
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        –1299 kJ
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        –510 kJ
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>e)</b>
+        –635 kJ
+      </exercicio_lista_letra>
+    </secao_03>
+    <secao_03>
+      <exercicio_enunciado>
+        <b>6</b>
+        <b>Uefs-BA 2017</b>
+      </exercicio_enunciado>
+      <tabela xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="5" aid:tcols="2">
+        <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="86.92913385826768">
+          <b>Substância</b>
+        </tabela_titulo1>
+        <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="127.55905511811021">
+          <b>Entalpia da formação(kJ/mol)</b>
+        </tabela_titulo1>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="86.92913385826768">
+          <tabela_texto_geral>C2H5OH</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="127.55905511811021">
+          <tabela_texto_geral>–277,8</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="86.92913385826768">
+          <tabela_texto_geral>CO2</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="127.55905511811021">
+          <tabela_texto_geral>–393,5</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="86.92913385826768">
+          <tabela_texto_geral>O2</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="127.55905511811021">
+          <tabela_texto_geral>0</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="86.92913385826768">
+          <tabela_texto_geral>H2O(L)</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="127.55905511811021">
+          <tabela_texto_geral>–286</tabela_texto_geral>
+        </tabela_texto_geral>
+      </tabela>
+      <texto_geral_exercicio>Um motociclista foi de Salvador-BA para Feira de Santana-BA, percorrendo no total 110 km. Para percorrer o trajeto, sua motocicleta flex consumiu 5 litros de etanol (C2H5OH, d 5 0,8 g/mL), tendo um consumo médio de 22 km/L. Com base nos dados de entalpia de formação de algumas substâncias, o calor envolvido na combustão completa por litro de etanol foi, em kJ, aproximadamente,</texto_geral_exercicio>
+    </secao_03>
+    <secao_03>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        – 1 367
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        1 1 367
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        – 18 200
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        1 10 936
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>e)</b>
+        – 23 780
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>7</b>
+        <b>Uece 2016</b>
+        Durante a Segunda Guerra Mundial, o monóxido de carbono foi usado como combustível alternativo nos veículos para suprir a falta de gasolina. O monóxido de carbono era obtido em equipamentos conhecidos como gasogênios, pela combustão parcial da madeira.  Nos motores dos automóveis, o monóxido de carbono era convertido em gás carbônico ao reagir com o oxigênio, e liberava 57 kcal/mol. Sabendo-se que a entalpia do produto dióxido de carbono é –94 kcal, pode-se afirmar corretamente que a entalpia de formação do monóxido de carbono é
+      </exercicio_enunciado>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        –37 kcal/mol
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        –151 kcal/mol
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        137 kcal/mol
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        1151 kcal/mol
+      </exercicio_lista_letra>
+    </secao_03>
+    <secao_04>
+      <secao_04_titulo1>superação</secao_04_titulo1>
+      <secao_04_texto>
+        <b>Fuvest-SP</b>
+        A dieta de jogadores de futebol deve fornecer energia suficiente para um bom desempenho. Essa dieta deve conter principalmente carboidratos e pouca gordura. A glicose proveniente dos carboidratos é armazenada sob a forma do polímero glicogênio, que é uma reserva de energia para o atleta.
+      </secao_04_texto>
+      <imagem>em_disciplinar_5v_qui_u1_fa_cap2_superacao. png</imagem>
+      <secao_04_texto>Certos lipídios, contidos nos alimentos, são derivados do glicerol e também fornecem energia.</secao_04_texto>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        Durante a respiração celular, tanto a glicose quanto os ácidos graxos provenientes do lipídio derivado do glicerol são transformados em CO2 e H2O. Em qual destes casos deverá haver maior consumo de oxigênio: na transformação de 1 mol de glicose ou na transformação de 1 mol do ácido graxo proveniente do lipídio cuja fórmula estrutural é mostrada acima? Explique.
+      </exercicio_lista_letra>
+      <texto_geral_exercicio>Durante o período de preparação para a Copa de 2014, um jogador de futebol recebeu, a cada dia, uma dieta contendo 600 g de carboidrato e 80 g de gordura. Durante esse período, o jogador participou de um treino por dia.</texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        Calcule a energia consumida por km percorrido em um treino (kcal/km), considerando que a energia necessária para essa atividade corresponde a 2/3 da energia proveniente da dieta ingerida em um dia.
+      </exercicio_lista_letra>
+      <b>Dados: </b>
+      <texto_geral_exercicio>Energia por componente dos alimentos: </texto_geral_exercicio>
+      <texto_geral_exercicio>Carboidrato...........4 kcal/g</texto_geral_exercicio>
+      <texto_geral_exercicio>Gordura.................9 kcal/g</texto_geral_exercicio>
+      <texto_geral_exercicio>Distância média percorrida por um jogador: 5 000 m/treino</texto_geral_exercicio>
+    </secao_04>
+  </pg24-26>
+</Root>
